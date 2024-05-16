@@ -1,0 +1,218 @@
+version: "3.1"
+
+nlu:
+# intent topik
+- intent: stimulus
+  examples: |
+    - stimulus
+    - saya ingin bertanya terkait stimulus untuk anak
+    - stimulus balita
+    - contoh stimulus yang tepat untuk anak
+    - apa yang harus saya lakukan untuk melatih anak saya
+    - kegiatan apa yang cocok untuk membantu perkembangan anak 
+    - simulus yang berhubungan dengan tumbuh kembang anak
+    - bagaimana cara melatih tumbuh kembang 
+    - 1
+
+- intent: kpsp
+  examples: |
+    - kpsp
+    - ceklis
+    - checklist
+    - kuesioner
+    - kuisioner
+    - cek
+    - 2
+
+# intent umur
+- intent: umur_0hari_3bulan
+  examples: |
+    - 3
+    - 3bulan
+    - 2bulan
+    - 1bulan
+    - 3bulan
+    - 2bulan
+    - 1bulan
+
+
+- intent: umur_3_6bulan
+  examples: |
+    - 4
+    - 6bulan
+    - 5bulan
+    - 4bulan
+    - 6bulan
+    - 5bulan
+    - 4bulan
+
+- intent: umur_6_9bulan
+  examples: |
+    - 7bulan
+    - 8bulan
+    - 9bulan
+    - 7bulan
+    - 8bulan
+    - 9bulan
+    - 5
+
+- intent: umur_9_12bulan
+  examples: |
+    - 6
+    - 10bulan
+    - 11bulan
+    - 12bulan
+    - 10bulan
+    - 11bulan
+    - 12bulan
+
+- intent: umur_12_18bulan
+  examples: |
+    - 7
+    - 13bulan
+    - 14bulan
+    - 15bulan
+    - 16bulan
+    - 17bulan
+    - 18bulan
+    - 13bulan
+    - 14bulan
+    - 15bulan
+    - 16bulan
+    - 17bulan
+    - 18bulan
+
+- intent: umur_18_24bulan
+  examples: |
+    - 8
+    - 19bulan
+    - 20bulan
+    - 21bulan
+    - 22bulan
+    - 23bulan
+    - 24bulan
+    - 19bulan
+    - 20bulan
+    - 21bulan
+    - 22bulan
+    - 23bulan
+
+
+- intent: umur_2_3tahun
+  examples: |
+    - 9
+    - 24bulan
+    - 2tahun
+    - 3tahun
+    - 2tahun
+    - 3tahun
+
+- intent: umur_3_4tahun
+  examples: |
+    - 10
+    - 4tahun
+    - 4tahun
+
+- intent: umur_4_5tahun
+  examples: |
+    - 11
+    - 5tahun
+    - 5tahun
+
+- intent: umur_5_6tahun
+  examples: |
+    - 12
+    - 6tahun
+    - 6tahun
+
+- intent: kpsp_3bulan
+  examples: |
+    - kpsp3bulan
+    - 3bulan
+    - kpsp3bulan
+    - 3bulan
+    - 1
+  
+- intent: kpsp_6bulan
+  examples: |
+    - kpsp6bulan
+    - 6bulan
+    - kpsp6bulan
+    - 6bulan
+    - 2
+  
+- intent: kpsp_9bulan
+  examples: |
+    - kpsp9bulan
+    - 9bulan
+    - kpsp9bulan
+    - 9bulan
+    - 3
+  
+- intent: kpsp_12bulan
+  examples: |
+    - kpsp12bulan
+    - 12bulan
+    - kpsp12bulan
+    - 12bulan
+    - 4
+
+- intent: kpsp_15bulan
+  examples: |
+    - kpsp15bulan
+    - 15bulan
+    - kpsp15bulan
+    - 15bulan
+    - 5
+
+- intent: kpsp_18bulan
+  examples: |
+    - 6
+    - kpsp18bulan
+    - 18bulan
+    - kpsp18bulan
+    - 18bulan
+
+- intent: kpsp_21bulan
+  examples: |
+    - 7
+    - kpsp21bulan
+    - 21bulan
+    - kpsp21bulan
+    - 21bulan
+
+- intent: kpsp_24bulan
+  examples: |
+    - kpsp24bulan
+    - kpsp24bulan
+    - 8
+
+- intent: kpsp_30bulan
+  examples: |
+    - kpsp 30bulan
+    - kpsp30bulan
+    - 9
+
+- intent: kpsp_36bulan
+  examples: |
+    - kpsp 36bulan
+    - kpsp36bulan
+    - 10
+
+- intent: kpsp_42bulan
+  examples: |
+    - kpsp 42bulan
+    - kpsp42bulan
+    - 11
+
+- intent: kpsp_48bulan
+  examples: |
+    - kpsp 48bulan
+    - kpsp48bulan
+    - l2
+
+- intent: kpsp_54bulan
+  examples: |
+    - kpsp 54bulan
+    - kpsp54bulan
+    - 13

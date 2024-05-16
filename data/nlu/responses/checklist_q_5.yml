@@ -1,0 +1,170 @@
+responses:
+  utter_ask_question51: 
+  - text: "Beri 2 kubus, tanpa bantuan, apakah anak dapat mempertemukan dua kubus kecil yang ia pegang?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question52: 
+  - text: "Apakah anak anak dapat mengambil benda kecil seperti kacang, kismis, atau potongan biskuit dengan menggunakan ibu jari dan jari telunjuk seperti pada gambar?"
+    image: "https://i.ibb.co/tK3n7SQ/Screenshot-2024-04-12-171940.png"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question53: 
+  - text: "Apakah anak dapat jalan sendiri atau jalan dengan berpegangan?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question54: 
+  - text: "Tanpa bantuan, apakah anak dapat bertepuk tangan atau melambai - lambai?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question55: 
+  - text: "Jawab TIDAK bila ia membutuh kan bantuan apakah anak dapat mengatakan 'papa' ketika ia memanggil/melihat     ayahnya, atau mengatakan 'mama' jika memanggil/melihat ibunya?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question56: 
+  - text: "Jawab YA bila anak mengatakan salah satu diantaranya apakah anak dapat menunjukkan apa yang diinginkannya tanpa menangis atau merengek? Jawab YA bila ia menunjuk, menarik atau mengeluarkan suara yang menyenangkan"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question57: 
+  - text: "Apakah anak dapat berdiri sendiri tanpa berpegangan selama kira-kira 5 detik?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question58: 
+  - text: "Apakah anak dapat berdiri sendiri tanpa berpegangan selama 30 detik atau lebih?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question59: 
+  - text: "Taruh kubus di lantai, tanpa berpegangan atau menyentuh lantai, apakah anak dapat membungkuk untuk memungut kubus di lantai dan kemudian berdiri kembali?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question510: 
+  - text: "Apakah anak dapat berjalan di sepanjang ruangan tanpa jatuh atau terhuyung-huyung?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+        
+  utter_slots_valuefifth:
+  - text: "Berikut Rangkuman Checklist Anda:\n
+            1. Beri 2 kubus, tanpa bantuan, apakah anak dapat mempertemukan dua kubus kecil yang ia pegang?  {question51} \n
+            2. Apakah anak anak dapat mengambil benda kecil seperti kacang, kismis, atau potongan biskuit dengan menggunakan ibu jari dan jari telunjuk seperti pada gambar?  {question52} \n
+            3. Apakah anak dapat jalan sendiri atau jalan dengan berpegangan?  {question53} \n
+            4. Tanpa bantuan, apakah anak dapat bertepuk tangan atau melambai - lambai?  {question54} \n
+            5. Jawab TIDAK bila ia membutuh kan bantuan apakah anak dapat mengatakan 'papa' ketika ia memanggil/melihat ayahnya, atau mengatakan 'mama' jika memanggil/melihat ibunya??  {question55} \n
+            6. Jawab YA bila anak mengatakan salah satu diantaranya apakah anak dapat menunjukkan apa yang diinginkannya tanpa menangis atau merengek? Jawab YA bila ia menunjuk, menarik atau mengeluarkan suara yang menyenangkan? {question56} \n
+            7. Apakah anak dapat berdiri sendiri tanpa berpegangan selama kira-kira 5 detik?  {question57} \n
+            8. Apakah anak dapat berdiri sendiri tanpa berpegangan selama 30 detik atau lebih??  {question58} \n
+            9.  Taruh kubus di lantai, tanpa berpegangan atau menyentuh lantai, apakah anak dapat membungkuk untuk memungut kubus di lantai dan kemudian berdiri kembali? {question59} \n
+            10. Apakah anak dapat berjalan di sepanjang ruangan tanpa jatuh atau terhuyung-huyung?  {question510} \n
+          "  
+
+  utter_response_question51:
+  - text: "Solusi Pertanyaan Nomor 1:\n
+  Stimulasi: \n
+  1. Permainan balok \n
+  • Beli atau buat balok-balok kecil dari kayu dengan ukuran sekitar 2.5 cm x 2.5 cm. Ajari anak cara menyusun balok menumpuk ke atas tanpa menjatuhkannya.\n
+  Sumber: Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI\n
+  "
+
+  utter_response_question52:
+  - text: "Solusi Pertanyaan Nomor 2:\n
+  Stimulasi:\n
+  • Letakkan benda kecil seperti potongan-potongan biskuit yang mudah hancur di hadapan bayi. Ajari bayi mengambil benda-benda tersebut. Biasakan menjauhkan tempat penyimpanan pil/obat/benda kecil berbahaya lainnya dari jangkauan bayi.\n
+  Sumber: Aplikasi PrimaKu yang didukung oleh Ikatan Dokter Anak Indonesia (IDAI)
+    "
+
+  utter_response_question53:
+  - text: "Solusi Pertanyaan Nomor 3:\n
+  Stimulasi:\n
+  1. Berjalan dengan bantuan\n
+  • Pegang kedua tangan bayi dan tuntun agar mau melangkah. Ketika memegang, sebaiknya tangan bayi tidak ditarik. Apabila masih ingin membantu agar posisi bayi berjalan tegak, sebaiknya posisi memegang/menopang bayi dilakukan dengan memegang setinggi ketiak bayi, bukan dengan menarik kedua tangan bayi.\n
+  Sumber: Aplikasi PrimaKu yang didukung oleh Ikatan Dokter Anak Indonesia (IDAI)
+  "
+
+  utter_response_question54:
+  - text: "Solusi Pertanyaan Nomor 4:\n
+  Stimulasi:\n
+  1. Melambai “dadah” dengan orang lain\n
+  • Ketika anggota keluarga lain pergi, lambaikan tangan ke bayi sambil berkata “dadah”, bantu bayi membalas lambaian.\n
+  2. Bertepuk tangan\n
+  • Ketika anggota keluarga lain datang atau pulang, bantu bayi untuk bertepuk tangan menyambut kedatangan orang tersebut.\n
+  Sumber: Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI\n
+  "
+
+  utter_response_question55:
+  - text: "Solusi Pertanyaan Nomor 5:\n
+  Stimulasi:\n
+  1. Menirukan kata-kata. Ketika berbicara dengan bayi, ulangi beberapa kata sederhana berkali-kali dan usahakan agar bayi menirukannya. Yang paling mudah ditirukan oleh bayi adalah kata yang menggunakan huruf vokal dan gerakan bibir, misalnya seperti papa dan mama.\n
+  Sumber: Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI\n
+  "
+
+  utter_response_question56:
+  - text: "Solusi Pertanyaan Nomor 6:\n
+  Stimulasi: \n
+  1. Ajarkan anak untuk berbicara dengan baik saat meminta sesuatu. Membutuhkan edukasi atau diarahkan untuk berbicara saat akan meminta sesuatu\n
+  Sumber: Bidan - Rizki Amalia SST., M.P.H.
+  "
+
+  utter_response_question57:
+  - text: "Solusi Pertanyaan Nomor 7:\n
+  Stimulasi:\n
+  • Gunakan activity walker, gendongan yang dipegangi bagian atasnya (baby walker safety strap).\n
+  Sumber: Bidan - Rizki Amalia SST., M.P.H.
+  "
+
+  utter_response_question58:
+  - text: "Solusi Pertanyaan Nomor 8:\n
+  Stimulasi:\n
+  • Gunakan activity walker, gendongan yang dipegangi bagian atasnya (baby walker safety strap).\n
+  Sumber: Bidan - Rizki Amalia SST., M.P.H.
+  "
+
+  utter_response_question59:
+  - text: "Solusi Pertanyaan Nomor 9:\n
+  Stimulasi:\n
+  1. Latihan membungkuk mengambil mainan. Letakkan mainan yang disukai di bawah bayi ketika ia sedang berdiri, agar bayi membungkuk memungut mainan kemudian berdiri kembali.\n
+  Sumber: Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI
+  "
+
+  utter_response_question510:
+  - text: "Solusi Pertanyaan Nomor 10:\n
+  Stimulasi:\n
+  • Dorong - dorong kursi atau galon kosong, dipegangkan ke tembok atau furniture rendah\n
+  Sumber: Bidan - Rizki Amalia SST., M.P.H.
+  "

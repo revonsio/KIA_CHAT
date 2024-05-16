@@ -1,0 +1,20 @@
+version: "3.1"
+
+stories:
+- story: topik tinggi badan l
+  steps:
+  - checkpoint: menu_tb
+  - action: utter_tanya_jeniskelamin
+  - intent: laki_laki
+  - action: tinggibadan_form
+  - action: action_data_tinggibadan_pria
+  - checkpoint: end_checkpoint
+
+- story: topik tinggi badan p
+  steps:
+  - checkpoint: menu_tb
+  - action: utter_tanya_jeniskelamin
+  - intent: perempuan
+  - action: tinggibadan_form
+  - action: action_data_tinggibadan_wanita
+  - checkpoint: end_checkpoint

@@ -1,0 +1,70 @@
+version: "3.1"
+
+nlu:
+- intent: lainnya_manfaat_lagu
+  examples: |
+    - manfaat menyanyikan lagu untuk bayi
+    - kegunaan lagu untuk perkembangan otak bayi
+    - apa manfaat musik untuk bayi
+    - jenis musik yang cocok untuk bayi
+    - lagu untuk bayi 
+    
+- intent: lainnya_bayi_ngulet
+  examples: |
+    - Bayi tuh sering banget ngulet, bahkan kadang sampai mukanya merah gitu. Kadang juga nguletnya sambil ngeden?
+    - bayi sering ngulet
+    - bayi suka menggeliat
+    - bayi suka ngulet
+    - kenapa bayi suka ngulet
+    - kenapa bayi suka ngeden
+
+- intent: lainnya_2tahun_bicara
+  examples: |
+    - anak saya perkembangannya normal tapi hanya saja belum bisa bicara. Kalau meniup dan menyedot tidak ada masalah. Kata yg bisa diucapkan hanya kata-kata yang tidak jelas seperti heh, mamama,d bibi dll. 
+    - anak saya belum bisa bicara
+    - cara mengatasi anak tidak bisa ngomong
+    - anak bicaranya tidak jelas
+    - cara agar anak bisa bicara
+    - cara agar anak bisa ngomong
+
+- intent: lainnya_bayi_tampak_kaget
+  examples: |
+    -  saya sering perhatikan bayi saya, terutama kalo lagi tidur kok dia suka kagetan gitu ya? malah kadang gak ada suara keras juga dia kaget.
+    - bayi tampak kaget
+    - bayi terlihat kaget
+    - bayi baru lahir sering kaget
+    - bayi kaget tanpa sebab
+    - bayi suka kaget saat tidur
+
+- intent: lainnya_bayi_duduk_merangkak
+  examples: |
+    - Anak saya belum bisa duduk sendiri dan belum merangkak juga. Bagaimana stimulasi biar anak bisa duduk sendiri dan merangkak.
+    - Stimulasi untuk bayi yang belum bisa duduk dan merangkak
+    - bayi tidak bisa duduk
+    - bayi tidak bisa merangkak
+    - cara agar bayi bisa duduk dan merangkak
+
+- intent: lainnya_jari_pendek
+  examples: |
+    - Bagaimana cara memanjangkan jari tangan yang pendek?
+    - jari tangan pendek?
+    - mengapa jari pendek?
+    - anak saya jari-jarinya bantet. bisa gak ya di panjangin. cara memanjangkan jari tangan yang pendek bagaimana ya?
+    - cara memanjangkan jari bantet
+
+- intent: lainnya_efek_stunting
+  examples: |
+    - Apa efek stunting
+    - Efek stunting apakah anak akan jadi bodoh?
+    - anak saya didiagnosa DSA terkena stunting.  
+    - apakah anak-anak yang mengalami stunting cenderung mengalami keterlambatan dalam perkembangan bahasa dan motorik halus
+    - apakah anak stunting punya iq lebih rendah
+    - apakah efeknya stunting anak akan jadi bodoh?
+
+- intent: lainnya_deteksi_stunting
+  examples: |
+    - cara deteksi stunting
+    - Bagaimana cara mudah mendeteksi stunting anak di rumah?
+    - cara tau anak stunting bagaimana
+    
+    

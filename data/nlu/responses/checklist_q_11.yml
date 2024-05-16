@@ -1,0 +1,150 @@
+responses:
+  utter_ask_question111: 
+  - text: "Beri kubus di depannya. Dapatkah anak meletakkan 8 buah kubus satu persatu di atas kubus yang lain tanpa menjatuhkan kubus tersebut?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+        
+  utter_ask_question112: 
+  - text: "Beri pensil dan kertas. Buatlah lingkaran di atas kertas tersebut.Minta anak menirunya. Dapatkah anak menggambar lingkaran?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+        
+  utter_ask_question113: 
+  - text: "Dapatkah anak mengenakan sepatunya sendiri?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+        
+  utter_ask_question114: 
+  - text: "Dapatkah anak mengayuh sepeda roda tiga sejauh sedikitnya 3 meter?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+        
+  utter_ask_question115: 
+  - text: "Apakah anak dapat mencuci tangannya sendiri dengan baik setelah makan?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+        
+  utter_ask_question116: 
+  - text: "Apakah anak dapat mengikuti peraturan permainan bila bermain dengan teman-temannya? (misal: ular tangga, petak umpet, dll)"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+        
+  utter_ask_question117: 
+  - text: "Dapatkah anak mengenakan celana panjang, kemeja, baju atau kaos kaki tanpa di bantu? (Tidak termasuk memasang kancing, gesper atau ikat pinggang)"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+        
+  utter_ask_question118: 
+  - text: "Suruh anak berdiri satu kaki tanpa berpegangan. Jika perlu tunjukkan caranya dan beri anak anda kesempatan melakukannya 3 kali. Dapatkah ia mempertahankan keseimbangan dalam waktu 2 detik atau lebih?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+        
+  utter_ask_question119: 
+  - text: "Letakkan selembar kertas seukuran buku ini di lantai. Apakah anak dapat melompati panjang kertas ini dengan mengangkat kedua kakinya secara bersamaan tanpa didahului lari?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+        
+  utter_slots_valueeleventh:
+  - text: "Berikut Rangkuman Checklist Anda:\n
+  1. Beri kubus di depannya. Dapatkah anak meletakkan 8 buah kubus satu persatu di atas kubus yang lain tanpa menjatuhkan kubus tersebut? {question111}\n
+  2. Beri pensil dan kertas. Buatlah lingkaran di atas kertas tersebut.Minta anak menirunya. Dapatkah anak menggambar lingkaran? {question112}\n
+  3. Dapatkah anak mengenakan sepatunya sendiri? {question113}\n
+  4. Dapatkah anak mengayuh sepeda roda tiga sejauh sedikitnya 3 meter? {question114}\n
+  5. Apakah anak dapat mencuci tangannya sendiri dengan baik setelah makan? {question115}\n
+  6. Apakah anak dapat mengikuti peraturan permainan bila bermain dengan teman-temannya? (misal: ular tangga, petak umpet, dll) {question116}\n
+  7. Dapatkah anak mengenakan celana panjang, kemeja, baju atau kaos kaki tanpa di bantu? (Tidak termasuk memasang kancing, gesper atau ikat pinggang) {question117}\n
+  8. Suruh anak berdiri satu kaki tanpa berpegangan. Jika perlu tunjukkan caranya dan beri anak anda kesempatan melakukannya 3 kali. Dapatkah ia mempertahankan keseimbangan dalam waktu 2 detik atau lebih? {question118}\n
+  9. Letakkan selembar kertas seukuran buku ini di lantai. Apakah anak dapat melompati panjang kertas ini dengan mengangkat kedua kakinya secara bersamaan tanpa didahului lari? {question119}\n
+  "
+
+  utter_response_question111:
+  - text: "Solusi Pertanyaan Nomor 1:\n
+  Stimulasi:\n
+  Permainan balok. Beli atau buat balok-balok kecil dari kayu dengan ukuran sekitar 2.5 cm x 2.5 cm. Ajari anak cara menyusun balok menumpuk ke atas tanpa menjatuhkannya.\n
+  Sumber: Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI\n
+  "
+
+  utter_response_question112:
+  - text: "Solusi Pertanyaan Nomor 2:\n
+  Stimulasi:\n
+  1. Kenalkan berbagai macam bentuk bangun datar\n
+  2. Belajar menulis / menggambar\n
+  Beri anak selembar kertas dan pensil. Ajari anak menggambar garis lurus, bulatan, segi empat serta, menulis huruf dan angka. Kemudian buat pagar, rumah, matahari, bulan, huruf, angka dan sebagainya. Juga ajari anak menulis namanya.\n
+  Sumber: Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI
+  "
+
+  utter_response_question113:
+  - text: "Solusi Pertanyaan Nomor 3:\n
+  Stimulasi:\n
+  Ajarkan anak cara untuk mengayuh sepeda roda tiga.\n
+  Sumber: Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI
+  "
+
+  utter_response_question114:
+  - text: "Solusi Pertanyaan Nomor 4:\n
+  Stimulasi:\n
+  Ajarkan anak cara untuk mengayuh sepeda roda tiga.\n
+  Sumber: Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI
+  "
+
+  utter_response_question115:
+  - text: "Solusi Pertanyaan Nomor 5:\n
+  Stimulasi:\n
+  Ajarkan anak untuk selalu mencuci tangannya dengan baik setelah melakukan aktivitas, misalnya setelah makan atau setelah bermain.\n
+  Sumber: Aplikasi PrimaKu yang didukung oleh Ikatan Dokter Anak Indonesia (IDAI)
+  "
+
+  utter_response_question116:
+  - text: "Solusi Pertanyaan Nomor 6:\n
+  Stimulasi:\n
+  Ajari anak untuk mengikuti aturan permainan. Ajak anak untuk bermain sekaligus belajar mengikuti aturan/petunjuk permainan. Pada awal permainan, beri perintah kepada anak, misalnya 'Berjalan 3 langkah besar ke depan' atau 'Berjalan mundur 5 langkah'. Setiap kali akan menjalankan perintah itu, minta anak mengatakan 'Bolehkah saya memulainya?'. Setelah anak bisa memainkan permainan ini, bergantian anak yang memberikan perintah dan anda yang mengatakan 'Bolehkah saya memulainya?'.\n
+  Sumber: Aplikasi PrimaKu yang didukung oleh Ikatan Dokter Anak Indonesia (IDAI)
+  "
+
+  utter_response_question117:
+  - text: "Solusi Pertanyaan Nomor 7:\n
+  Stimulasi:\n
+  Belajar berpakaian. Ajari anak mengenakan pakaian sendiri tanpa bantuan. Beri kesempatan anak memilih sendiri pakaian yang akan dikenakannya.\n
+  Sumber: Aplikasi PrimaKu yang didukung oleh Ikatan Dokter Anak Indonesia (IDAI)
+  "
+
+  utter_response_question118:
+  - text: "Solusi Pertanyaan Nomor 8:\n
+  Stimulasi:\n
+  Berdiri satu kaki. Tunjukkan pada anak cara berdiri dengan satu kaki tanpa berpegangan. Bila anak sudah bisa berdiri satu kaki dengan kaki kanannya, selanjutnya ajarkan anak untuk berdiri satu kaki menggunakan kaki kirinya.\n
+  Sumber: Aplikasi PrimaKu yang didukung oleh Ikatan Dokter Anak Indonesia (IDAI)
+  "
+
+  utter_response_question119:
+  - text: "Solusi Pertanyaan Nomor 9:\n
+  Stimulasi:\n
+  Melompat dengan kedua kaki bersamaan. Letakkan sebuah handuk tua/kertas di lantai kemudian ajari anak untuk melompatianya. Atau buat garis di tanah sebagai batas lompatan.\n
+  Sumber: Aplikasi PrimaKu yang didukung oleh Ikatan Dokter Anak Indonesia (IDAI)
+  "

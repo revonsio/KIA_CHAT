@@ -1,0 +1,181 @@
+responses:
+  utter_ask_question91: 
+  - text: "Tanpa bimbingan, petunjuk atau bantuan anda, dapatkah anak menunjuk dengan benar paling sedikit satu bagian badannya (rambut, mata, hidung, mulut, atau bagian badan yang lain)?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+        
+  utter_ask_question92: 
+  - text: "Beri kubus di depannya. Dapatkah anak meletakkan 4 buah kubus satu persatu di atas kubus yang lain tanpa menjatuhkan kubus itu?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question93: 
+  - text: "Apakah anak dapat menyebut 2 diantara gambar-gambar ini tanpa bantuan? (menyebut dengan suara binatang tidak ikut dinilai)"
+    elements: 
+      - title: Gambar 1
+        image_url: https://i.ibb.co/d5M00Cr/Screenshot-2024-04-17-141234.png
+      - title: Gambar 2
+        image_url: https://i.ibb.co/R7HYZH8/Screenshot-2024-04-17-141320.png
+      - title: Gambar 3
+        image_url: https://i.ibb.co/h2WzYHn/Screenshot-2024-04-17-141403.png
+      - title: Gambar 4
+        image_url: https://i.ibb.co/ChcCcbb/Screenshot-2024-04-17-141443.png
+    # image: "https://i.ibb.co/d5M00Cr/Screenshot-2024-04-17-141234.png"
+    # image: "https://i.ibb.co/R7HYZH8/Screenshot-2024-04-17-141320.png"
+    # image: "https://i.ibb.co/h2WzYHn/Screenshot-2024-04-17-141403.png"
+    # image: "https://i.ibb.co/ChcCcbb/Screenshot-2024-04-17-141443.png"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question94: 
+  - text: "Bila diberi pensil, apakah anak mencoret-coret kertas tanpa bantuan/petunjuk?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question95: 
+  - text: "Dapatkah anak melepas pakaiannya seperti: baju, rok, atau celananya? (topi dan kaos kaki tidak ikut dinilai)."
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question96: 
+  - text: "Dapatkah anak berjalan naik tangga sendiri? Jawab YA. Jika ia naik tangga dengan posisi tegak atau berpegangan pada dinding atau pegangan tangga Jawab TIDAK. Jika ia naik tangga dengan merangkak atau anda tidak membolehkan anak naik tangga atau anak harus berpegangan pada seseorang."
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question97: 
+  - text: "Dapatkah anak makan nasi sendiri tanpa banyak tumpah?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question98: 
+  - text: "Dapatkah anak membantu memungut mainannya sendiri atau membantu mengangkat piring jika diminta?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question99: 
+  - text: "Dapatkah anak menggunakan 2 kata pada saat berbicara seperti 'minta minum', 'mau tidur'? 'Terimakasih' dan 'Dadag' tidak ikut dinilai."
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question910: 
+  - text: "Letakkan bola tenis didpn kakinya. Dapatkah anak menendang bola kecil (sebesar bola tenis) ke depan tanpa berpegangan pada apapun? Mendorong tidak ikut dinilai."
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+        
+  utter_slots_valueninth:
+  - text: "Berikut Rangkuman Checklist Anda:\n
+            1. Tanpa bimbingan, petunjuk atau bantuan anda, dapatkah anak menunjuk dengan benar paling sedikit satu bagian badannya (rambut, mata, hidung, mulut, atau bagian badan yang lain)? {question91} \n
+            2. Beri kubus di depannya. Dapatkah anak meletakkan 4 buah kubus satu persatu di atas kubus yang lain tanpa menjatuhkan kubus itu? {question92} \n
+            3. Apakah anak dapat menyebut 2 diantara gambar-gambar ini tanpa bantuan? (menyebut dengan suara binatang tidak ikut dinilai) {question93} \n
+            4. Bila diberi pensil, apakah anak mencoret-coret kertas tanpa bantuan/petunjuk? {question94} \n
+            5. Dapatkah anak melepas pakaiannya seperti: baju, rok, atau celananya? (topi dan kaos kaki tidak ikut dinilai). {question95} \n
+            6. Dapatkah anak berjalan naik tangga sendiri? Jawab YA. Jika ia naik tangga dengan posisi tegak atau berpegangan pada dinding atau pegangan tangga Jawab TIDAK. Jika ia naik tangga dengan merangkak atau anda tidak membolehkan anak naik tangga atau anak harus berpegangan pada seseorang. {question96} \n
+            7. Dapatkah anak makan nasi sendiri tanpa banyak tumpah? {question97} \n
+            8. Dapatkah anak membantu memungut mainannya sendiri atau membantu mengangkat piring jika diminta? {question98} \n
+            9. Dapatkah anak menggunakan 2 kata pada saat berbicara seperti 'minta minum', 'mau tidur'? 'Terimakasih' dan 'Dadag' tidak ikut dinilai. {question99} \n
+            10. Letakkan bola tenis didpn kakinya. Dapatkah anak menendang bola kecil (sebesar bola tenis) ke depan tanpa berpegangan pada apapun? Mendorong tidak ikut dinilai. {question910} \n
+          "
+  
+  utter_response_question91:
+  - text: "Solusi Pertanyaan Nomor 1: \n
+  Stimulasi:\n
+  1. Kenalkan anak dengan bagian - bagian tubuhnya, seperti kepala, tangan, kaki dan sebagainya. Selain itu, mulai kenalkan anak tentang jenis kelaminnya, baik saat memandikan atau memakaikan pakaian. Gunakan kata sederhana dan dengan intonasi datar\n
+  2. Bercerita tentang diri anak. Anak senang mendengar cerita tentang dirinya. Ceritakan kembali kejadian-kejadian lucu dan menarik yang dialami anak\n
+  Sumber: Aplikasi PrimaKu yang didukung oleh Ikatan Dokter Anak Indonesia (IDAI)
+  "
+
+  utter_response_question92:
+  - text: "Solusi Pertanyaan Nomor 2: \n
+  Stimulasi:\n
+  Permainan balok. Beli atau buat balok-balok kecil dari kayu dengan ukuran sekitar 2.5 cm x 2.5 cm. Ajari anak cara menyusun balok menumpuk ke atas tanpa menjatuhkannya.\n
+  Sumber: Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI
+  "
+
+  utter_response_question93:
+  - text: "Solusi Pertanyaan Nomor 3: \n
+  Stimulasi:\n
+  Menyebutkan nama gambar di buku. Pilih gambar-gambar menarik yang berwarna warni (misal: gambar binatang, kendaraan, meja, gelas, dan lain lain) dari buku/majalah bergambar yang sudah tidak terpakai. Sebut nama gambar yang anda tunjukkan kepada bayi. Lakukan stimulasi ini setiap hari dalam beberapa menit saja. Sebutkan dengan cara yang benar sesuai ejaan dan tidak cadel. Permainan ini dapat juga dilakukan dengan benda atau mainan sehari-hari.\n
+  Sumber: Aplikasi PrimaKu yang didukung oleh Ikatan Dokter Anak Indonesia (IDAI)
+  "
+
+  utter_response_question94:
+  - text: "Solusi Pertanyaan Nomor 4: \n
+  Stimulasi:\n
+  Mencoret - coret pensil pada kertas\n
+  Sumber: Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI
+  "
+
+  utter_response_question95:
+  - text: "Solusi Pertanyaan Nomor 5: \n
+  Stimulasi:\n
+  1. Belajar berpakaian. Ajari anak mengenakan pakaian sendiri tanpa bantuan. Beri kesempatan anak memilih sendiri pakaian yang akan dikenakannya.\n
+  2. Belajar melepas pakaian sendiri\n
+  Sumber: Aplikasi PrimaKu yang didukung oleh Ikatan Dokter Anak Indonesia (IDAI)
+  "
+
+  utter_response_question96:
+  - text: "Solusi Pertanyaan Nomor 6: \n
+  Stimulasi:\n
+  Berjalan naik dan turun tangga. Bila anak sudah bisa merangkak naik dan melangkah turun tangga, ajari anak cara jalan naik tangga sambil berpegangan pada dinding atau pada tangga. Tetap bersama anak ketika ia melakukan hal ini untuk pertama kalinya.\n
+  Sumber: Aplikasi PrimaKu yang didukung oleh Ikatan Dokter Anak Indonesia (IDAI)
+  "
+
+  utter_response_question97:
+  - text: "Solusi Pertanyaan Nomor 7: \n
+  Stimulasi:\n
+  Belajar makan sendiri. Tunjukkan pada anak cara memegang sendok. Biarkan anak makan sendiri dan bantu jika anak mengalami kesulitan.\n
+  Sumber: Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI
+  "
+
+  utter_response_question98:
+  - text: "Solusi Pertanyaan Nomor 8: \n
+  Stimulasi:\n
+  Mulai memberi perintah kepada anak. 'Tolong bawakan kaus kaki merah', atau 'Letakkan cangkirmu di meja'. Tunjukkan kepada anak cara mengerjakan perintah tadi, gunakan kata - kata yang sederhana.\n
+  Sumber: Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI
+  "
+
+  utter_response_question99:
+  - text: "Solusi Pertanyaan Nomor 9: \n
+  Stimulasi:\n
+  1. Sering berbicara dengan anak. Bicara banyak-banyak kepada anak, gunakan kalimat-kalimat pendek, jelas dan mudah ditiru anak.\n
+  2. Melihat acara televisi. Biarkan anak melihat acara anak-anak di televisi. Dampingi anak dan bicarakan apa yang dilihatnya. Pilih acara yang bermutu dan sesuai dengan perkembangan anak dan batasi agar anak melihat televisi tidak lebih dari 1 jam sehari.\n
+  3. Dicontohkan oleh orang dewasa untuk menggunakan 2-3 kata berangkai\n
+  Sumber: Bidan - Rizki Amalia SST., M.P.H. dan Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI
+  "
+
+  utter_response_question910:
+  - text: "Solusi Pertanyaan Nomor 10: \n
+  Stimulasi:\n
+  Bermain bola. Sering - seringlah bermain bola bersama anak, gelindingkan bola ke arahnya dan minta anak untuk mengembalikan bola tersebut dengan cara menendangnya.\n
+  Sumber: Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI
+  "

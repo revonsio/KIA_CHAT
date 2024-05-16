@@ -1,0 +1,64 @@
+version: "3.1"
+
+  # - story: 
+  #   steps:
+  #   - intent: lainnya_
+  #   - action: utter_
+  #   - action: action_restart
+
+stories:
+  - story: manfaat lagu
+    steps:
+    - checkpoint: menu_lainnya
+    - intent: lainnya_manfaat_lagu
+    - action: utter_lainnya_manfaat_lagu
+    - checkpoint: end_checkpoint
+  
+  - story: bayi ngulet
+    steps:
+    - checkpoint: menu_lainnya
+    - intent: lainnya_bayi_ngulet
+    - action: utter_lainnya_bayi_ngulet
+    - checkpoint: end_checkpoint
+
+  - story: anak 2 tahun belum bisa bicara
+    steps:
+    - checkpoint: menu_lainnya
+    - intent: lainnya_2tahun_bicara
+    - action: utter_lainnya_2tahun_bicara
+    - checkpoint: end_checkpoint
+
+  - story: bayi baru lahir tampak kaget
+    steps:
+    - checkpoint: menu_lainnya
+    - intent: lainnya_bayi_tampak_kaget
+    - action: utter_lainnya_bayi_tampak_kaget
+    - checkpoint: end_checkpoint
+
+  - story: stimulasi bayi 7 bulan belum bisa duduk dan merangkat
+    steps:
+    - checkpoint: menu_lainnya
+    - intent: lainnya_bayi_duduk_merangkak
+    - action: utter_lainnya_bayi_duduk_merangkak
+    - checkpoint: end_checkpoint
+
+  - story: memanjangkan jari pendek
+    steps:
+    - checkpoint: menu_lainnya
+    - intent: lainnya_jari_pendek
+    - action: utter_lainnya_jari_pendek
+    - checkpoint: end_checkpoint
+
+  - story: efek stunting
+    steps:
+    - checkpoint: menu_lainnya
+    - intent: lainnya_efek_stunting
+    - action: utter_lainnya_efek_stunting
+    - checkpoint: end_checkpoint
+
+  - story: deteksi stunting
+    steps:
+    - checkpoint: menu_lainnya
+    - intent: lainnya_deteksi_stunting
+    - action: utter_lainnya_deteksi_stunting
+    - checkpoint: end_checkpoint

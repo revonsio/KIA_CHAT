@@ -1,0 +1,168 @@
+responses:
+
+  utter_ask_question71: 
+  - text: "Letakkan kismis diatas meja dekat anak, apakah anak dapat mengambil dengan ibu jari dan telunjuk?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question72: 
+  - text: "Gelindingkan bola tenis ke arah anak, apakah dapat mengelindingkan/melempar bola kembali kepada anak?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question73: 
+  - text: "Beri kubus didepannya. Minta anak meletakkan 1 kubus diatas kubus lainnya (1 tingkat saja)"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question74: 
+  - text: "Apakah anak dapat menunjukkan apa yang diinginkan tanpa menangis atau merengek?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question75: 
+  - text: "Apakah anak dapat minum dari cangkir/gelas sendiri tanpa tumpah?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question76: 
+  - text: "Apakah anak suka meniru bila ibu sedang melakukan pekerjaan rumah tangga (menyapu, mencuci, dll)"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question77: 
+  - text: "Apakah anak dapat mengucapkan minimal 3 kata yang mempunyai arti (selain kata mama dan papa)?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question78: 
+  - text: "Apakah anak pernah berjalan mundur minimal 5 langkah?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question79: 
+  - text: "Letakkan kubus di lantai, minta anak memungut, apakah anak dapat memungut dan berdiri kembali tanpa berpegangan?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question710:
+  - text: "Minta anak berjalan sepanjang ruangan, dapatkan ia berjalan tanpa terhunyung/jatuh?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+        
+  utter_slots_valueseventh:
+  - text: "Berikut Rangkuman Checklist Anda:\n
+            1. Letakkan kismis diatas meja dekat anak, apakah anak dapat mengambil dengan ibu jari dan telunjuk? {question71} \n
+            2. Gelindingkan bola tenis ke arah anak, apakah dapat mengelindingkan/melempar bola kembali kepada anak? {question72} \n
+            3. Beri kubus didepannya. Minta anak meletakkan 1 kubus diatas kubus lainnya (1 tingkat saja) {question73} \n
+            4. Apakah anak dapat menunjukkan apa yang diinginkan tanpa menangis atau merengek? {question74} \n
+            5. Apakah anak dapat minum dari cangkir/gelas sendiri tanpa tumpah? {question75} \n
+            6. Apakah anak suka meniru bila ibu sedang melakukan pekerjaan rumah tangga (menyapu, mencuci, dll) {question76} \n
+            7. Apakah anak dapat mengucapkan minimal 3 kata yang mempunyai arti (selain kata mama dan papa)? {question77} \n
+            8. Apakah anak pernah berjalan mundur minimal 5 langkah? {question78} \n
+            9. Letakkan kubus di lantai, minta anak memungut, apakah anak dapat memungut dan berdiri kembali tanpa berpegangan? {question79} \n
+            10. Minta anak berjalan sepanjang ruangan, dapatkan ia berjalan tanpa terhunyung/jatuh? {question710}
+          "
+  
+  utter_response_question71:
+  - text: "Solusi Pertanyaan Nomor 1:\n
+  Stimulasi: \n
+  • Letakkan benda kecil seperti potongan-potongan biskuit yang mudah hancur di hadapan bayi. Ajari bayi mengambil benda-benda tersebut. Biasakan menjauhkan tempat penyimpanan pil/obat/benda kecil berbahaya lainnya dari jangkauan bayi. \n
+  Sumber: Aplikasi PrimaKu yang didukung oleh Ikatan Dokter Anak Indonesia (IDAI)
+  "
+
+  utter_response_question72:
+  - text: "Solusi Pertanyaan Nomor 2:\n
+  Stimulasi: \n
+  • Sering - seringlah bermain bola bersama anak, gelindingkan bola ke arahnya dan minta anak untuk mengembalikan bola tersebut. \n
+  Sumber: Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI
+  "
+
+  utter_response_question73:
+  - text: "Solusi Pertanyaan Nomor 3:\n
+  Stimulasi: \n
+  • Beli atau buat balok-balok kecil dari kayu dengan ukuran sekitar 2.5 cm x 2.5 cm. Ajari anak cara menyusun balok menumpuk ke atas tanpa menjatuhkannya. \n
+  Sumber: Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI
+  "
+
+  utter_response_question74:
+  - text: "Solusi Pertanyaan Nomor 4:\n
+  Stimulasi:\n
+  Ajarkan anak untuk berbicara dengan baik saat meminta sesuatu. Membutuhkan edukasi atau diarahkan untuk berbicara saat akan meminta sesuatu\n
+  Sumber: Bidan - Rizki Amalia SST., M.P.H.
+  "
+
+  utter_response_question75:
+  - text: "Solusi Pertanyaan Nomor 5:\n
+  Stimulasi:\n
+  • Diberi contoh oleh orang dewasa disekitarnya, ketika minuman anak tumpah tidak terlalu dimarahi atau dibentak dengan suara keras dan diberikan kesempatan untuk mencoba lagi\n
+  Sumber: Bidan - Rizki Amalia SST., M.P.H.
+  "
+
+  utter_response_question76:
+  - text: "Solusi Pertanyaan Nomor 6\n
+  Stimulasi:\n
+  Ajari anak menirukan pekerjaan rumah tangga. Ketika membersihkan rumah, menyapu dan melakukan pekerjaan rumah tangga lainnya, ajak anak untuk menirukannya. Berikan lap pembersih debu, sapu dan lain lain kepadanya.\n
+  Sumber: Aplikasi PrimaKu yang didukung oleh Ikatan Dokter Anak Indonesia (IDAI)
+  "
+
+  utter_response_question77:
+  - text: "Solusi Pertanyaan Nomor 7:\n
+  Stimulasi:\n
+  1. Sering berbicara dengan anak\n
+  • Bicara banyak-banyak kepada anak, gunakan kalimat-kalimat pendek, jelas dan mudah ditiru anak.\n
+  2. Melihat acara televisi\n
+  • Biarkan anak melihat acara anak-anak di televisi.Dampingi anak dan bicarakan apa yang dilihatnya. Pilih acara yang bermutu dan sesuai dengan perkembangan anak dan batasi agar anak melihat televisi tidak lebih dari 1 jam sehari.\n
+  Sumber: Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI
+  "
+
+  utter_response_question78:
+  - text: "Solusi Pertanyaan Nomor 8:\n
+  Stimulasi:\n
+  Belajar berjalan mundur 5 langkah. Bila anak sudah jalan tanpa berpegangan, ajari anak cara melangkah mundur. Berikan mainan yang bisa ditarik karena anak akan mengambil langkah mundur untuk dapat memperhatikan mainan itu.\n
+  Sumber: Aplikasi PrimaKu yang didukung oleh Ikatan Dokter Anak Indonesia (IDAI)
+  "
+  
+  utter_response_question79:
+  - text: "Solusi Pertanyaan Nomor 9:\n
+  Stimulasi:\n
+  Latihan membungkuk mengambil mainan. Letakkan mainan yang disukai di bawah bayi ketika ia sedang berdiri, agar bayi membungkuk memungut mainan kemudian berdiri kembali.\n
+  Sumber: Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI
+  "
+
+  utter_response_question710:
+  - text: "Solusi Pertanyaan Nomor 10:\n
+  Stimulasi:\n
+  Dorong - dorong kursi atau galon kosong, dipegangkan ke tembok atau furniture rendah\n
+  Sumber: Bidan - Rizki Amalia SST., M.P.H.
+  "

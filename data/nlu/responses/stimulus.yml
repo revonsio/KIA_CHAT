@@ -1,0 +1,163 @@
+responses:
+  utter_stimulus_29hari_3bulan:
+  - text: "Setiap saat lakukan stimulasi sesuai usia bayi dalam suasana menyenangkan, baik oleh
+  orang tua maupun anggota keluarga.
+  Stimulasi bayi pada rentang usia 0-3 bulan dengan: \n
+  1. Ciptakan rasa nyaman, aman, senang \n
+  2. Peluk, cium, ayun \n
+  3. Senyum, tatap mata, ajak bicara \n
+  4. Tirukan ocehan dan mimik bayi \n
+  5. Interaksi langsung untuk mengenalkan berbagai suara, bunyi, atau nyanyian \n
+  6. Gantung benda berwarna, berbunyi\n
+  7. Meraih, meraba, pegang mainan, angkat kepala
+  "
+  
+  utter_stimulus_3_6bulan:
+  - text: "Setiap saat lakukan stimulasi sesuai usia bayi dalam suasana menyenangkan, baik oleh
+  orang tua maupun anggota keluarga.
+  Stimulasi bayi pada rentang usia 3-6 bulan dengan: \n
+  1. Peluk, cium, pandang mata, senyum, bicara \n
+  2. Mencari sumber suara \n
+  3. Bermain cilukba, melihat wajah di cermin \n
+  4. Memeluk, mengayun \n
+  5. Melihat, meraih \n
+  6. Mengamati benda kecil, benda bergerak \n
+  7. Mengambil benda kecil \n
+  8. Berguling-guling, duduk \n
+  "
+
+  utter_stimulus_6_9bulan:
+  - text: "Setiap saat lakukan stimulasi sesuai usia bayi dalam suasana menyenangkan, baik oleh
+  orang tua maupun anggota keluarga.
+  Stimulasi bayi pada rentang usia 6-9 bulan dengan: \n
+  1. Peluk, senyum, bicara, panggil namanya \n
+  2. Bersalaman, tepuk tangan, melambai ke orang lain\n
+  3. Kenalkan/ tunjuk nama orang (papa dan mama) dan benda sekitar \n
+  4. Cilukba, melihat cermin \n
+  5. Tunjuk dan sebutkan nama gambar \n
+  6. Bacakan dongeng \n
+  7. Pegang mainan dengan 2 tangan \n
+  8. Masukkan benda kecil ke dalam wadah \n
+  9. Sembunyikan dan cari mainan \n
+  10. Mainan yang mengapung di air \n
+  11. Memukul-mukul\n
+  12. Duduk, merangkak, berdiri berpegangan\n
+  "
+
+  utter_stimulus_9_12bulan:
+  - text: "Setiap saat lakukan stimulasi sesuai usia bayi dalam suasana menyenangkan, baik oleh
+  orang tua maupun anggota keluarga.
+  Stimulasi bayi pada rentang usia 9-12 bulan dengan: \n
+  1. Berbicara dengan boneka \n
+  2. Menunjuk orang/benda/organ tubuh yang sudah dikenalkan \n
+  3. Mengucapkan orang/benda/organ tubuh yang sudah dikenalkan \n
+  4. Bacakan dongeng pada saat mengenalkan dan menyuruh menunjuk \n
+  5. Pegang mainan dengan 2 tangan \n
+  6. Memasukan benda kecil ke dalam wadah \n 
+  7. Menyusun balok \n
+  8. Sembunyikan dan cari mainan \n
+  9. Memegang pensil dan mencoretcoret kertas \n
+  10. Duduk, merangkak, berdiri berpegangan\n
+  11. Berjalan mundur, jinjit\n
+  "
+
+  utter_stimulus_12_18bulan:
+  - text: "Setiap saat lakukan stimulasi sesuai usia bayi dalam suasana menyenangkan, baik oleh
+  orang tua maupun anggota keluarga.
+  Stimulasi bayi pada rentang usia 12-18 bulan dengan: \n
+  1. Berjalan mundur, naik tangga \n
+  2. Tangkap dan lempar bola\n
+  3. Menyusun balok atau puzzle, menggambar\n
+  4. Bermain air, meniup, menendang bola\n
+  5. Bercerita tentang gambar di buku\n
+  6. Menyebutkan nama benda, menyanyi\n
+  7. Main telpon-telponan, menyatakan keinginan\n
+  8. Bermain dengan teman sebaya, petak umpet\n
+  9. Merapikan mainan, membuka baju\n
+  10. Makan bersama\n
+  11. Merangkai manik besar\n
+  "
+
+  utter_stimulus_18_24bulan:
+  - text: "Setiap saat lakukan stimulasi sesuai usia bayi dalam suasana menyenangkan, baik oleh
+  orang tua maupun anggota keluarga.
+  Stimulasi bayi pada rentang usia 18-24 bulan dengan: \n
+  1. Bicara, bertanya, bercerita, bernyanyi \n
+  2. Tanya jawab, main telpon-telponan \n
+  3. Perintah sederhana, membantu pekerjaan \n
+  4. Melepas baju, rapikan mainan \n
+  5. Makan bersama dengan sendok garpu\n
+  6. Menyusun balok, memasang puzzle, menggambar, membentuk lilin\n
+  7. Buat rumah-rumahan, petak umpet\n
+  8. Berjalan, berlari, melompat\n
+  9. Berdiri satu kaki, naik turun tangga\n
+  10. Melempar, menangkap, menendang bola\n
+  "
+
+  utter_stimulus_2_3tahun:
+  - text: "Setiap saat lakukan stimulasi sesuai usia bayi dalam suasana menyenangkan, baik oleh
+  orang tua maupun anggota keluarga.
+  Stimulasi bayi pada rentang usia 2-3 tahun dengan: \n
+  1. Sebutkan nama benda, sifat, guna benda \n
+  2. Bacakan cerita, tanya jawab\n
+  3. Anak diminta bercerita pengalaman menonton TV didampingi maksimal 1 jam, menyanyi \n
+  4. Cuci tangan, cebok, berpakaian, rapikan mainan\n
+  5. Makan dengan sendok garpu \n
+  6. Menyusun balok, memasang puzzle, menggambar, menempel\n
+  7. Mengelompokkan benda sejenis\n
+  8. Mencocokkan gambar dan benda\n
+  9. Menghitung\n
+  10. Melempar, menangkap\n
+  11. Berlari, melompat, memanjat, merayap\n
+  "
+
+  utter_stimulus_3_4tahun:
+  - text: "Setiap saat lakukan stimulasi sesuai usia bayi dalam suasana menyenangkan, baik oleh
+  orang tua maupun anggota keluarga.
+  Stimulasi bayi pada rentang usia 3-4 tahun dengan: \n
+  1. Sebutkan nama benda, sifat, guna benda \n
+  2. Bacakan cerita, tanya jawab\n
+  3. Anak diminta bercerita pengalaman menonton TV didampingi maksimal 1 jam, menyanyi \n
+  4. Cuci tangan, cebok, berpakaian, rapikan mainan\n
+  5. Makan dengan sendok garpu \n
+  6. Menyusun balok, memasang puzzle, menggambar, menempel\n
+  7. Mengelompokkan benda sejenis\n
+  8. Mencocokkan gambar dan benda\n
+  9. Menghitung\n
+  10. Melempar, menangkap\n
+  11. Berlari, melompat, memanjat, merayap\n
+  "
+
+  utter_stimulus_4_5tahun:
+  - text: "Setiap saat lakukan stimulasi sesuai usia bayi dalam suasana menyenangkan, baik oleh
+  orang tua maupun anggota keluarga.
+  Stimulasi bayi pada rentang usia 4-5 tahun dengan: \n
+  1. Bermain peran, anak diminta bercerita pengalaman \n
+  2. Menggambar orang, mengenal huruf \n
+  3. Main bola, lompat tali\n
+  4. Latih untuk dapat mengikuti aturan permainan\n
+  5. Kenalkan nama-nama hari\n
+  6. Menyebut angka berurutan\n
+  7. Mengajak anak sikat gigi bersama dan melatih sikat gigi sendiri\n
+  8. Melatih memakai pakaian sendiri\n
+  9. Menguatkan kepercayaan diri anak\n
+  "
+
+  utter_stimulus_5_6tahun:
+  - text: "Setiap saat lakukan stimulasi sesuai usia bayi dalam suasana menyenangkan, baik oleh
+  orang tua maupun anggota keluarga.
+  Stimulasi bayi pada rentang usia 4-5 tahun dengan: \n
+  1. Mengenal nama, fungsi benda-benda \n
+  2. Bacakan buku, tanya jawab, bercerita\n
+  3. Menonton TV didampingi maksimal 1 jam, menyanyi\n
+  4. Cuci tangan, cebok, berpakaian, rapikan mainan\n
+  5. Makan dengan sendok garpu, masak-masakan\n
+  6. Menggunting, menempel, menjahit,\n
+  7. Menyusun balok, memasang puzzle, menggambar, mewarna, menulis nama\n
+  8. Mengingat, menghafal, mengerti aturan, urutan\n
+  9. Membandingkan besar kecil, banyak sedikit\n
+  10. Menghitung, konsep satu dan setengah\n
+  11. Mengenal angka, huruf, simbol, jam, hari, tanggal\n
+  12. Melempar, menangkap, berlari, melompat\n
+  13. Memanjat, merayap, sepeda roda 3, ayunan, “berjualan”, “bertukang”, mengukur\n
+  "     

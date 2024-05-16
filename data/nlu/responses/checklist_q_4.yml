@@ -1,0 +1,177 @@
+responses:
+  utter_ask_question41: 
+  - text: "Letakkan pensil di telapak tangan bayi. Coba ambil pensil tersebut dengan perlahan-lahan. Sulitkah anda mendapatkan pensil itu kembali?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question42: 
+  - text: "Taruh kismis di atas meja. Dapatkah bayi memungut dengan tangannya benda-benda kecil seperti kismis, kacang-kacangan, potongan biskuit, dengan gerakan miring atau menggerapai seperti gambar?"
+    image: "https://i.ibb.co/nz18x5r/Screenshot-2024-04-10-182311.png"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question43: 
+  - text: "Tanpa bantuan, apakah anak dapat mempertemukan dua kubus kecil yang ia pegang?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question44: 
+  - text: "Sebut 2-3 kata yang dapat ditiru oleh anak (tidak perlu kata-kata yang lengkap). Apakah ia mencoba meniru menyebutkan kata-kata tadi?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question45: 
+  - text: "Jika anda bersembunyi di belakang sesuatu/di pojok, kemudian muncul dan menghilang secara berulang-ulang di hadapan anak, apakah ia mencari anda atau mengharapkan anda muncul kembali?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question46: 
+  - text: "Apakah anak dapat mengangkat badannya ke posisi berdiri tanpa bantuan anda?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question47: 
+  - text: "Apakah anak dapat membedakan anda dengan orang yang belum ia kenal? Ia akan menunjukkan sikap malu-malu atau ragu-ragu pada saat permulaan bertemu dengan orang yang belum dikenalnya. "
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question48: 
+  - text: "Apakah anak dapat duduk sendiri tanpa bantuan?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question49: 
+  - text: "Apakah anak dapat mengatakan 2 suku kata yang sama, misalnya: “ma-ma”, “da-da” atau “pa-pa”. Jawab YA bila ia mengeluarkan salah satu suara tadi."
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question410: 
+  - text: "Apakah anak dapat berdiri selama 30 detik atau lebih dengan berpegangan pada kursi/meja?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+        
+  utter_slots_valuefourth:
+  - text: "Berikut Rangkuman Checklist Anda:\n
+            1. Letakkan pensil di telapak tangan bayi. Coba ambil pensil tersebut dengan perlahan-lahan. Sulitkah anda mendapatkan pensil itu kembali? {question41} \n
+            2. Taruh kismis di atas meja. Dapatkah bayi memungut dengan tangannya benda-benda kecil seperti kismis, kacang-kacangan, potongan biskuit, dengan gerakan miring atau menggerapai seperti gambar? {question42} \n
+            3. Tanpa bantuan, apakah anak dapat mempertemukan dua kubus kecil yang ia pegang? {question43} \n
+            4. Sebut 2-3 kata yang dapat ditiru oleh anak (tidak perlu kata-kata yang lengkap). Apakah ia mencoba meniru menyebutkan kata-kata tadi? {question44} \n
+            5. Jika anda bersembunyi di belakang sesuatu/di pojok, kemudian muncul dan menghilang secara berulang-ulang di hadapan anak, apakah ia mencari anda atau mengharapkan anda muncul kembali? {question45} \n
+            6. Apakah anak dapat mengangkat badannya ke posisi berdiri tanpa bantuan anda? {question46} \n
+            7. Apakah anak dapat membedakan anda dengan orang yang belum ia kenal? Ia akan menunjukkan sikap malu-malu atau ragu-ragu pada saat permulaan bertemu dengan orang yang belum dikenalnya. {question47} \n
+            8. Apakah anak dapat duduk sendiri tanpa bantuan? {question48} \n
+            9. Apakah anak dapat mengatakan 2 suku kata yang sama, misalnya: “ma-ma”, “da-da” atau “pa-pa”. Jawab YA bila ia mengeluarkan salah satu suara tadi. {question49} \n
+            10. Apakah anak dapat berdiri selama 30 detik atau lebih dengan berpegangan pada kursi/meja? {question410} \n
+          "
+
+  utter_response_question41:
+  - text: "Solusi Pertanyaan Nomor 1:\n
+Stimulasi:\n
+1. Menggambar\n
+• Letakkan krayon atau pensil berwarna dan kertas di meja. Ajak bayi menggambar dengan krayon atau pensil warna. Kegiatan menggambar ini dapat dilakukan bersamaan dengan anda mengerjakan tugas rumah tangga.\n
+Sumber: Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI\n
+  "
+
+  utter_response_question42:
+  - text: "Solusi Pertanyaan Nomor 2:\n
+Stimulasi: \n
+• Letakkan benda kecil seperti potongan-potongan biskuit yang mudah hancur di hadapan bayi. Ajari bayi mengambil benda-benda tersebut. Biasakan menjauhkan tempat penyimpanan pil/obat/benda kecil berbahaya lainnya dari jangkauan bayi. \n
+Sumber: Aplikasi PrimaKu yang didukung oleh Ikatan Dokter Anak Indonesia (IDAI)\n
+  "
+
+  utter_response_question43:
+  - text: "Solusi Pertanyaan Nomor 3:\n
+Berlatih menyusun benda berbentuk kubus ke atas \n
+Sumber: Bidan - Rizki Amalia SST., M.P.H.
+  "
+
+  utter_response_question44:
+  - text: "Solusi Pertanyaan Nomor 4:\n
+Stimulasi: \n
+1. Mengulang/menirukan bunyi yang didengar\n
+• Setiap hari bicara kepada bayi. Sebutkan kata-kata yang telah diketahui artinya, seperti: minum susu, mandi, tidur, kue, makan, kucing dll. Buat agar bayi mau menirukan kata-kata tersebut. Bila bayi mau mengatakan, puji ia, kemudian sebutkan kata itu lagi dan buat agar ia mau mengulanginya.\n
+2. Berbicara dengan boneka\n
+• Beli sebuah boneka atau buat boneka mainan dari sarung tangan atau kaos kaki yang digambari dengan pena menyerupai bentuk wajah. Berpura-pura bahwa boneka itu yang berbicara kepada bayi dan buat agar bayi mau berbicara kembali dengan boneka itu.\n
+Sumber: Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI\n
+  "
+
+  utter_response_question45:
+  - text: "Solusi Pertanyaan Nomor 5:\n
+  Stimulasi: \n
+1. Bermain ciluk ba\n
+• Pegang saputangan/kain atau kertas untuk menutupi wajah anda dari pandangan bayi, kemudian singkirkan penutup wajah dari hadapan bayi dan katakan 'CILUK BA' ketika bayi dapat melihat wajah anda kembali \n
+Sumber: Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI
+  "
+
+  utter_response_question46:
+  - text: "Solusi Pertanyaan Nomor 6:\n
+Stimulasi: \n
+1. Belajar berdiri \n
+• Dudukkan bayi di kasur atau matras, pegang tangan bayi, kemudian tuntun ke atas agar bayi berusaha bangkit berdiri. Selanjutnya lakukan hal tersebut di tempat lainnya. Sebaiknya belajar berdiri dilakukan setelah bayi mampu duduk tegak dalam waktu yang cukup lama.\n
+Sumber: Aplikasi PrimaKu yang didukung oleh Ikatan Dokter Anak Indonesia (IDAI) \n
+  "
+
+  utter_response_question47:
+  - text: "Solusi Pertanyaan Nomor 7:\n
+Stimulasi: \n
+• 1. Ajak bayi bermain dengan orang lain dan ketika anggota keluarga lain pergi, lambaikan tangan ke bayi sambil berkata 'da….daaag', bantu bayi membalas lambaian \n
+• 2. Permainan 'bersosialisasi' dengan lingkungan\n
+Sumber: Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI
+  "
+
+  utter_response_question48:
+  - text: "Solusi Pertanyaan Nomor 8:\n
+Stimulasi: \n
+1. Belajar duduk sendiri\n
+• Ketika bayi sudah mampu duduk tegak, ia akan mampu menyangga tubuhnya untuk tetap duduk tegak dengan kedua tangannya. Berikan mainan yang menarik atau ajak bermain dalam posisi duduk.\n
+Sumber: Aplikasi PrimaKu yang didukung oleh Ikatan Dokter Anak Indonesia (IDAI)\n
+  "
+
+  utter_response_question49:
+  - text: "Solusi Pertanyaan Nomor 9:\n
+  Stimulasi:\n
+1. Menirukan kata-kata\n
+• Ketika berbicara dengan bayi, ulangi beberapa kata sederhana berkali-kali dan usahakan agar bayi menirukannya. Yang paling mudah ditirukan oleh bayi adalah kata yang menggunakan huruf vokal dan gerakan bibir, misalnya seperti papa dan mama.\n
+Sumber: Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI
+  "
+
+  utter_response_question410:
+  - text: "Solusi Pertanyaan Nomor 10:\n
+  Stimulasi: \n
+1. Belajar berdiri berpegangan \n
+• Ketika bayi sudah mampu berdiri, buat bayi berdiri di dekat pegangan seperti ranjang atau kursi, letakkan mainan yang disukainya di dekatnya, tidak terlalu jauh, kemudian buat agar bayi mau berjalan sambil berpegangan untuk mencapai mainan tersebut.\n
+Sumber: Aplikasi PrimaKu yang didukung oleh Ikatan Dokter Anak Indonesia (IDAI) \n
+
+
+  "
+    

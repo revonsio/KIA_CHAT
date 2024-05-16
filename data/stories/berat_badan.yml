@@ -1,0 +1,20 @@
+version: "3.1"
+
+stories:
+- story: topik berat badan l
+  steps:
+  - checkpoint: menu_bb
+  - action: utter_tanya_jeniskelamin
+  - intent: laki_laki
+  - action: beratbadan_form
+  - action: action_data_beratbadan_pria
+  - checkpoint: end_checkpoint
+
+- story: topik berat badan p
+  steps:
+  - checkpoint: menu_bb
+  - action: utter_tanya_jeniskelamin
+  - intent: perempuan
+  - action: beratbadan_form
+  - action: action_data_beratbadan_wanita
+  - checkpoint: end_checkpoint

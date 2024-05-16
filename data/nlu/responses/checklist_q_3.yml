@@ -1,0 +1,212 @@
+
+responses:
+
+  utter_ask_question31: 
+  - text: "Pada posisi bayi telentang, pegang kedua tangannya lalu tarik perlahan-lahan ke posisi duduk. Dapatkah bayi mempertahankan lehernya secara kaku seperti gambar di sebelah kiri ? Jawab TIDAK bila kepala bayi jatuh kembali seperti gambar sebelah kanan."
+    image: "https://i.ibb.co/Mc1QzsN/Screenshot-2024-04-10-180956.png"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question32: 
+  - text: "Tarik perhatian bayi dengan memperlihatkan wool merah, kemudian jatuh kan ke lantai. Apakah bayi mencoba mencarinya? Misalnya mencari di bawah meja atau di belakang kursi?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question33: 
+  - text: "Taruh 2 kubus di atas meja, buat agar bayi dapat memungut masing-masing kubus dengan masing-masing tangan dan memegang satu kubus pada masing-masing tangannya"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question34: 
+  - text: "Taruh kismis di atas meja. Dapatkah bayi memungut dengan tangannya benda-benda kecil seperti kismis, kacang-kacangan, potongan biskuit, dengan gerakan miring atau menggerapai seperti gambar?"
+    image: "https://i.ibb.co/rF1nDLB/Screenshot-2024-04-10-181249.png"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question35: 
+  - text: "Letakkan suatu mainan yang dinginkannya di luar jangkauan bayi, apakah ia mencoba mendapatkannya dengan mengulurkan lengan atau badannya?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question36: 
+  - text: "Apakah pernah melihat bayi memindahkan mainan atau kue kering dari satu tangan ke tangan yang lain? Benda-benda panjang seperti sendok atau kerincingan bertangkai tidak ikut dinilai."
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question37: 
+  - text: "Apakah bayi dapat makan kue kering sendiri?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question38: 
+  - text: "Pada waktu bayi bermain sendiri dan ibu diam-diam datang berdiri di belakangnya, apakah ia menengok ke belakang seperti mendengar kedatangan anda? Suara keras tidak ikut dihitung. Jawab YA hanya jika anda melihat reaksinya terhadap suara yang perlahan atau bisikan."
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question39: 
+  - text: "Jika anda mengangkat bayi melalui ketiaknya ke posisi berdiri, dapatkah ia menyangga sebagian berat badan dengan kedua kakinya? Jawab YA bila ia mencoba berdiri dan sebagian berat badan tertumpu pada kedua kakinya."
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question310: 
+  - text: "Tanpa disangga oleh bantal, kursi atau dinding, dapatkah bayi duduk sendiri selama 60 detik?"
+    image: "https://i.ibb.co/7KnW3dn/Screenshot-2024-04-10-182141.png"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+        
+  utter_slots_valuethird:
+  - text: "Berikut Rangkuman Checklist Anda:\n
+            1. Pada posisi bayi telentang, pegang kedua tangannya lalu tarik perlahan-lahan ke posisi duduk. Dapatkah bayi mempertahankan lehernya secara kaku seperti gambar di sebelah kiri ? Jawab TIDAK bila kepala bayi jatuh kembali seperti gambar sebelah kanan. {question31}\n
+            2. Tarik perhatian bayi dengan memperlihatkan wool merah, kemudian jatuh kan ke lantai. Apakah bayi mencoba mencarinya? Misalnya mencari di bawah meja atau di belakang kursi? {question32}\n
+            3. Taruh 2 kubus di atas meja, buat agar bayi dapat memungut masing-masing kubus dengan masing-masing tangan dan memegang satu kubus pada masing-masing tangannya {question33}\n
+            4. Taruh kismis di atas meja. Dapatkah bayi memungut dengan tangannya benda-benda kecil seperti kismis, kacang-kacangan, potongan biskuit, dengan gerakan miring atau menggerapai seperti gambar ? {question34}\n
+            5. Letakkan suatu mainan yang dinginkannya di luar jangkauan bayi, apakah ia mencoba mendapatkannya dengan mengulurkan lengan atau badannya? {question35}\n
+            6. Apakah pernah melihat bayi memindahkan mainan atau kue kering dari satu tangan ke tangan yang lain? Benda-benda panjang seperti sendok atau kerincingan bertangkai tidak ikut dinilai. {question36} \n
+            7. Apakah bayi dapat makan kue kering sendiri? {question37}\n
+            8. Pada waktu bayi bermain sendiri dan ibu diam-diam datang berdiri di belakangnya, apakah ia menengok ke belakang seperti mendengar kedatangan anda? Suara keras tidak ikut dihitung. Jawab YA hanya jika anda melihat reaksinya terhadap suara yang perlahan atau bisikan. {question38} \n
+            9. Jika anda mengangkat bayi melalui ketiaknya ke posisi berdiri, dapatkah ia menyangga sebagian berat badan dengan kedua kakinya? Jawab YA bila ia mencoba berdiri dan sebagian berat badan tertumpu pada kedua kakinya. {question39} \n
+            10. Tanpa disangga oleh bantal, kursi atau dinding, dapatkah bayi duduk sendiri selama 60 detik? {question310} \n"
+  
+  utter_response_question31:
+  - text: "Solusi Pertanyaan Nomor 1:\n
+  Aspek: Motorik Kasar\n
+  Perkembangan: Mempertahankan posisi kepala tetap tegak dan stabil\n
+  Stimulasi:\n
+  1. Mengembangkan kontrol terhadap kepala (Tunggu sampai otot-otot leher bayi cukup kuat)\n
+  • Latih bayi agar otot-otot lehernya kuat. Letakkan bayi pada posisi telentang. Pegang kedua pergelangan tangan bayi, tarik bayi perlahan-lahan ke arah anda, hingga badan bayi terangkat ke posisi setengah duduk. Jika bayi belum dapat mengontrol kepalanya (kepala bayi tidak ikut terangkat), jangan lakukan latihan ini. Tunggu sampai otot-otot leher bayi lebih kuat.\n
+  2. Duduk\n
+  • Bantu bayi agar bisa duduk sendiri, mula-mula bayi didudukkan di kursi dengan sandaran agar tidak jatuh ke belakang. Ketika bayi dalam posisi duduk , beri mainan kecil ditangannya. Jika bayi belum bisa duduk tegak, pegang badan bayi. Jika bayi bisa duduk tegak, dudukkan bayi di lantai yang beralaskan selimut, tanpa sandaran atau penyangga.\n
+  Sumber:\n
+  Aplikasi PrimaKu yang didukung oleh Ikatan Dokter Anak Indonesia (IDAI)\n"
+
+  utter_response_question32:
+  - text: "Solusi Pertanyaan Nomor 2:\n
+  Aspek: Motorik Halus\n
+  Perkembangan: Mencari benda\n
+  Stimulasi:\n
+  1. Menyembunyikan mainan dan meminta anak untuk mencarinya\n
+  • Sembunyikan mainan/benda yang disukai bayi dengan cara menutupnya dengan selimut/kain/koran, sebagian saja. Tunjukkan ke bayi cara menemukan mainan tersebut yaitu dengan cara mengangkat penutup mainan. Setelah bayi mengerti permainan ini, maka tutup mainan tersebut sepenuhnya dan biarkan ia mencari mainan itu sendiri.\n
+  Sumber:\n
+  Aplikasi PrimaKu yang didukung oleh Ikatan Dokter Anak Indonesia (IDAI)\n"
+
+  utter_response_question33:
+  - text: "Solusi Pertanyaan Nomor 3:\n
+  Aspek: Motorik Halus\n
+  Perkembangan: Memungut dua benda, masing-masing tangan pegang satu benda pada saat yang bersamaan\n
+  Stimulasi:\n
+  1. Membuat bunyi-bunyian\n
+  • Tangan kanan dan kiri bayi masing-masing memegang mainan yang tidak dapat pecah (kubu/balok kecil). Bantu agar bayi membuat bunyi-bunyian dengan cara memukul-mukul kedua benda tersebut\n
+  2. Memasukkan benda ke dalam wadah\n
+  • Ajari bayi cara memasukkan mainan/benda kecil ke dalam suatu wadah yang dibuat dari karton/kaleng/kardus/botol air mineral bekas. Setelah bayi memasukkan benda-benda tersebut ke dalam wadah, ajari cara mengeluarkan benda tersebut dan memasukkannya kembali. Pastikan benda-benda tersebut tidak berbahaya, seperti: jangan terlalu kecil karena akan membuat tersedak bila benda itu tertelan.\n
+  Sumber:\n
+  Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI\n"
+
+  utter_response_question34:
+  - text: "Solusi Pertanyaan Nomor 4:\n
+  Aspek: Motorik Halus\n
+  Perkembangan: Memungut benda sebesar kacang dengan cara meraup \n
+  Stimulasi:\n
+  1. Memasukkan benda ke dalam wadah\n
+  • Ajari bayi cara memasukkan mainan/benda kecil ke dalam suatu wadah yang dibuat dari karton/kaleng/kardus/botol air mineral bekas. Setelah bayi memasukkan benda-benda tersebut ke dalam wadah, ajari cara mengeluarkan benda tersebut dan memasukkannya kembali. Pastikan benda-benda tersebut tidak berbahaya, seperti: jangan terlalu kecil karena akan membuat tersedak bila benda itu tertelan.\n
+  2. Membuat bunyi-bunyian\n
+  • Tangan kanan dan kiri bayi masing-masing memegang mainan yang tidak dapat pecah (kubu/balok kecil). Bantu agar bayi membuat bunyi-bunyian dengan cara memukul-mukul kedua benda tersebut.\n
+  Sumber:\n
+  Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI\n"
+
+  utter_response_question35:
+  - text: "Solusi Pertanyaan Nomor 5:\n
+    Aspek: Sosialisasi dan Kemandirian \n
+    Perkembangan: Berusaha meraih mainan\n
+    Stimulasi:\n
+    1. Berlatih meraih mainan\n
+    • Letakkan sebuah mainan di luar jangkauan bayi. Gerak-gerakkan mainan itu di depan bayi sambil bicara kepadanya agar ia berusaha untuk mengambil mainan tersebut. Jangan terlalu lama membiarkan bayi berusaha meraih mainan tersebut, agar bayi merasa berhasil.\n
+    Sumber:\n
+    Aplikasi PrimaKu yang didukung oleh Ikatan Dokter Anak Indonesia (IDAI)\n"
+
+  utter_response_question36:
+  - text: "Solusi Pertanyaan Nomor 6:\n
+    Aspek: Motorik Halus \n
+    Perkembangan: Memindahkan benda dari satu tangan ke tangan lainnya\n
+    Stimulasi:\n
+    1. Memegang benda dengan kuat\n
+    2. Memegang benda dengan kedua tangannya\n
+    3. Mengambil benda-benda kecil\n
+    4. Bermain “genderang”\n
+    • Ambil kaleng kosong bekas, bagian atasnya ditutup dengan plastik/kertas tebal seperti “genderang”. Tunjukkan cara memukul “genderang” dengan sendok/centong kayu sehingga menimbulkan suara.\n
+    5. Memegang alat tulis dan mencoret-coret\n
+    • Sediakan krayon/pensil berwarna dan kertas bekas di atas meja. Dudukkan bayi dipangkuan anda, bantu bayi agar ia dapat memegang krayon/pensil dan ajarkan bagaimana mencoret-coret kertas.\n
+    Sumber:\n
+    Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI\n"
+
+  utter_response_question37:
+  - text: "Solusi Pertanyaan Nomor 7:\n
+    Aspek: Sosialisasi dan Kemandirian \n
+    Perkembangan: Makan kue kering sendiri\n
+    Stimulasi:\n
+    1. Berlatih dengan finger food\n
+    • Berikan finger food yang mudah digenggam dan dampingi anak selama memegang finger food tersebut.\n
+    Sumber: Bidan - Rizki Amalia SST., M.P.H.\n
+    "
+
+  utter_response_question38:
+  - text: "Solusi Pertanyaan Nomor 8:\n
+    Aspek: Bicara dan Bahasa \n
+    Perkembangan: Mencari sumber suara\n
+    Stimulasi:\n
+    1. Latih bayi agar menengok ke sumber suara\n
+    • Suara sebaiknya mula-mula datang dari arah samping bayi dulu, bukan dari atas atau belakang. Arahkan wajah bayi ke sumber suara dengan pelan-pelan memalingkan wajahnya ke sumber suara, atau bawa bayi mendekati sumber suara sambil menunjuk sumber suara.\n
+    Sumber: Aplikasi PrimaKu yang didukung oleh Ikatan Dokter Anak Indonesia (IDAI) \n
+    "
+
+  utter_response_question39:
+  - text: "Solusi Pertanyaan Nomor 9:\n
+    Aspek: Motorik Kasar \n
+    Perkembangan: Belajar berdiri, kedua kakinya menyanggah sebagian berat badan\n
+    Stimulasi:\n
+    1. Menarik ke posisi berdiri\n
+    • Dudukkan bayi ditempat tidur, kemudian tarik bayi ke posisi berdiri. Selanjutnya, lakukan hal tersebut di atas meja, kursi atau tempat lainnya\n
+    2. Berjalan berpegangan\n
+    • Ketika bayi telah mampu berdiri, letakkan mainan yang disukainya didepan bayi dan jangan terlalu jauh. Buat agar bayi mau berjalan berpegangan pada ranjangnya atau perabot rumah tangga untuk mencapai mainan tersebut.\n
+    3. Berjalan dengan bantuan\n
+    • Pegang kedua tangan bayi dan buat agar ia mau melangkah\n
+    Sumber: Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI\n
+  "
+  utter_response_question310:
+  - text: "Solusi Pertanyaan Nomor 10:\n
+    Aspek: Motorik Kasar \n
+    Perkembangan: Belajar posisi duduk \n
+    Stimulasi: \n
+    1. Bantu bayi agar bisa duduk sendiri \n
+    • Mula-mula bayi didudukkan di kursi dengan sandaran agar tidak jatuh ke belakang. Ketika bayi dalam posisi duduk, beri mainan kecil di tangannya. Jika bayi belum bisa duduk tegak, pegang badan bayi. Jika bayi bisa duduk tegak, dudukkan bayi di lantai yang beralaskan selimut, tanpa sandaran atau penyangga.\n
+    Sumber: Aplikasi PrimaKu yang didukung oleh Ikatan Dokter Anak Indonesia (IDAI)\n
+    "

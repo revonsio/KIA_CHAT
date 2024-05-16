@@ -1,0 +1,167 @@
+responses:
+  utter_ask_question61: 
+  - text: "Letakkan kismis diatas meja dekat anak, apakah anak dapat mengambil dengan ibu jari dan telunjuk?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question62: 
+  - text: "Gelindingkan bola tenis ke arah anak, apakah dapat mengelindingkan / melempar bola kembali kepada anda?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question63: 
+  - text: "Apakah anak dapat bertepuk tangan atau melambaikan tangan tanpa bantuan?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question64: 
+  - text: "Apakah anak dapat mengatakan “papa” ketika melihat atau memanggil ayahnya atau mengatakan “mama” ketika melihat atau memanggil ibunya?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question65: 
+  - text: "Apakah anak dapat menunjukkan apa yang diingikan tanpa menangis atau merengek?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question66: 
+  - text: "Apakah anak dapat minum dari cangkir/gelas sendiri tanpa tumpah?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question67: 
+  - text: "Apakah anak dapat berdiri kira-kira 5 detik tanpa pegangan?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question68: 
+  - text: "Apakah anak dapat berdiri kira kira lebih dari 30 detik tanpa pegangan?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question69: 
+  - text: "Letakkan kubus di lantai, minta anak memungut, apakah anak dapat memungut dan berdiri kembali tanpa berpegangan?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question610: 
+  - text: "Minta anak berjalan sepanjang ruangan, dapatkan ia berjalan tanpa terhunyung/jatuh?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+        
+  utter_slots_valuesixth:
+  - text: "Berikut Rangkuman Checklist Anda:\n
+            1. Letakkan kismis diatas meja dekat anak, apakah anak dapat mengambil dengan ibu jari dan telunjuk? {question61} \n
+            2. Gelindingkan bola tenis ke arah anak, apakah dapat mengelindingkan / melempar bola kembali kepada anda? {question62} \n
+            3. Apakah anak dapat bertepuk tangan atau melambaikan tangan tanpa bantuan? {question63} \n
+            4. Apakah anak dapat mengatakan “papa” ketika melihat atau memanggil ayahnya atau mengatakan “mama” ketika melihat atau memanggil ibunya? {question64} \n
+            5. Apakah anak dapat menunjukkan apa yang diingikan tanpa menangis atau merengek? {question65} \n
+            6. Apakah anak dapat minum dari cangkir/gelas sendiri tanpa tumpah?
+ {question66} \n
+            7. Apakah anak dapat berdiri kira-kira 5 detik tanpa pegangan?
+ {question67} \n
+            8. Apakah anak dapat berdiri kira kira lebih dari 30 detik tanpa pegangan? {question68} \n
+            9. Letakkan kubus di lantai, minta anak memungut, apakah anak dapat memungut dan berdiri kembali tanpa berpegangan? {question69} \n
+            10. Minta anak berjalan sepanjang ruangan, dapatkan ia berjalan tanpa terhunyung/jatuh? {question610} \n
+          "
+
+  utter_response_question61:
+  - text: "Solusi Pertanyaan Nomor 1:\n
+  Stimulasi:\n
+  Letakkan benda kecil seperti potongan-potongan biskuit yang mudah hancur di hadapan bayi. Ajari bayi mengambil benda-benda tersebut. Biasakan menjauhkan tempat penyimpanan pil/obat/benda kecil berbahaya lainnya dari jangkauan bayi.\n
+  Sumber: Aplikasi PrimaKu yang didukung oleh Ikatan Dokter Anak Indonesia (IDAI)
+    "
+
+  utter_response_question62:
+  - text: "Solusi Pertanyaan Nomor 2:\n
+  Stimulasi:\n
+  Sering-seringlah bermain bola bersama anak, gelindingkan bola ke arahnya dan minta anak untuk mengembalikan bola tersebut.\n
+  Sumber: Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI
+  "
+
+  utter_response_question63:
+  - text: "Solusi Pertanyaan Nomor 3:\n
+  Stimulasi:\n
+  1. Melambai “dadah” dengan orang lain. Ketika anggota keluarga lain pergi, lambaikan tangan ke bayi sambil berkata “dadah”, bantu bayi membalas lambaian.\n
+  2. Bertepuk tangan. Ketika anggota keluarga lain datang atau pulang, bantu bayi untuk bertepuk tangan menyambut kedatangan orang tersebut.\n
+  Sumber: Aplikasi PrimaKu yang didukung oleh Ikatan Dokter Anak Indonesia (IDAI)
+  "
+
+  utter_response_question64:
+  - text: "Solusi Pertanyaan Nomor 4:\n
+  Stimulasi:\n
+  1. Menirukan kata-kata. Ketika berbicara dengan bayi, ulangi beberapa kata sederhana berkali-kali dan usahakan agar bayi menirukannya. Yang paling mudah ditirukan oleh bayi adalah kata yang menggunakan huruf vokal dan gerakan bibir, misalnya seperti papa dan mama.\n
+  Sumber: Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI
+  "
+
+  utter_response_question65:
+  - text: "Solusi Pertanyaan Nomor 5:\n
+  Stimulasi:\n
+  1. Ajarkan anak untuk berbicara dengan baik saat meminta sesuatu. Membutuhkan edukasi atau diarahkan untuk berbicara saat akan meminta sesuatu\n
+  Sumber: Bidan - Rizki Amalia SST., M.P.H.
+  "
+
+  utter_response_question66:
+  - text: "Solusi Pertanyaan Nomor 6:\n
+  Stimulasi:\n
+  Diberi contoh oleh orang dewasa disekitarnya, ketika minuman anak tumpah tidak terlalu dimarahi atau dibentak dengan suara keras dan diberikan kesempatan untuk mencoba lagi\n
+  Sumber: Bidan - Rizki Amalia SST., M.P.H.
+  "
+
+  utter_response_question67:
+  - text: "Solusi Pertanyaan Nomor 7:\n
+  Stimulasi:\n
+  • Gunakan activity walker, gendongan yang dipegangi bagian atasnya (baby walker safety strap).\n
+  Sumber: Bidan - Rizki Amalia SST., M.P.H.
+  "
+
+  utter_response_question68:
+  - text: "Solusi Pertanyaan Nomor 8:\n
+  Stimulasi:\n
+  • Gunakan activity walker, gendongan yang dipegangi bagian atasnya (baby walker safety strap).\n
+  Sumber: Bidan - Rizki Amalia SST., M.P.H.
+  "
+
+  utter_response_question69:
+  - text: "Solusi Pertanyaan Nomor 9:\n
+  Stimulasi: \n
+  1. Latihan membungkuk mengambil mainan. Letakkan mainan yang disukai di bawah bayi ketika ia sedang berdiri, agar bayi membungkuk memungut mainan kemudian berdiri kembali.\n
+  Sumber: Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI
+  "
+
+  utter_response_question610:
+  - text: "Solusi Pertanyaan Nomor 10:\n
+  Stimulasi:\n
+  • Dorong - dorong kursi atau galon kosong, dipegangkan ke tembok atau furniture rendah\n
+  Sumber: Bidan - Rizki Amalia SST., M.P.H.
+  "

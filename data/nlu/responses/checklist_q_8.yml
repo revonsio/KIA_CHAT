@@ -1,0 +1,171 @@
+responses:
+  utter_ask_question81: 
+  - text: "Apakah anak dapat meletakkan satu kubus di atas kubus yang lain tanpa menjatuhkan kubus itu?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question82: 
+  - text: "Tanpa bimbingan, petunjuk, atau bantuan anda, dapatkah anak menunjuk dengan benar paling sedikit satu bagian badannya (rambut, mata, hidung, mulut, atau bagian badan yang lain)?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question83: 
+  - text: "Apakah anak suka meniru bila ibu sedang melakukan pekerjaan rumah tangga (menyapu, mencuci, dll)?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question84: 
+  - text: "Apakah anak dapat mengucapkan paling sedikit 3 kata yang mempunyai arti selain 'papa' dan 'mama'?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question85: 
+  - text: "Apakah anak berjalan mundur 5 langkah atau lebih tanpa kehilangan keseimbangan? (Anda mungkin dapat melihatnya ketika anak menarik mainannya)"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question86: 
+  - text: "Dapatkah anak melepas pakaiannya seperti Baju, Rok, atau celananya ?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question87: 
+  - text: "Dapatkah anak berjalan naik tangga sendiri? Jawab YA jika ia naik tangga dengan posisi tegak atau berpegangan pada dinding atau pegangan tangga. Jawab TIDAK jika ia naik tangga dengan merangkak atau anda tidak mebolehkan anak naik tangga atau anak harus berpegangan pada seseorang."
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question88: 
+  - text: "Dapatkah anak makan nasi sendiri tanpa banyak tumpah?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question89: 
+  - text: "Dapatkah anak membantu memungt mainannya sendiri atau membantu mengangkat piring jika diminta?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+
+  utter_ask_question810: 
+  - text: "Letakkan bola tenis di depan kakinya. Apakah dia dapat menendangnya, tanpa berpegangan pada apapun?"
+    quick_replies:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+        
+  utter_slots_valueeighth:
+  - text: "Berikut Rangkuman Checklist Anda:\n
+            1. Apakah anak dapat meletakkan satu kubus di atas kubus yang lain tanpa menjatuhkan kubus itu? {question81} \n
+            2. Tanpa bimbingan, petunjuk, atau bantuan anda, dapatkah anak menunjuk dengan benar paling sedikit satu bagian badannya (rambut, mata, hidung, mulut, atau bagian badan yang lain)? {question82} \n
+            3. Apakah anak suka meniru bila ibu sedang melakukan pekerjaan rumah tangga (menyapu, mencuci, dll)? {question83} \n
+            4. Apakah anak dapat mengucapkan paling sedikit 3 kata yang mempunyai arti selain 'papa' dan 'mama'? {question84} \n
+            5. Apakah anak berjalan mundur 5 langkah atau lebih tanpa kehilangan keseimbangan? (Anda mungkin dapat melihatnya ketika anak menarik mainannya) {question85} \n
+            6. Dapatkah anak melepas pakaiannya seperti Baju, Rok, atau celananya? {question86} \n
+            7. Dapatkah anak berjalan naik tangga sendiri? Jawab YA jika ia naik tangga dengan posisi tegak atau berpegangan pada dinding atau pegangan tangga. Jawab TIDAK jika ia naik tangga dengan merangkak atau anda tidak mebolehkan anak naik tangga atau anak harus berpegangan pada seseorang. {question87} \n
+            8. Dapatkah anak makan nasi sendiri tanpa banyak tumpah? {question88} \n
+            9. Dapatkah anak membantu memungt mainannya sendiri atau membantu mengangkat piring jika diminta? {question89} \n
+            10. Letakkan bola tenis di depan kakinya. Apakah dia dapat menendangnya, tanpa berpegangan pada apapun? {question810} \n
+          "
+  
+  utter_response_question81:
+  - text: "Solusi Pertanyaan Nomor 1: \n
+  Stimulasi:\n
+  1. Permainan balok\n
+  Beli atau buat balok-balok kecil dari kayu dengan ukuran sekitar 2,5 cm x 2,5 cm x 2,5 cm. Ajari anak cara menyusun balok menumpuk ke atas tanpa menjatuhkannya.\n
+  Sumber: Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI
+  "
+
+  utter_response_question82:
+  - text: "Solusi Pertanyaan Nomor 2: \n
+  Stimulasi:\n
+  1. Kenalkan anak dengan bagian - bagian tubuhnya, seperti kepala, tangan, kaki dan sebagainya. Selain itu, mulai kenalkan anak tentang jenis kelaminnya, baik saat memandikan atau memakaikan pakaian. Gunakan kata sederhana dan dengan intonasi datar\n
+  2. Bercerita tentang diri anak. Anak senang mendengar cerita tentang dirinya. Ceritakan kembali kejadian-kejadian lucu dan menarik yang dialami anak.\n
+  Sumber: Aplikasi PrimaKu yang didukung oleh Ikatan Dokter Anak Indonesia (IDAI)
+  "
+
+  utter_response_question83:
+  - text: "Solusi Pertanyaan Nomor 3: \n
+  Stimulasi:\n
+  Ajari anak menirukan pekerjaan rumah tangga. Ketika membersihkan rumah, menyapu dan melakukan pekerjaan rumah tangga lainnya, ajak anak untuk menirukannya. Berikan lap pembersih debu, sapu dan lain lain kepadanya.\n
+  Sumber: Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI
+  "
+
+  utter_response_question84:
+  - text: "Solusi Pertanyaan Nomor 4: \n
+  Stimulasi:\n
+  1. Sering berbicara dengan anak\n
+  Bicara banyak-banyak kepada anak, gunakan kalimat-kalimat pendek, jelas dan mudah ditiru anak.\n
+  2. Melihat acara televisi\n
+  Biarkan anak melihat acara anak-anak di televisi.Dampingi anak dan bicarakan apa yang dilihatnya. Pilih acara yang bermutu dan sesuai dengan perkembangan anak dan batasi agar anak melihat televisi tidak lebih dari 1 jam sehari.\n
+  Sumber: Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI
+  "
+
+  utter_response_question85:
+  - text: "Solusi Pertanyaan Nomor 5: \n
+  Stimulasi:\n
+  Belajar berjalan mundur 5 langkah. Bila anak sudah jalan tanpa berpegangan, ajari anak cara melangkah mundur. Berikan mainan yang bisa ditarik karena anak akan mengambil langkah mundur untuk dapat memperhatikan mainan itu.\n
+  Sumber: Aplikasi PrimaKu yang didukung oleh Ikatan Dokter Anak Indonesia (IDAI)
+  "
+
+  utter_response_question86:
+  - text: "Solusi Pertanyaan Nomor 6: \n
+  Stimulasi:\n
+  1. Belajar berpakaian. Ajari anak mengenakan pakaian sendiri tanpa bantuan. Beri kesempatan anak memilih sendiri pakaian yang akan dikenakannya.\n
+  2. Belajar melepas pakaian sendiri\n
+  Sumber: Aplikasi PrimaKu yang didukung oleh Ikatan Dokter Anak Indonesia (IDAI)
+  "
+
+  utter_response_question87:
+  - text: "Solusi Pertanyaan Nomor 7: \n
+  Stimulasi:\n
+  Berjalan naik dan turun tangga. Bila anak sudah bisa merangkak naik dan melangkah turun tangga, ajari anak cara jalan naik tangga sambil berpegangan pada dinding atau pada tangga. Tetap bersama anak ketika ia melakukan hal ini untuk pertama kalinya.\n
+  Sumber: Aplikasi PrimaKu yang didukung oleh Ikatan Dokter Anak Indonesia (IDAI)
+  "
+
+  utter_response_question88:
+  - text: "Solusi Pertanyaan Nomor 8: \n
+  Stimulasi:\n
+  Belajar makan sendiri. Tunjukkan pada anak cara memegang sendok. Biarkan anak makan sendiri dan bantu jika anak mengalami kesulitan.\n
+  Sumber: Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI
+  "
+
+  utter_response_question89:
+  - text: "Solusi Pertanyaan Nomor 9: \n
+  Stimulasi:\n
+  Mulai memberi perintah kepada anak. 'Tolong bawakan kaus kaki merah', atau 'Letakkan cangkirmu di meja'. Tunjukkan kepada anak cara mengerjakan perintah tadi, gunakan kata - kata yang sederhana.\n
+  Sumber: Buku panduan SDIDTK anak oleh Kementerian Kesehatan RI
+  "
+
+  utter_response_question810:
+  - text: "Solusi Pertanyaan Nomor 10: \n
+  Stimulasi:\n
+  1. Bermain bola. Sering - seringlah bermain bola bersama anak, gelindingkan bola ke arahnya dan minta anak untuk mengembalikan bola tersebut dengan cara menendangnya.\n
+  2. Mendorong mainan dengan kaki. Biarkan anak mencoba mainan yang perlu didorong dengan kakinya agar mainan itu dapat bergerak maju.\n
+  Sumber: Aplikasi PrimaKu yang didukung oleh Ikatan Dokter Anak Indonesia (IDAI)
+  "

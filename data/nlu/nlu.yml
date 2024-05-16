@@ -1,0 +1,131 @@
+version: "3.1"
+
+nlu:
+- intent: menu_bb
+  examples: |
+    - berat badan
+    - bb
+    - menu 1
+    - 1
+
+- intent: menu_tb
+  examples: |
+    - tinggi badan
+    - tb
+    - menu 2
+    - 2
+
+- intent: menu_tk
+  examples: |
+    - tumbuh kembang
+    - tk
+    - menu 3
+    - 3
+
+- intent: menu_lainnya
+  examples: |
+    - lainnya
+    - menu 4
+    - 4
+
+- intent: greet
+  examples: |
+    - halo kia
+    - halo
+    - selamat pagi
+    - selamat siang
+    - selamat malam
+    - hai
+    - hello
+    - hi
+    - apa kabar?
+    - bagaimana kabarmu?
+    - apakah kamu bisa membantu saya?
+    - saya butuh bantuan
+    - saya punya pertanyaan
+    - mulai
+    - start
+    
+- intent: pamit
+  examples: |
+    - selamat tinggal
+    - bye
+    - sampai jumpa lagi
+    - terima kasih
+    - sampai ketemu lagi
+    - good bye
+    - senang bertemu lagi
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - jelaskan layanan anda
+    - siapakah anda
+    - perkenalkan diri anda
+    - apa saja yang bisa anda jawab
+    - info layanan
+
+- intent: laki_laki
+  examples: |
+    - laki-laki
+    - cowok
+    - pria
+
+- intent: perempuan
+  examples: |
+    - perempuan
+    - cewek
+    - wanita
+
+- intent: affirm
+  examples: |
+    - ya
+    - benar
+    - betul
+    - data sudah benar
+    - konfirmasi
+    - yes
+    - bisa 
+    - ada
+
+- intent: deny
+  examples: |
+    - tidak bisa
+    - tidak
+    - nggak
+    - gak
+    - belum
+    - no
+    - salah
+    - tidak ada
+    - gak ada
+    
+- intent: inform_umur
+  examples: |
+    - umur [1](umur) bulan
+    - [1](umur) bulan
+    - [0.5](umur) bulan
+    - [1](umur)
+    - [2](umur) bulan 
+    - [3](umur) bulan
+    - [0](umur) bulan
+
+- intent: inform_berat_badan
+  examples: |
+    - berat badan [1](berat_badan) kg
+    - [1](berat_badan) kilogram
+    - [2](berat_badan) kilo
+    - [0](berat_badan) kg
+    - [5](berat_badan) kilogram
+
+- intent: inform_tinggi_badan
+  examples: |
+    - tinggi badan [0](tinggi_badan) cm
+    - [45](tinggi_badan) centimeter
+    - [60](tinggi_badan) centi meter
+    - [20](tinggi_badan) cm
+    - [55](tinggi_badan) centi
+    

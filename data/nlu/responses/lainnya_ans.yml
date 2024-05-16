@@ -1,0 +1,90 @@
+version: "3.1"
+
+responses:
+  # utter_lainnya/:
+  # - text: ""
+
+  utter_lainnya_manfaat_lagu:
+  - text: "Selama beberapa bulan pertama setelah lahir, otak dapat memproses musik di area khusus, yang dimana ini bisa membantu bayi untuk semakin berkembang. Ada beberapa manfaat yang bisa diberikan seperti: \n
+  1. Memperkuat ikatan anak dan orang tua, menyanyikan lagu untuk bayi sebelum tidur secara rutin akan membantu mama untuk lebih dekat dengan bayi\n
+  2. Menangkan bayi, dimana nada yang menenangkan dpaat membuat si kecil tertidur\n
+  3. Meningkatkan fungsi kognitifnya karena repetisi lirik akan membantu meningkatkan perkembangan kognitifnya dan meningkatkan keterampilan mendengar\n
+  4. Mengembangkan kemampuan bahasa karena secara tidak langsung bernyanyi dapat membantu bayi untuk mendengarkan dan mempelajari berbagai bahasa dan kosakata.\n
+  Kebiasaan bernyanyi bisa dilakukan sejak bayi masih di dalam kandungan, namun manfaat diatas tidak selalu mutlak ya, dimana terutama perkembangan otak belum ada bukti lebih lanjut akan manfaatnya, namun nyanyian tetap memberikan manfaat, pilih lagu yang menangkan dan tidak menganggetkan bayi. Bunda bisa cari referensi tertentu lagu yang cocok untuk bayi di internet. Semoga dapat membantu\n
+  Sumber: dr. Riza Marlina from Alodokter accessed on 3/7/2024"
+
+  utter_lainnya_bayi_ngulet:
+  - text: "Menggeliat (ngulet) hingga wajah kemerahan pada bayi umumnya wajar dilakukannya untuk meregangkan otot-otot tubuhnya. Biasanya, kondisi ini ia lakukan saat bangun tidur, saat habis dilepas bedong atau bajunya, saat habis diturunkan dari gendongan, atau pada saat-saat lainnya. Asal tidak muncul keluhan lain, seperti bayi tampak kesakitan, rewel berlebihan, sulit buang angin, gangguan buang air besar atau kecil, perut kembung atau kencang, dan sebagainya, besar kemungkinan kondisi bayi Anda tidaklah berbahaya. Namun, jika muncul keluhan lain yang mengganggu, maka tidak ada salahnya bayi Anda diperiksakan langsung ke dokter. Khawatirnya, menggeliat tersebut muncul terkait suatu penyakit, contohnya kolik abdomen, penyakit jantung bawaan, dan sebagainya.
+  Sebagai langkah awal, penanganan berikut bisa Anda lakukan:
+  1. Kenakan pada bayi pakaian yang longgar dan lembut bahannya\n
+  2. Ganti-ganti posisi Anda saat menggendong bayi, ubah-ubah juga posisi tidurnya\n
+  3. Ajak bayi Anda aktif bergerak, pijat lembut juga tubuhnya agar otot-ototnya lemas\n
+  4. Hindari mengurut tubuhnya berlebihan\n
+  5. Susui bayi Anda ASI, jangan beri ia tambahan makanan dan minuman apapun sebelum usianya genap 6 bulan\n
+  6. Biarkan bayi Anda tidur cukup, kondisikan lingkungan sekitarnya agar nyaman\n
+  Sumber: dr. Nadia Nurotul Fuadah from Alodokter accessed on 3/7/2024
+  "
+
+  utter_lainnya_2tahun_bicara:
+  - text: "Kemampuan bicara anak secara umum di mulai sejak usianya menginjak 9 bulan dimana pada usia 9 bulan anak-anak bisa mengucapkan kata-kata seperti mama walau tidak sempurna kemampuan bicara anak akan meningkat saat usianya mencapai 2 tahun, dimana perkembangan anak usia 2 tahun dalam berbicara dapat terlihat dari beberapa tanda yang ia tunjukan seperti: \n
+  1. menguasai setidaknya 50 kosa kata\n
+  2. dapat mengulangi kata-kata yang didengar dalam percakapan\n
+  3. mengucapkan 2-4 kata menjadi kalimat sederhana seperti aku mau susu\n
+  4. mengikuti petunjuk sederhana\n
+  5. menunjuk benda atau gambar saat mendengar nama dari benda tersebut\n
+  Anak dikatakan keterlambatan bicara bila :\n
+  1. belum bisa merangaki 2-3 kata menjadi kalimat\n
+  2. belum mampu mengajukan pertanyaan sederahan\n
+  3. jarang berbicara atau meniru perkataan orang lain\n
+  4. sulit menyebutkan nama-nama anggota tubuh\n
+  jika seperti ini bunda bisa bawa anak untuk melakukan konsultasi ke dokter anak untuk dilakukan pemeriksaan dan penanganan lebih lanjut. saran saya juga sebaiknya sering mengajak anak berbicara, serta berbicara sambil gerak, main bersama-sama serta puji perekmbangan si anak. semoga dapat membantu\n
+  Sumber: dr. Riza Marlina from Alodokter accessed on 3/7/2024"
+
+  utter_lainnya_bayi_tampak_kaget:
+  - text: "Bayi kaget kerap membuat orang tua merasa khawatir, terlebih bila kaget dialami bayi saat sedang tidur. dimana ketika bayi kaget ia akan tampak menangakat kedua tangannya secara tiba-tiba lalu beberapa saat kemudian tangannya kembali lagi ke samping tubuh. pada umumnya bunda tidak perlu khawatir kondisi ini merupakan hal normal dan wajar hal ini menggambarkan refleks moro yaitu refleks yang umum dimiliki oleh bayi bahkan dokter atau tenaga medis melakukan tes ini pada bayi baru lahir. umumnya kondisi ini akan berlangsung hingga bayi berusia 3-4 bulan namun ada juga berlangsung hingga berusia 6 bulan. \n
+  Namun memang bayi kagetan ini dapat mengganggu tidurnya sehingga kualitas tidurnya terganggu ada beberapa tips yang bisa bunda lakukan untuk mengurangi kondisi kagetan ini seperti: \n
+  1. usahakan tubuh bayi dekat dengan bunda, jadi saat ingin menidurkan bayi bunda bisa gendong atau pangku ia sampai si kecil tertidur lalu letakan ke tempat tidur dengan pelan-pelan \n
+  2. ketika bayi kaget sebaiknya bunda menggendong bayi atau menenangkan dengan suara halus \n
+  bunda harus waspada jika bayi mengalami kaget hingga usianya lebih dari 6 bulan jiak seperti ini maka temui dokter anak lebih lanjut untuk mendapatkan pemeriksaan.4\n
+  Sumber: dr. Riza Marlina from Alodokter accessed on 3/7/2024"
+
+  utter_lainnya_bayi_duduk_merangkak:
+  - text: "Kemampuan anak untuk duduk secara mandiri dan merangkak bisa dicapai di kisaran usia 5 hingga 9 bulan, jadi apa yang dialami anak Anda sesungguhnya masih merupakan variasi perkembangan yang wajar. Asalkan ia telah mampu menegakkan kepalanya dengan kuat saat tengkurap atau didudukkan, berguling-guling secara aktif, juga menjejakkan kakinya dengan baik saat diberdirikan, sebaiknya Anda tidak panik menyikapinya. Kondisi anak Anda yang rewel saat bertemu orang baru atau mendengar suara keras pun tidak spesifik menandakan suatu kelainan.\n
+  Saran kami, bantulah optimalkan perkembangan motorik dan sosial anak Anda dengan cara berikut: \n
+  1. Beri anak ASI yang cukup ditambah dengan MPASI yang bergizi seimbang\n
+  2. Latih anak tidur cukup dan teratur setiap harinya\n
+  3. Sediakan alas bermain yang nyaman, aman, datar, bersih, tidak terlalu empuk untuk anak\n
+  4. Latih ia duduk dengan menyandarkannya dengan posisi duduk di kursi dan menyangga sisi kanan-kirinya dengan bantal agar tidak terjatuh\n
+  5. Latih ia duduk dengan menidurkannya telentang, lantas tarik kedua tangannya sampai pada posisi duduk\n
+  6. Latih ia merangkak dengan menidurkannya telungkup dan menekuk lututnya, gerakkan maju ke depan secara bergantian kanan dan kiri, sangga perutnya, letakkan benda kesukaan anak di depannya agar ia mau meraihnya dan merangkak maju\n
+  7. Ajak anak berinteraksi dengan lingkungan sekitarnya, dengan rekan sebayanya\n
+  8. Ajak ia bermain petak umpet, latih juga ia bermain sendiri\n
+  Tidak lupa, sembari melakukan stimulasi di atas, rutinlah mengontrol status kesehatan dan tumbuh kembang anak ke dokter setiap bulannya ya.\n
+  Sumber: dr. Nadia Nurotul Fuadah from Alodokter accessed on 3/7/2024"
+
+  utter_lainnya_jari_pendek:
+  - text: "Jari tangan, sama dengan tulang tubuh lainnya kondisi ini dipengaruhi dengan faktor genetik sebagai faktor penentu utama. jari tangan bentuk dan panjangnya setiap orang berbeda-beda tergantung faktor genetik dan keturunannya. anak-anak pertumbuhan tulang masih terus berlangsung jadi jika jarinya bantet sekarang, bunda tidak perlu kahwatir karena masih masa pertumbuhan dan bisa panjang. namun semua tergantung faktor keturunan. namun jika memiliki jari tangan yang bantet sebenarnya tidak masalah selama tidak ada kelainan dan menganggu kegitaan sehari-hari. \n
+  tidak ada cara untuk memanjangkan jari tangan ya bunda, pertumbuhan akan berjalan alami dengan sendirinya. jadi tidak ada olahraga ataupun tindakan tertentu untuk memanjangkan jari tangan, selama tidak ada gangguan maka bunda tidak perlu khawatir, namun jika berat badan anak anda berlebih bisa jadi pengaruh lemak di jari, saran saya turunkan berat badan menjadi ideal.\n
+  Sumber: dr. Riza Marlina  from Alodokter accessed on 4/24/2024
+  "
+
+  utter_lainnya_efek_stunting:
+  - text: "
+  Stunting adalah suatu kondisi dimana tinggi badan anak lebih pendek ketimbang standar usianya dikarenakan malnutrisi dalam jangka panjang. Secara langsung, stunting sejatinya tidak menyebabkan anak menjadi bodoh. Namun, malnutrisi inilah yang bisa membuat perkembangan kognitif anak terhambat, sehingga menjadikannya bodoh atau memiliki IQ yang lebih rendah. Tidak hanya perkembangan kognitif, malnutrisi juga bisa mempengaruhi beragam aspek perkembangan anak lainnya, seperti perkembangan motorik kasar, halus, bahasa, dan sosioemosionalnya. Dan lagi, secara epidemiologis, stunting seringnya terjdi pada keluarga dengan tingkat sosioekonomi yang rendah, sehingga seringnya stimulasi beragam aspek perkembangan di atas tidak dianggap penting. Sebab itu, hal ini tidak bisa dianggap remeh. \n
+  Menyikapi kondisi anak Anda, sebelum parah, ia sebaiknya diperiksakanlah segera ke dokter anak agar mendapat penanganan yang tepat. Biasanya, dokter akan juga mengarahkan agar anak menjalani pemeriksaan penunjang, contohnya tes darah, tes feses, tes urin, rontgen, tes Mantoux, dan sebagainya guna menilik penyebab stuntingnya. Dengan begitu, penanganan pun bisa dilakukan dengan tepat sasaran, misalnya dengan pemberian obat atau suplemen, pemberian makanan sehat, perbaikan sanitasi, edukasi perilaku hidup bersih dan sehat, atau lainnya.\n
+  Sumber: dr. Nadia Nurotul Fuadah  from Alodokter accessed on 4/24/2024"
+
+  utter_lainnya_deteksi_stunting:
+  - text: "
+  stunting ialah suatu kondisi gangguan pertumbuhan dan perkembangan anak akibat kekurangan gizi dalam jangka panjang. penyebab utama stunting ialah malnutrisi dalam jangka panjang (kronis), dampak stunting ini terjadi akibat kekurangan nutrisi pada 1000 hari pertama anak dilahirkan. ada beberapa kondisi yang dapat menyebabkan anak mengalami kekurangan nutrisi seperti: \n
+  1. ibu hamil yang mengalami malnutrisi atau infeksi \n
+  2. anak yang tidak mendapatkan ASI eksklusif\n
+  3. kualitas gizi MPASI yang kurang\n
+  anak yang menderita penyakit seperti alergi susu sapi atau sindrom malabsorbsi, menderita penyakit kronis seperti cacingan atau TBC serta memiliki penyakit bawaan seperti thlasemia\n
+  gejala stunting umumnya bisa terlihat saat anak berusia 2 tahun, gejala dan tanda yang bisa menunjukan anak mengalami stunting ialah:\n
+  1. tinggi badan anak lebih pendek dari pada anak seusianya \n
+  2. berat badan yang tidak meningkat secara konsisten\n
+  3. pertumbuhan tulang tertunda\n
+  untuk pastinya perlu melakukan pemeriksaan lebih lanjut secara langsung dengan mengukur tinggi badan anak menurut usianya jika dibawah garis merah (-2SD) berdasarkan kurva di buku KIA(kesehatan ibu dan anak) maka anak diduga mengalami stunting.pemeriksaan ini dapat dilakukan ke posyandu atau puskesmas jadi tidak perlu harus kerumah sakit ya bunda. jika bunda melihat anak bunda tampak lebih pendek dari pada anak seusianya maka bunda bisa melakukan pemeriksana lebih lanjut ke posyandu atau puskesmas.\n
+  Sumber: dr. Riza Marlina from Alodokter accessed on 4/24/2024"
+
