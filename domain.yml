@@ -1,10 +1,13 @@
 version: '3.1'
 intents:
   - menu
+  - restart
+  - app_back
   - affirm
-  - bot_challenge
   - deny
   - greet
+  - bot_detail
+  - greet_next
   - inform_berat_badan
   - inform_tinggi_badan
   - inform_umur
@@ -23,8 +26,11 @@ intents:
   - laki_laki
   - menu_bb
   - menu_lainnya
+  - menu_lainnya_1
+  - menu_lainnya_2
   - menu_tb
   - menu_tk
+  - evaluasi
   - pamit
   - perempuan
   - setuju
@@ -47,6 +53,7 @@ intents:
   - lainnya_jari_pendek
   - lainnya_efek_stunting
   - lainnya_deteksi_stunting
+
 entities:
   - umur
   - berat_badan
@@ -236,8 +243,45 @@ forms:
 
 
 responses:
+  utter_default:
+  - text: Maaf, saya tidak mengerti maksud Anda. Mohon ketik permintaan Anda lagi.
+
+  utter_greet:
+  - text: Halo! Selamat datang di KIA CHAT.
+    buttons:
+      - title: Mengobrol Sekarang
+        payload: /greet_next
+      - title: Detail Bot
+        payload: /bot_detail  
+  - text: Halo! Selamat datang di KIA CHAT.
+    elements:
+      - title: KIA CHAT
+        image_url: https://i.ibb.co.com/n13Z31N/Untitled-design-6.png
+        subtitle: Chatbot yang dapat memberikan informasi terkait perkembangan anak balita.
+        buttons:
+          - title: Mengobrol Sekarang
+            payload: /greet_next
+          - title: Detail Bot
+            payload: /bot_detail
+    channel: facebook
+
+  utter_alert:
+  - text: "NOTE: Apabila Anda menghadapi error atau ingin memulai ulang chatbot, ketik '/restart'"
+
+  utter_bot_detail:
+  - text: "Saya adalah chatbot KIA CHAT, bot yang akan memberikan informasi terkait perkembangan anak balita, mulai dari lahir hingga usia 6 tahun. Topik informasi yang dapat saya berikan kepada Anda meliputi tumbuh kembang dan informasi kesehatan lainnya seputar anak. Informasi yang dihimpun pada bot ini bersumber dari buku Kesehatan Ibu dan Anak (KIA), buku SDIDTK, dan situs web Alodokter. \n
+  
+  Ketik perintah berikut untuk: \n
+  1. /restart - memulai ulang chatbot \n
+  2. /evaluasi -  mengisi kuesioner evaluasi chatbot \n
+  3. /end - mengakhiri percakapan chatbot \n
+  "
+    buttons:
+    - title: Kembali ke Chatbot ⏩
+      payload: /restart
+
   utter_ask_menu:
-  - text: Halo! Saya adalah KIA CHAT. Saya adalah bot yang akan memberikan informasi terkait perkembangan anak balita, mulai dari lahir hingga usia 6 tahun. Topik informasi yang dapat saya berikan kepada Anda meliputi tumbuh kembang dan informasi kesehatan lainnya seputar anak.
+  - text: "Silakan pilih menu di bawah ini:"
     buttons:
     - title: 'Berat Badan'
       payload: '/menu_bb'
@@ -249,7 +293,7 @@ responses:
       payload: '/menu_lainnya'
     button_type: vertical
 
-  - text: Halo! Saya adalah KIA CHAT. Saya adalah bot yang akan memberikan informasi terkait perkembangan anak balita, mulai dari lahir hingga usia 6 tahun. Topik informasi yang dapat saya berikan kepada Anda meliputi tumbuh kembang dan informasi kesehatan lainnya seputar anak.
+  - text: "Silakan pilih menu di bawah ini:"
     elements:
       - title: 'Berat Badan'
         image_url: https://i.ibb.co.com/dkpb2Zp/Untitled-design-2.png
@@ -283,32 +327,87 @@ responses:
   #   - Lainnya \n
   #   "
   #   channel: "twilio"
-
-  utter_iamabot:
-  - text: "Halo! Saya adalah KIA CHAT. Saya adalah bot yang akan memberikan informasi terkait perkembangan anak balita, mulai dari lahir hingga usia kurang dari 6 tahun. Topik informasi yang dapat saya berikan kepada Anda meliputi kemandirian, kemampuan berbahsa, motorik kasar, dan motorik halus."
+  utter_end_checkpoint_lainnya:
+  - text: "Demikian yang bisa KIA Chat jawab, apakah Anda ingin mengetik pertanyaan lagi?"
+    buttons: 
+      - title: Ada ✅
+        payload: /affirm
+      - title: Menu Utama 🔄
+        payload: /restart
+      - title: Tidak Ada ❌
+        payload: /deny
+    quick_replies: 
+      - title: Ada ✅
+        payload: /affirm
+      - title: Menu Utama 🔄
+        payload: /restart
+      - title: Tidak Ada ❌
+        payload: /deny
+    channel: facebook
 
   utter_end_checkpoint:
   - text: "Demikian yang bisa KIA Chat jawab, apakah ada pertanyaan lagi?"
-  
+    buttons: 
+      - title: Ada ✅
+        payload: /affirm
+      - title: Tidak Ada ❌
+        payload: /deny
+  - text: "Demikian yang bisa KIA Chat jawab, apakah ada pertanyaan lagi?"
+    quick_replies: 
+      - title: Ada ✅
+        payload: /affirm
+      - title: Tidak Ada ❌
+        payload: /deny
+    channel: facebook
+
+  utter_restart:
+  - text: Klik tombol di bawah untuk mulai ulang.
+    buttons:
+      - title: Mulai Ulang 🔄
+        payload: /greet
+  - text: Klik tombol di bawah untuk mulai ulang.
+    quick_replies:
+      - title: Mulai Ulang 🔄
+        payload: /greet
+    channel: facebook
+
+  utter_action_restart:
+  - text: Klik tombol di bawah untuk mulai ulang.
+    buttons:
+      - title: Mulai Ulang 🔄
+        payload: /greet
+  - text: Klik tombol di bawah untuk mulai ulang.
+    quick_replies:
+      - title: Mulai Ulang 🔄
+        payload: /greet
+    channel: facebook
+
   utter_pamit:
   - text: "Terima kasih telah menggunakan layanan KIA CHAT, sampai jumpa lagi!"
 
   utter_tanya_jeniskelamin:
+  - text: "Apa jenis kelamin anak Anda?"
+    buttons:
+      - title: Laki-laki 👦🏻
+        payload: /laki_laki
+      - title: Perempuan 👩🏻
+        payload: /perempuan
   - text: "Apa jenis kelamin anak Anda?"
     quick_replies:
       - title: Laki-laki 👦🏻
         payload: /laki_laki
       - title: Perempuan 👩🏻
         payload: /perempuan
+    channel: facebook
 
   utter_ask_umur:
-  - text: "Berapa umur anak Anda saat ini? (dalam bulan penuh)"
+  - text: "Berapa umur anak Anda saat ini? (dalam bulan penuh maksimal 60 bulan, contoh: '24 bulan') "
 
   utter_ask_berat_badan:
-  - text: "Berapa berat badan anak Anda saat ini? (dalam satuan kilogram)"
+  - text: "Berapa berat badan anak Anda saat ini? (dalam satuan kilogram, contoh: 10 kg)"
 
   utter_ask_tinggi_badan:
-  - text: "Berapa tinggi badan anak Anda saat ini (dalam satuan centimeter?"
+  - text: "Berapa tinggi badan anak Anda saat ini? (dalam satuan centimeter, contoh: 85 cm)"
 
   utter_slots_value_bb_l:
   - text: "Data berat badan anak Anda: \n
@@ -335,7 +434,7 @@ responses:
   - text: "Selamat datang di menu tumbuh kembang anak oleh KIA Chat. Pada bagian ini, saya akan menjawab pertanyaan-pertanyaan Anda seputar tumbuh kembang anak."
     elements:
       - title: 'Menu Tumbuh Kembang'
-        subtitle: ''
+        subtitle: 'Pilih topik di bawah ini.'
         buttons: 
            - title: Stimulus Tumbuh Kembang
              payload: /stimulus
@@ -488,15 +587,43 @@ responses:
   # - KPSP 42 bulan \n
   # "
   #   channel: "twilio"
-       
   utter_welcome_menu_lainnya:
-  - text: "Selamat datang di menu pertanyaan umum terkait tumbuh kembang anak oleh KIA CHAT. Pada bagian ini, saya akan menjawab pertanyaan-pertanyaan Anda seputar tumbuh kembang anak. Silakan ketik pertanyaan Anda."
+  - text: "Selamat datang di menu lainnya"
+    buttons:
+    - title: 'Pertanyaan Lainnya'
+      payload: '/menu_lainnya_1'
+    - title: 'Kuesioner CUQ'
+      payload: '/menu_lainnya_2'
+    button_type: vertical
 
-  utter_end_flow: 
-  - text: "Demikian yang bisa KIA CHAT jawab, apakah Anda memiliki pertanyaan lagi?"
+  - text: "Selamat datang di menu lainnya"
+    elements:
+      - title: 'Pertanyaan Lainnya'
+        image_url: https://i.ibb.co.com/zft26rx/Untitled-design-8.png
+        subtitle: 'Ketik pertanyaan apa saja yang berkaitan denagn topik tumbuh kembang anak Anda.'
+        buttons: 
+          - title: Ketik Pertanyaan
+            payload: /menu_lainnya_1
+      - title: 'Kuesioner CUQ'
+        image_url: https://i.ibb.co.com/54tyK0v/Untitled-design-7.png
+        subtitle: 'Kuesioner Chatbot Usability Questionnaire (CUQ) untuk evaluasi chatbot ini.'
+        buttons: 
+          - title: Kuesioner CUQ
+            payload: /menu_lainnya_2
+    channel: facebook
 
-  utter_end_flow_end:
-  - text: "Terima kasih telah menggunakan KIA CHAT, sampai juga lagi!"
+  utter_welcome_menu_lainnya_1:
+  - text: "Selamat datang di menu pertanyaan umum terkait tumbuh kembang anak oleh KIA CHAT. Pada bagian ini, saya akan menjawab pertanyaan-pertanyaan Anda seputar tumbuh kembang anak. \n Silakan ketik pertanyaan Anda. (contoh: 'Apa efek stunting pada anak?')"
+
+  utter_welcome_menu_lainnya_2:
+  - text: "Terima kasih telah menggunakan KIA CHAT, menu ini akan mengarahkan Anda untuk mengisi formulir yang dapat membantu pengembang membuat chatbot ini jadi lebih baik lagi."
+    elements:
+      - title: 'Evaluasi Chatbot'
+        subtitle: 'Yuk, bantu chatbot KIA CHAT menjadi lebih baik! 🙏🏻😃'
+        buttons: 
+          - title: Isi Kuesioner ✍
+            type: "web_url"
+            url: "https://its.id/m/CUQ-KIACHAT"
        
 slots:
   umur:

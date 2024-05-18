@@ -1,6 +1,37 @@
 version: "3.1"
 
 nlu:
+- intent: back
+  examples: |
+    - back
+    - /back
+- intent: greet_next
+  examples: |
+    - lanjut
+    - lanjutkan
+    - mengobrol sekarang
+    - chat with bot now
+    - skip
+    - next
+
+- intent: restart
+  examples: |
+    - restart
+    - mulai ulang
+    - restart bot
+    - /restart
+
+- intent: app_back
+  examples: |
+    - back
+    - kembali
+
+- intent: bot_detail
+  examples: |
+    - detail
+    - info chatbot
+    - informasi lanjutan
+
 - intent: menu_bb
   examples: |
     - berat badan
@@ -27,6 +58,25 @@ nlu:
     - lainnya
     - menu 4
     - 4
+
+- intent: menu_lainnya_1
+  examples: |
+    - ketik pertanyaan sendiri
+    - menu lainnya1
+
+- intent: menu_lainnya_2
+  examples: |
+    - menu lainnya2
+    - kuesioner chatbot
+    - kuesioner kia chat
+
+- intent: evaluasi
+  examples: |
+    - evaluasi chatbot
+    - evaluasi kia chat
+    - /evaluasi
+    - evaluasi
+    - cuq
 
 - intent: greet
   examples: |

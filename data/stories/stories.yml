@@ -1,9 +1,61 @@
 
 version: "3.1"
 stories:
+
+- story: start chatbot detail
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_alert
+  - intent: bot_detail
+  - action: utter_bot_detail
+  - intent: restart
+  - action: action_restart
+  # - action: utter_action_restart
+  # - action: action_restart
+
+# - story: start chatbot detail tb
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - action: utter_alert
+#   - intent: bot_detail
+#   - action: utter_bot_detail
+#   - intent: back
+#   - action: action_back
+#   # - action: utter_action_restart
+#   # - action: action_restart
+
+# - story: start chatbot detail tk
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - action: utter_alert
+#   - intent: bot_detail
+#   - action: utter_bot_detail
+#   - intent: back
+#   - action: action_back
+#   # - action: utter_action_restart
+#   # - action: action_restart
+
+# - story: start chatbot detail lainnya
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - action: utter_alert
+#   - intent: bot_detail
+#   - action: utter_bot_detail
+#   - intent: back
+#   - action: action_back
+  # - action: utter_action_restart
+  # - action: action_restart
+
 - story: start chatbot bb
   steps:
   - intent: greet
+  - action: utter_greet
+  - action: utter_alert
+  - intent: greet_next
   - action: utter_ask_menu
   - intent: menu_bb
   - checkpoint: menu_bb
@@ -11,6 +63,9 @@ stories:
 - story: start chatbot tb
   steps:
   - intent: greet
+  - action: utter_greet
+  - action: utter_alert
+  - intent: greet_next
   - action: utter_ask_menu
   - intent: menu_tb
   - checkpoint: menu_tb
@@ -18,6 +73,9 @@ stories:
 - story: start chatbot tk
   steps:
   - intent: greet
+  - action: utter_greet
+  - action: utter_alert
+  - intent: greet_next
   - action: utter_ask_menu
   - intent: menu_tk
   - checkpoint: menu_tk
@@ -25,16 +83,34 @@ stories:
 - story: start chatbot lainnya
   steps:
   - intent: greet
+  - action: utter_greet
+  - action: utter_alert
+  - intent: greet_next
   - action: utter_ask_menu
   - intent: menu_lainnya
   - action: utter_welcome_menu_lainnya
+  - checkpoint: manu_lainnya_menu  
+
+- story: start chatbot lainnya 1
+  steps:
+  - checkpoint: manu_lainnya_menu  
+  - intent: menu_lainnya_1
+  - action: utter_welcome_menu_lainnya_1
   - checkpoint: menu_lainnya
   
+- story: start chatbot lainnya 2
+  steps:
+  - checkpoint: manu_lainnya_menu  
+  - intent: menu_lainnya_2
+  - action: utter_welcome_menu_lainnya_2
+  - action: utter_restart
+
 - story: end chatbot N
   steps:
   - checkpoint: end_checkpoint
   - action: utter_end_checkpoint
   - intent: affirm
+  - action: action_restart
 
 - story: end chatbot Y
   steps:
@@ -43,6 +119,26 @@ stories:
   - intent: deny
   - action: utter_pamit
 
+- story: end chatbot N lainnya
+  steps:
+  - checkpoint: end_checkpoint_lainnya
+  - action: utter_end_checkpoint_lainnya
+  - intent: affirm
+  - checkpoint: manu_lainnya_menu  
+
+- story: end chatbot Y lainnya
+  steps:
+  - checkpoint: end_checkpoint_lainnya
+  - action: utter_end_checkpoint_lainnya
+  - intent: deny
+  - action: utter_pamit
+
+- story: end chatbot X lainnya
+  steps:
+  - checkpoint: end_checkpoint_lainnya
+  - action: utter_end_checkpoint_lainnya
+  - intent: restart
+  - action: action_restart
 
 
 

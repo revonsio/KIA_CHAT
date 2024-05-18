@@ -1,15 +1,21 @@
 version: "3.1"
 
 rules:
-- rule: Bot Challenge
-  steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
-
 - rule: Selamat tinggal
   steps:
   - intent: pamit
   - action: utter_pamit
+
+- rule: evaluasi chatbot
+  steps:
+  - intent: evaluasi
+  - action: utter_welcome_menu_lainnya_2
+  - action: action_restart
+
+# - rule: app_back
+#   steps:
+#   - intent: app_back
+#   - action: action_back
 
 # - rule: pertanyaan lainnya
 #   steps:
