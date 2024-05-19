@@ -4,8 +4,10 @@ intents:
   - restart
   - app_back
   - affirm
+  - detail_next
   - deny
   - greet
+  - pertanyaan_lainnya
   - bot_detail
   - greet_next
   - inform_berat_badan
@@ -278,7 +280,7 @@ responses:
   "
     buttons:
     - title: Kembali ke Chatbot ⏩
-      payload: /restart
+      payload: /detail_next
 
   utter_ask_menu:
   - text: "Silakan pilih menu di bawah ini:"
@@ -295,6 +297,12 @@ responses:
 
   - text: "Silakan pilih menu di bawah ini:"
     elements:
+      - title: 'Tumbuh Kembang'
+        image_url: https://i.ibb.co.com/DzbnZMG/Untitled-design-4.png
+        subtitle: 'Informasi pemberian stimulus dan kuesioner KPSP.'
+        buttons: 
+           - title:  Tumbuh Kembang
+             payload: /menu_tk
       - title: 'Berat Badan'
         image_url: https://i.ibb.co.com/dkpb2Zp/Untitled-design-2.png
         subtitle: 'Hitung berat badan ideal anak Anda di sini.'
@@ -307,12 +315,6 @@ responses:
         buttons: 
            - title:  Tinggi Badan
              payload: /menu_tb
-      - title: 'Tumbuh Kembang'
-        image_url: https://i.ibb.co.com/DzbnZMG/Untitled-design-4.png
-        subtitle: 'Informasi pemberian stimulus dan kuesioner KPSP.'
-        buttons: 
-           - title:  Tumbuh Kembang
-             payload: /menu_tk
       - title: 'Lainnya'
         image_url: https://i.ibb.co.com/1Kw2yN6/Untitled-design-5.png
         subtitle: 'Ketik pertanyaan Anda sendiri seputar tumbuh kembang anak.'
@@ -371,19 +373,10 @@ responses:
         payload: /greet
     channel: facebook
 
-  utter_action_restart:
-  - text: Klik tombol di bawah untuk mulai ulang.
-    buttons:
-      - title: Mulai Ulang 🔄
-        payload: /greet
-  - text: Klik tombol di bawah untuk mulai ulang.
-    quick_replies:
-      - title: Mulai Ulang 🔄
-        payload: /greet
-    channel: facebook
-
   utter_pamit:
-  - text: "Terima kasih telah menggunakan layanan KIA CHAT, sampai jumpa lagi!"
+  - text: "Terima kasih telah menggunakan layanan KIA CHAT, sampai jumpa lagi! \n
+  Apabila Anda ingin mengobrol lagi dengan chatbot, klik tombol 'Mulai Ulang 🔄' di bawah ini.
+  "
 
   utter_tanya_jeniskelamin:
   - text: "Apa jenis kelamin anak Anda?"
@@ -426,23 +419,34 @@ responses:
   - text:
       "Selamat datang di menu tumbuh kembang anak oleh KIA Chat. Pada bagian ini, saya akan menjawab pertanyaan-pertanyaan Anda seputar tumbuh kembang anak, meliputi: \n"
     buttons:
-    - title: 'Tindakan untuk membantu perkembangan anak'
+    - title: 'Stimulus Tumbuh Kembang'
       payload: '/stimulus'
-    - title: 'Pengukuran perkembangan anak'
+    - title: 'Asesment Tumbuh Kembang'
       payload: '/kpsp'
+    - title: 'Pertanyaan Lainnya'
+      payload: '/pertanyaan_lainnya'
     button_type: vertical
+    
   - text: "Selamat datang di menu tumbuh kembang anak oleh KIA Chat. Pada bagian ini, saya akan menjawab pertanyaan-pertanyaan Anda seputar tumbuh kembang anak."
     elements:
-      - title: 'Menu Tumbuh Kembang'
-        subtitle: 'Pilih topik di bawah ini.'
+      - title: 'Stimulus Tumbuh Kembang'
+        image_url: https://i.ibb.co.com/SJmjwck/Untitled-design-10.png
+        subtitle: 'Tindakan untuk mendorong perkembangan anak.'
         buttons: 
-           - title: Stimulus Tumbuh Kembang
+           - title: Stimulus
              payload: /stimulus
-           - title:  Kuesioner Tumbuh Kembang
+      - title: 'Assesment Tumbuh Kembang'
+        image_url: https://i.ibb.co.com/1rJN59s/Untitled-design-11.png
+        subtitle: 'Kuesioner untuk memantau perkembangan anak.'
+        buttons: 
+           - title: KPSP
              payload: /kpsp
-           - title: Versi web (SIKIA)
-             type: "web_url"
-             url: "https://www.kiaweb.org/index.php"
+      - title: 'Pertanyaan Lainnya'
+        image_url: https://i.ibb.co.com/zft26rx/Untitled-design-8.png
+        subtitle: 'Ketik pertanyaan apa saja yang berkaitan denagn topik tumbuh kembang anak Anda.'
+        buttons: 
+          - title: Ketik Pertanyaan
+            payload: /pertanyaan_lainnya
     channel: facebook
       
   # - text: "Selamat datang di menu tumbuh kembang anak oleh KIA Chat. Pada bagian ini, saya akan menjawab  pertanyaan-pertanyaan Anda seputar tumbuh kembang anak, meliputi: \n
@@ -590,7 +594,7 @@ responses:
   utter_welcome_menu_lainnya:
   - text: "Selamat datang di menu lainnya"
     buttons:
-    - title: 'Pertanyaan Lainnya'
+    - title: 'Versi Web (SIKIA)'
       payload: '/menu_lainnya_1'
     - title: 'Kuesioner CUQ'
       payload: '/menu_lainnya_2'
@@ -598,12 +602,12 @@ responses:
 
   - text: "Selamat datang di menu lainnya"
     elements:
-      - title: 'Pertanyaan Lainnya'
-        image_url: https://i.ibb.co.com/zft26rx/Untitled-design-8.png
-        subtitle: 'Ketik pertanyaan apa saja yang berkaitan denagn topik tumbuh kembang anak Anda.'
+      - title: 'Versi web (SIKIA)'
+        image_url: https://i.ibb.co.com/BHJFKdg/Untitled-design-9.png
+        subtitle: 'Kunjungi versi web KIA CHAT'
         buttons: 
-          - title: Ketik Pertanyaan
-            payload: /menu_lainnya_1
+           - title: Versi web (SIKIA)
+             payload: /menu_lainnya_1
       - title: 'Kuesioner CUQ'
         image_url: https://i.ibb.co.com/54tyK0v/Untitled-design-7.png
         subtitle: 'Kuesioner Chatbot Usability Questionnaire (CUQ) untuk evaluasi chatbot ini.'
@@ -612,8 +616,22 @@ responses:
             payload: /menu_lainnya_2
     channel: facebook
 
-  utter_welcome_menu_lainnya_1:
+  utter_welcome_pertanyaan_lainnya:
   - text: "Selamat datang di menu pertanyaan umum terkait tumbuh kembang anak oleh KIA CHAT. Pada bagian ini, saya akan menjawab pertanyaan-pertanyaan Anda seputar tumbuh kembang anak. \n Silakan ketik pertanyaan Anda. (contoh: 'Apa efek stunting pada anak?')"
+
+
+  utter_welcome_menu_lainnya_1:
+  - text: "Untuk mengakses versi web, gunakan credential berikut:\n
+  user: posyandu\n
+  password: posyandu\n
+  "
+    elements:
+      - title: 'Website SIKIA'
+        subtitle: 'Website ini akan membantu Anda memantau perkembangan anak. Terdapat 2 fitur utama, yaitu fitur Ibu dan Anak, serta buku KIA yang dapat diakses dan di-download gratis.'
+        buttons: 
+          - title: Kunjungi Web
+            type: "web_url"
+            url: "https://www.kiaweb.org/index.php"
 
   utter_welcome_menu_lainnya_2:
   - text: "Terima kasih telah menggunakan KIA CHAT, menu ini akan mengarahkan Anda untuk mengisi formulir yang dapat membantu pengembang membuat chatbot ini jadi lebih baik lagi."

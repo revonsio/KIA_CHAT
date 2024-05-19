@@ -1,10 +1,11 @@
 version: "3.1"
 
 nlu:
-- intent: back
+- intent: detail_next
   examples: |
-    - back
-    - /back
+    - detail next
+    - next detail
+
 - intent: greet_next
   examples: |
     - lanjut
@@ -61,8 +62,8 @@ nlu:
 
 - intent: menu_lainnya_1
   examples: |
-    - ketik pertanyaan sendiri
-    - menu lainnya1
+    - versi web
+    - kiaweb
 
 - intent: menu_lainnya_2
   examples: |
@@ -78,6 +79,11 @@ nlu:
     - evaluasi
     - cuq
 
+- intent: pertanyaan_lainnya
+  examples: |
+    - ketik pertanyaan
+    - saya ingin bertanya
+
 - intent: greet
   examples: |
     - halo kia
@@ -91,8 +97,6 @@ nlu:
     - apa kabar?
     - bagaimana kabarmu?
     - apakah kamu bisa membantu saya?
-    - saya butuh bantuan
-    - saya punya pertanyaan
     - mulai
     - start
     

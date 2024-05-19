@@ -9,7 +9,7 @@ stories:
   - action: utter_alert
   - intent: bot_detail
   - action: utter_bot_detail
-  - intent: restart
+  - intent: detail_next
   - action: action_restart
   # - action: utter_action_restart
   # - action: action_restart
@@ -50,60 +50,53 @@ stories:
   # - action: utter_action_restart
   # - action: action_restart
 
-- story: start chatbot bb
+- story: start chatbot
   steps:
   - intent: greet
   - action: utter_greet
   - action: utter_alert
   - intent: greet_next
   - action: utter_ask_menu
+  - checkpoint: menu_utama
+
+- story: start chatbot bb
+  steps:
+  - checkpoint: menu_utama
   - intent: menu_bb
   - checkpoint: menu_bb
 
 - story: start chatbot tb
   steps:
-  - intent: greet
-  - action: utter_greet
-  - action: utter_alert
-  - intent: greet_next
-  - action: utter_ask_menu
+  - checkpoint: menu_utama
   - intent: menu_tb
   - checkpoint: menu_tb
 
 - story: start chatbot tk
   steps:
-  - intent: greet
-  - action: utter_greet
-  - action: utter_alert
-  - intent: greet_next
-  - action: utter_ask_menu
+  - checkpoint: menu_utama
   - intent: menu_tk
   - checkpoint: menu_tk
 
 - story: start chatbot lainnya
   steps:
-  - intent: greet
-  - action: utter_greet
-  - action: utter_alert
-  - intent: greet_next
-  - action: utter_ask_menu
+  - checkpoint: menu_utama
   - intent: menu_lainnya
   - action: utter_welcome_menu_lainnya
-  - checkpoint: manu_lainnya_menu  
+  - checkpoint: menu_lainnya_menu  
 
 - story: start chatbot lainnya 1
   steps:
-  - checkpoint: manu_lainnya_menu  
+  - checkpoint: menu_lainnya_menu  
   - intent: menu_lainnya_1
   - action: utter_welcome_menu_lainnya_1
-  - checkpoint: menu_lainnya
+  - action: action_restart
   
 - story: start chatbot lainnya 2
   steps:
-  - checkpoint: manu_lainnya_menu  
+  - checkpoint: menu_lainnya_menu  
   - intent: menu_lainnya_2
   - action: utter_welcome_menu_lainnya_2
-  - action: utter_restart
+  - action: action_restart
 
 - story: end chatbot N
   steps:
@@ -119,26 +112,27 @@ stories:
   - intent: deny
   - action: utter_pamit
 
-- story: end chatbot N lainnya
+- story: end chatbot N pertanyaan lainnya
   steps:
   - checkpoint: end_checkpoint_lainnya
   - action: utter_end_checkpoint_lainnya
   - intent: affirm
-  - checkpoint: manu_lainnya_menu  
+  - action: utter_welcome_pertanyaan_lainnya
+  - checkpoint: menu_lainnya  
 
-- story: end chatbot Y lainnya
+- story: end chatbot Y pertanyaan lainnya
   steps:
   - checkpoint: end_checkpoint_lainnya
   - action: utter_end_checkpoint_lainnya
   - intent: deny
   - action: utter_pamit
+  - action: action_restart
 
-- story: end chatbot X lainnya
+- story: end chatbot X pertanyaan lainnya
   steps:
   - checkpoint: end_checkpoint_lainnya
   - action: utter_end_checkpoint_lainnya
   - intent: restart
-  - action: action_restart
 
 
 

@@ -512,7 +512,7 @@ class ActionDataTinggibadanPria(Action):
         else:
             zscore = (tinggi_badan - median) / (nsbr - median)
 
-        dispatcher.utter_message(text="Data berat badan anak Anda: \n 1. Jenis Kelamin: Laki-laki \n 2. Umur: " + str(umur) + " bulan" + "\n" "3. Berat Badan:" + str(tinggi_badan) + " kg")
+        dispatcher.utter_message(text="Data berat badan anak Anda: \n 1. Jenis Kelamin: Laki-laki \n 2. Umur: " + str(umur) + " bulan" + "\n" "3. Tinggi Badan:" + str(tinggi_badan) + " cm")
 
         if zscore < -3:
             dispatcher.utter_message(text="Kategori: Sangat pendek (severely stunted)\n Sumber: Permenkes No. 2 Tahun 2020 Tentang Standar Antropometri Anak")
