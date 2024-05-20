@@ -47,19 +47,27 @@ intents:
   - umur_5_6tahun
   - umur_6_9bulan
   - umur_9_12bulan
+
   - lainnya_manfaat_lagu
   - lainnya_bayi_ngulet
   - lainnya_2tahun_bicara
   - lainnya_bayi_tampak_kaget
   - lainnya_bayi_duduk_merangkak
   - lainnya_jari_pendek
-  - lainnya_efek_stunting
+  - lainnya_efek_stunting_bodoh
   - lainnya_deteksi_stunting
+  - lainnya_1tahun_bicara_berapa_kata
+  - lainnya_konsumsi_susu
+  - lainnya_demam_tumbuh_gigi 
+  - lainnya_weight_faltering
+  - lainnya_menolak_asi
+  - lainnya_screen_time
 
 entities:
   - umur
   - berat_badan
   - tinggi_badan
+
 actions:
   - action_data_beratbadan_pria
   - action_data_beratbadan_wanita
@@ -317,7 +325,7 @@ responses:
              payload: /menu_tb
       - title: 'Lainnya'
         image_url: https://i.ibb.co.com/1Kw2yN6/Untitled-design-5.png
-        subtitle: 'Ketik pertanyaan Anda sendiri seputar tumbuh kembang anak.'
+        subtitle: 'Kunjungi versi web KIA CHAT dan kuesioner evaluasi.'
         buttons: 
            - title: 'Lainnya'
              payload: '/menu_lainnya'
@@ -443,7 +451,7 @@ responses:
              payload: /kpsp
       - title: 'Pertanyaan Lainnya'
         image_url: https://i.ibb.co.com/zft26rx/Untitled-design-8.png
-        subtitle: 'Ketik pertanyaan apa saja yang berkaitan denagn topik tumbuh kembang anak Anda.'
+        subtitle: 'Tanyakan apa saja seputar tumbuh kembang anak.'
         buttons: 
           - title: Ketik Pertanyaan
             payload: /pertanyaan_lainnya
@@ -523,7 +531,7 @@ responses:
        
   utter_ask_kategori_kpsp:
   - text: 
-      "Pilih Kategori KPSP: \n"
+      "Berapa umur anak Anda (apabila anak berusia diantaranya, pilh umur yang lebih kecil dari umur anak): \n"
     buttons:
     - title: 'KPSP 3 bulan'
       payload: '/kpsp_3bulan'
@@ -550,7 +558,7 @@ responses:
     button_type: vertical
 
   - text: 
-      "Pilih Kategori KPSP: \n"
+      "Berapa umur anak Anda (apabila anak berusia diantaranya, pilh umur yang lebih kecil dari umur anak): \n"
     quick_replies:
     - title: 'KPSP 3 bulan'
       payload: '/kpsp_3bulan'
@@ -604,9 +612,9 @@ responses:
     elements:
       - title: 'Versi web (SIKIA)'
         image_url: https://i.ibb.co.com/BHJFKdg/Untitled-design-9.png
-        subtitle: 'Kunjungi versi web KIA CHAT'
+        subtitle: 'Kunjungi website KIA CHAT untuk mengakses chatbot ini dalam tampilan web.'
         buttons: 
-           - title: Versi web (SIKIA)
+           - title: Kunjungi Website
              payload: /menu_lainnya_1
       - title: 'Kuesioner CUQ'
         image_url: https://i.ibb.co.com/54tyK0v/Untitled-design-7.png
@@ -617,8 +625,10 @@ responses:
     channel: facebook
 
   utter_welcome_pertanyaan_lainnya:
-  - text: "Selamat datang di menu pertanyaan umum terkait tumbuh kembang anak oleh KIA CHAT. Pada bagian ini, saya akan menjawab pertanyaan-pertanyaan Anda seputar tumbuh kembang anak. \n Silakan ketik pertanyaan Anda. (contoh: 'Apa efek stunting pada anak?')"
+  - text: "Selamat datang di menu pertanyaan umum terkait tumbuh kembang anak oleh KIA CHAT. Pada bagian ini, saya akan menjawab pertanyaan-pertanyaan Anda seputar tumbuh kembang anak. \n (contoh: 'Apa efek stunting pada anak?')"
 
+  utter_welcome_pertanyaan_lainnya_2:
+  - text: "Silahkan ketik pertanyaan  bunn 😊"
 
   utter_welcome_menu_lainnya_1:
   - text: "Untuk mengakses versi web, gunakan credential berikut:\n

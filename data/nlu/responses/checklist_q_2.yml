@@ -2,6 +2,7 @@ responses:
 
   utter_ask_question21:
   - text: "Ambil sebuah benda, letakkan di atas wajah di depan mata, gerakkan wool dari samping kiri ke kanan kepala. Apakah ia dapat mengikuti gerakan anda dengan menggerakkan kepala sepenuhnya dari satu ke sisi yang lain?"
+    image: https://i.ibb.co.com/BK8DQXV/image.png
     quick_replies:
       - title: Ya ✅
         payload: /affirm
@@ -9,7 +10,8 @@ responses:
         payload: /deny
 
   utter_ask_question22:
-  - text: "Pada posisi bayi terlentang, pegang kedua tangannya lalu Tarik perlahan-lahan ke posisi duduk. Dapatkah bayi mempertahankan lehernya secara kaku seperti gambar? Jawab TIDAK bila kepala bayi jatuh kembali seperti gambar"
+  - text: "Pada posisi bayi terlentang, pegang kedua tangannya lalu Tarik perlahan-lahan ke posisi duduk. Dapatkah bayi mempertahankan lehernya secara kaku seperti gambar? Jawab TIDAK bila kepala bayi jatuh kembali"
+    image: https://i.ibb.co.com/B6nqf2v/image.png
     quick_replies:
       - title: Ya ✅
         payload: /affirm
@@ -18,6 +20,7 @@ responses:
 
   utter_ask_question23:
   - text: "Ketika bayi telungkup di alas datar, apakah ia dapat mengangkat dada dengan kedua lengannya sebagai penyangga seperti pada gambar?"
+    image: https://i.ibb.co.com/bs7pdQw/image.png 
     quick_replies:
       - title: Ya ✅
         payload: /affirm

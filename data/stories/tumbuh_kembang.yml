@@ -12,6 +12,7 @@ stories:
   - checkpoint: menu_tk_2
   - intent: pertanyaan_lainnya
   - action: utter_welcome_pertanyaan_lainnya
+  - action: utter_welcome_pertanyaan_lainnya_2
   - checkpoint: menu_lainnya
 # stimulus
 - story: stimulus umur 0 hari - 3 bulan 

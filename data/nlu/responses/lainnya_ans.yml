@@ -68,7 +68,7 @@ responses:
   Sumber: dr. Riza Marlina  from Alodokter accessed on 4/24/2024
   "
 
-  utter_lainnya_efek_stunting:
+  utter_lainnya_efek_stunting_bodoh:
   - text: "
   Stunting adalah suatu kondisi dimana tinggi badan anak lebih pendek ketimbang standar usianya dikarenakan malnutrisi dalam jangka panjang. Secara langsung, stunting sejatinya tidak menyebabkan anak menjadi bodoh. Namun, malnutrisi inilah yang bisa membuat perkembangan kognitif anak terhambat, sehingga menjadikannya bodoh atau memiliki IQ yang lebih rendah. Tidak hanya perkembangan kognitif, malnutrisi juga bisa mempengaruhi beragam aspek perkembangan anak lainnya, seperti perkembangan motorik kasar, halus, bahasa, dan sosioemosionalnya. Dan lagi, secara epidemiologis, stunting seringnya terjdi pada keluarga dengan tingkat sosioekonomi yang rendah, sehingga seringnya stimulasi beragam aspek perkembangan di atas tidak dianggap penting. Sebab itu, hal ini tidak bisa dianggap remeh. \n
   Menyikapi kondisi anak Anda, sebelum parah, ia sebaiknya diperiksakanlah segera ke dokter anak agar mendapat penanganan yang tepat. Biasanya, dokter akan juga mengarahkan agar anak menjalani pemeriksaan penunjang, contohnya tes darah, tes feses, tes urin, rontgen, tes Mantoux, dan sebagainya guna menilik penyebab stuntingnya. Dengan begitu, penanganan pun bisa dilakukan dengan tepat sasaran, misalnya dengan pemberian obat atau suplemen, pemberian makanan sehat, perbaikan sanitasi, edukasi perilaku hidup bersih dan sehat, atau lainnya.\n
@@ -88,3 +88,103 @@ responses:
   untuk pastinya perlu melakukan pemeriksaan lebih lanjut secara langsung dengan mengukur tinggi badan anak menurut usianya jika dibawah garis merah (-2SD) berdasarkan kurva di buku KIA(kesehatan ibu dan anak) maka anak diduga mengalami stunting.pemeriksaan ini dapat dilakukan ke posyandu atau puskesmas jadi tidak perlu harus kerumah sakit ya bunda. jika bunda melihat anak bunda tampak lebih pendek dari pada anak seusianya maka bunda bisa melakukan pemeriksana lebih lanjut ke posyandu atau puskesmas.\n
   Sumber: dr. Riza Marlina from Alodokter accessed on 4/24/2024"
 
+  utter_lainnya_1tahun_bicara_berapa_kata:
+  - text: "
+  Normalnya bayi yang sudah menginjak usia satu tahun sudah mampu mengucapkan beberap kata, walau pada umumnya kosakatanya masih terbatas, tetapi orangtua dapat membantunya berkembang dengan mengajaknya berbicara setiap hari tentunya. pada usia ini bayi biasanya sudah bisa mengucapkan mama atau baba ataupun dada maupun kata berulang lainnya. serta bayi juga sudah bisa berkomunikasi untuk mendapatkan yang ia inginkan dengan cara menunjuk atau melihat ke arah suatu objek.\n
+
+  jadi usia bayi bunda untuk kata yang dikeluarkannya sudah termasuk hal yang sesuai usianya, namun jangan lupa untuk memperhatikan tindakan responsif bayi saat usia ini seperti bayi harus bisa mengikuti mata orangtuanya dan melihat ke mana arah orangtua melihat serta sudah mampu mengikuti arahan dan perintah yang sederahan seperti meminta ia menghentikan apa yang sedang ia lakukan atau menyarahkan mainannya. untuk anak berbicara bunda bisa latih dan mengajari anak dengan membaca artikel berikut : https://www.alodokter.com/5-cara-mengajari-anak-berbicara-yang-praktis .\n
+
+  Oleh:\n
+  dr. Riza Marlina from Alodokter accessed on 4/24/2024
+  "
+
+  utter_lainnya_konsumsi_susu:
+  - text: "
+  Tentunya Gerakan Tutup Mulut (GTM) merupakan fase yang sedang dialami si kecil saat ini membuat cemas dan khawatir ya. Ananda yang sedang membutuhkan banyak nutrisi untuk tumbuh kembangnya malah sulit sekali untuk mau makan sehari-harinya. Jadi pada usia-usia di mana si Kecil sudah lebih dari 6 bulan dan mulai diperkenalkan ke makanan padat, Mama dapat mulai berkreasi dan bereksperimen dengan berbagai makanan dengan tekstur dan rasa yang berbeda-beda.  Komposisi makanan yang Mama berikan bisa disesuaikan dengan usia dan juga pilihan anak. Makanan dapat dikombinasikan dengan ASI atau Susu sehingga kecukupan nutrisi si kecil tetap terpenuhi. \n
+
+  Di usia yang sudah lebih besar, biasanya si kecil berada di fase aktif di mana ia sudah bisa memilih makanan sendiri, biasanya di saat inilah terkadang si kecil mulai memilih-milih makanan hingga bisa tidak mau makan sama sekali. Penyebabnya bisa bermacam-macam, bisa karena si kecil sedang sakit, tidak merasa lapar, bosan dengan rasa makanan, dan kemungkinan adanya trauma terhadap makanan atau proses makan. Menurut penelitian IDAI, penyebab tersering GTM adalah perilaku makan yang tidak benar atau pemberian makanan yang tidak sesuai usia. Nah di saat ini lah Mama harus memberikan ekstra perhatian untuk pemberian makanan yang tepat, seperti tepat waktu, penyajian makanan yang sesui dengan tahapan perkembangan anak, termasuk tekstur dan perbandingan makanan padat dan cair.\n
+  Biasanya dalam seharinya Mama bisa memberikan Batita Mama tiga kali makanan utama dan memberikan dua kali makanan kecil sebagai selingan di antaranya dan Mama juga dapat memberikan susu dua sampai tiga kali sehari.\n
+
+  Susu dengan merek yang Mama sebutkan boleh saja dikonsumsi karena termasuk susu yang mengandung tinggi protein dan kalori. Mama bisa berikan sebagai tambahan dan diupayakan tidak diberikan di antara waktu makan ya, agar si kecil tetap mau makan makanan padat sebagai makanan utama sesuai dengan usianya. Mama boleh memberikan jenis susu apa saja yang disesuaikan dengan asupan kecukupan gizi harian si Kecil selain juga harus memastikan terlebih dahulu, si Kecil tidak ada alergi susu sapi dan tidak ada intolerensi laktosa yang bisa ditandai dengan adanya ruam di kulit atau diare yang tidak diketahui penyebab lainnya. \n
+
+  Oleh:\n
+  dr. Riza Marlina from Alodokter accessed on 4/24/2024
+  "
+  
+  utter_lainnya_demam_tumbuh_gigi:
+  - text: "
+  Gigi yang mengalami erupsi (membelah gusi dan muncul ke permukaan) bisa menyebabkan jaringan gusi meradang. Peradangan di gusi saat erupsi gigi ini tidak hanya bisa membuat gusi tampak kemerahan, membengkak, gatal, atau nyeri, namun bisa juga membuat tubuh menjadi demam, rewel, keluar liur berlebihan, nafsu makan turun, atau muncul beragam keluhan lainnya.\n
+
+  Selain karena erupsi gigi, demam yang bayi Anda alami bisa pula disebabkan oleh hal lain, misalnya perubahan cuaca ekstrim, infeksi virus atau bakteri, gangguan autoimun, habis diimunisasi, dan sebagainya.\n
+
+  Jika benar suhu tubuhnya naik di atas 37,5 derajat celcius, yang perlu Anda lakukan yakni:\n
+  1. Beri ia obat penurun panas, misalnya paracetamol\n
+  2. Kompres hangat tubuhnya, terutama di sekitar leher dan ketiak\n
+  3. Kenakan padanya pakaian yang menyerap keringat\n
+  4. Beri ia banyak ASI dan minum yang cukup\n
+  5. Beri ia makan teratur, lembutkan teksturnya agar mudah menelannya, jangan dulu beri ia makanan yang terlalu panas, manis, dan lengket jika gusinya masih meradang\n
+  7. Beri ia teether (mainan gigit) untuk meminimalisasi rasa tidak nyaman di sekitar gusinya\n
+  Akan tetapi, jika dalam 1-3 hari demamnya tidak kunjung reda, apalagi muncul ruam kulit, mual muntah, diare, kolik, kejang, dan keluhan lain yang berat, segeralah periksakan bayi Anda ke dokter ya..\n
+
+  Semoga membantu.\n
+
+  Oleh:\n
+  dr. Nadia Nurotul Fuadah from Alodokter accessed on 4/24/2024\n
+  "
+
+  utter_lainnya_weight_faltering:
+  - text: "
+  Weight faltering adalah istilah baru yang menggantikan 'failure to thrive' alias gagal tumbuh. Meskipun beda istilah, maksudnya sama, yaitu kondisi di mana pertumbuhan bayi lebih lambat dari bayi lain seusianya yang sama jenis kelaminnya. Bayi disebut mengalami weight faltering atau failure to thrive atau gagal tumbuh bila grafik berat atau panjang / tinggi tubuhnya dalam grafik tumbuh kembang bayi turun ke area di bawahnya; dari area hijau ke area kuning atau merah. Grafik tumbuh kembang bayi ini dapat Anda temukan di kartu menuju sehat (KMS) bayi Anda. \n
+
+  Kadang bayi yang mengalami weight faltering berat badannya tidak cukup untuk mendukung proses tumbuh kembang normal, sehingga bayi menjadi tubuh bayi jauh lebih kecil, lebih pendek, lingkar kepala lebih kecil dibandingkan bayi / anak seusianya. Bila ukuran ini lebih dari 2 standard deviasi di bawah nilai normal standar tumbuh kembang bayi / anak menurut WHO (World Health Organization / badan kesehatan dunia), bayi / anak dinyatakan mengalami stunting. \n
+
+  Stunting yang terjadi di 1000 hari pertama kehidupan akan mengganggu fungsi tubuh anak di masa depan, antara lain meliputi gangguan kecerdasan, prestasi di sekolah, dikaitkan dengan tingkat upah yang rendah di usia dewasa serta produktivitas yang rendah. Dan bila di kemudian hari diikut dengan pertambahan berat badan berlebih pada masa kanak-kanak, ini merupakan peningkatan risiko terjadinya penyakit kronis terkait nutrisi di masa dewasa. \n
+
+  Ada berbagai hal berbeda yang dapat menyebabkan terjadinya weight faltering, antara lain: \n
+  1. Bingung puting karena bayi diberikan susu dengan botol dan dot.\n
+  2. Ibu yang sebelumnya cuti melahirkan mulai kembali bekerja, ada keluarga tambahan, kehilangan pekerjaan, sedang stress.
+  3. Terjadi perubahan rutinitas bayi yang mendadak\n
+  4. Lingkungan bayi tidak nyaman, ibu ganti sabun / parfum / menyusui saat berkeringat\n
+  5. Bayi sedang tidak sehat, sedang tumbuh gigi, pilek, infeksi telinga, dan sebagainya\n
+  6. Ibu sedang konsumsi obat / herbal / jamu / suplemen / makanan tertentu yang mempengaruhi rasa ASI\n
+  7. Ibu mulai subur dan ovulasi sehingga produksi ASI berkurang dan bayi 'lelah', ibu tidak mengosongkan payudara setelah menyusui bayi.\n
+
+  Oleh: \n
+  dr. Tirtawati Wijaya, SE from Alodokter accessed on 4/24/2024 \n
+  "
+
+  utter_lainnya_menolak_asi:
+  - text: "
+  Bila bayi menolak ASI karena bingung puting, maka hindari pemberian susu dengan botol dan dot; gunakan cangkir dan sendok untuk menyuapi bayi (pilih sendok yang tidak tajam tepinya). Bila bayi menolak disusui karena ibu berbeda aroma tubuhnya karena ganti parfum, ibu sebaiknya kembali menggunakan parfum yang lama yang dikenal oleh bayi. Bila bayi menolak ASI karena sedang sakit, bawa bayi berobat ke dokter Anak; umumnya nafsu makan akan kembali setelah bayi sembuh. Demikian seterusnya, meskipun sama-sama weight faltering cara untuk mengatasinya beda-beda tergantung penyebab. Mengingat bayi Anda masih berada dalam masa emas pertumbuhannya, sebaiknya segera periksakan bayi ke dokter anak dan bekerjasamalah dengan dokter untuk menemukan penyebab weight faltering serta cara menanganinya.\n
+
+  Berikut ini adalah beberapa hal yang dapat Anda lakukan supaya bayi mau menyusu kembali:\n
+  1. Upayakan agar ibu tidak stress, karena stress emosional dapat mempengaruhi keseimbangan hormon dan dapat dirasakan oleh bayi saat menyusui.\n
+  2. Buka pakaian bayi dan ibu saat menyusui, untuk memperluas kontak kulit antara bayi dan ibu; ini sangat membantu proses menyusui dan menyamankan bayi. Upayakan menyusui di ruangan yang nyaman, tidak terlalu panas juga tidak terlalu dingin, tenang, dan gelap. Bila membantu, bisa juga ibu menyusui sambil mendengarkan musik yang menenangkan.\n
+  3. Jauhkan bayi dari asap rokok. Jangan ijinkan orang yang sedang merokok mendekati bayi; minta orang tersebut berhenti merokok, gosok gigi, mandi, keramas, dan mengganti pakaian dengan yang bersih sebelum mendekati bayi.\n
+  4. Susui bayi saat baru bangun tidur, saat ngantuk, atau saat tidur; pada saat ini umumnya bayi lebih mudah menyusu. Kenali tanda-tanda bayi lapar dan susuilah sebelum terlambat, sebelum bayi menangis kelaparan.\n
+  5. Ibu menyusui tidur bersama bayi, sehingga lebih mudah menyusui di saat bayi tidur.\n
+  6. Jangan bebani ibu menyusui dengan pekerjaan rumah tangga agar ibu bisa konsentrasi meningkatkan bonding dengan bayi agar mau kembali menyusui dan naik berat badannya. Minta bapak bayi untuk membantu melakukan pekerjaan rumah tangga, atau bila bapak tidak bersedia bisa menggunakan jasa asisten rumah tangga.\n
+  7. Lengkapi imunisasi bayi agar tidak mudah jatuh sakit; bayi yang sakit umumnya rewel dan kurang mau menyusu.\n
+  Demikianlah penjelasan saya, semoga bermanfaat. Salam sehat selalu.\n
+
+  Oleh: \n
+  dr. Tirtawati Wijaya, SE from Alodokter accessed on 4/24/2024 \n
+  "
+
+  utter_lainnya_screen_time:
+  - text: "
+  screen time ialah waktu yang dihabiskan untuk menatap layar gadget, termasuk smartphone hingga smart TV. dimana screen time yang berlebihan diketahui dapat memberi pengaruh kurang baik bagi anak, mulai muncul sikap tidak peduli dengan lingkungan sekitar hingga resiko gangguan pada mata seperti mata lelah. terlalu sering menatap layar gawai dapat berdampak buruk bagi perkembangan dan juga kesehatan anak. ada beberapa dampak yang mungkin terjadi seperti: \n
+
+  1. memperburuk kemampuan fungsi motorik anak\n
+  2. meningkatkan resiko obesitas karena kurang gerak\n
+  3. membuat anak tidak terbiasa dengan kontak mata ketika berbicara dengan orang lain\n
+  4. membatasi kosakata dan kemampuan dalam berkomunikasi\n
+  5. gangguan pada fungsi pengelihatan\n
+  
+  aturan screen time pada anak usia 4 tahun ialah menatap layar gawai dengan screen time maksimal satu jam per hari, lebih singkat waktu lebih baik. untuk mengurangi screen time pada anak bunda bisa ajak anak main keluar seperti bersepeda di sore hari dan kegiatan lainnya seperti qualtu time bersama keluarga tanpa penggunaan gawai, orang tua juga tidak menggunakan gawai didepan anak, atur jadwal kegiatan anak dalam sehar-hari untuk mengurangi screen time.\n
+
+  semoga dapat membantu\n
+
+  Oleh:\n
+  dr. Riza Marlina from Alodokter accessed on 4/24/2024 \n
+  "

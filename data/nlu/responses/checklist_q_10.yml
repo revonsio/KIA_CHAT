@@ -11,7 +11,7 @@ responses:
   - text: "Apakah anak dapat menyebut 2 diantara gambar-gambar ini tanpa bantuan? (menyebut dengan suara binatang tidak ikut dinilai)"
     elements: 
       - title: Gambar 1
-        image_url: https://i.ibb.co/d5M00Cr/Screenshot-2024-04-17-141234.png
+        image_url: https://i.ibb.co.com/StQZVSc/image.png
       - title: Gambar 2
         image_url: https://i.ibb.co/R7HYZH8/Screenshot-2024-04-17-141320.png
       - title: Gambar 3

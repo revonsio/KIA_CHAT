@@ -3,45 +3,87 @@ version: "3.1"
 responses:
   utter_ask_question11: 
   - text: "Pada waktu bayi terlentang, apakah masing-masing lengan dan tungkai bergerak dengan mudah? Jawaban TIDAK bila salah satu atau kedua tungkai atau lengan bayi bergerak tak terarah/tak terkendali"
+    buttons:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
+  - text: "Pada waktu bayi terlentang, apakah masing-masing lengan dan tungkai bergerak dengan mudah? Jawaban TIDAK bila salah satu atau kedua tungkai atau lengan bayi bergerak tak terarah/tak terkendali"
     quick_replies:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
         payload: /deny
+    channel: facebook
 
   utter_ask_question12:
+  - text: "Pada waktu bayi terlentang apakah ia melihat dan menatap wajah anda?"
+    buttons:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
   - text: "Pada waktu bayi terlentang apakah ia melihat dan menatap wajah anda?"
     quick_replies:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
         payload: /deny
+    channel: facebook
 
   utter_ask_question13:
+  - text: "Apakah bayi dapat mengeluarkan suara-suara lain (ngoceh) selain menangis?"
+    buttons:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
   - text: "Apakah bayi dapat mengeluarkan suara-suara lain (ngoceh) selain menangis?"
     quick_replies:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
         payload: /deny
+    channel: facebook
 
   utter_ask_question14:
+  - text: "Pada waktu anda mengajak bayi berbicara dan tersenyum, apakah ia tersenyum kembali kepada anda?"
+    buttons:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
   - text: "Pada waktu anda mengajak bayi berbicara dan tersenyum, apakah ia tersenyum kembali kepada anda?"
     quick_replies:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
         payload: /deny
+    channel: facebook
 
   utter_ask_question15:
+  - text: "Apakah bayi suka tertawa keras walau tidak digelitik atau diraba-raba?"
+    buttons:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
   - text: "Apakah bayi suka tertawa keras walau tidak digelitik atau diraba-raba?"
     quick_replies:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
         payload: /deny
+    channel: facebook
 
   utter_ask_question16:
+  - text: "Ambil sebuah benda, letakkan di atas wajah di depan mata, gerakkan wool dari samping kiri ke kanan kepala. Apakah ia dapat mengikuti gerakan anda dengan menggerakkan kepalanya dari kanan/kiri ke tengah?"
+    image: "https://i.ibb.co/MnRqQp1/Download.png"  
+    buttons:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
   - text: "Ambil sebuah benda, letakkan di atas wajah di depan mata, gerakkan wool dari samping kiri ke kanan kepala. Apakah ia dapat mengikuti gerakan anda dengan menggerakkan kepalanya dari kanan/kiri ke tengah?"
     image: "https://i.ibb.co/MnRqQp1/Download.png"  
     quick_replies:
@@ -49,8 +91,16 @@ responses:
         payload: /affirm
       - title: Tidak ❌
         payload: /deny
+    channel: facebook
 
   utter_ask_question17:
+  - text: "Ambil sebuah benda, letakkan di atas wajah di depan mata, gerakkan wool dari samping kiri ke kanan kepala. Apakah ia dapat mengikuti gerakan anda dengan menggerakkan kepalanya dari satu sisi hampir sampai pada sisi yang lain?"
+    image: "https://i.imgur.com/d1RShLA.png"
+    buttons:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
   - text: "Ambil sebuah benda, letakkan di atas wajah di depan mata, gerakkan wool dari samping kiri ke kanan kepala. Apakah ia dapat mengikuti gerakan anda dengan menggerakkan kepalanya dari satu sisi hampir sampai pada sisi yang lain?"
     image: "https://i.imgur.com/d1RShLA.png"
     quick_replies:
@@ -58,8 +108,16 @@ responses:
         payload: /affirm
       - title: Tidak ❌
         payload: /deny
+    channel: facebook
 
   utter_ask_question18:
+  - text: "Pada waktu bayi telungkup di alas yang datar, apakah ia dapat mengangkat kepalanya seperti pada gambar ini"
+    image: "https://i.imgur.com/02lxPDt.png"
+    buttons:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
   - text: "Pada waktu bayi telungkup di alas yang datar, apakah ia dapat mengangkat kepalanya seperti pada gambar ini"
     image: "https://i.imgur.com/02lxPDt.png"
     quick_replies:
@@ -67,8 +125,16 @@ responses:
         payload: /affirm
       - title: Tidak ❌
         payload: /deny
+    channel: facebook
 
   utter_ask_question19:
+  - text: "Pada waktu bayi telungkup di alas yang datar, apakah ia dapat mengangkat kepalanya sehingga membentuk sudut 45˚ seperti pada gambar?"
+    image: "https://imgur.com/jpHwggB.png"
+    buttons:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
   - text: "Pada waktu bayi telungkup di alas yang datar, apakah ia dapat mengangkat kepalanya sehingga membentuk sudut 45˚ seperti pada gambar?"
     image: "https://imgur.com/jpHwggB.png"
     quick_replies:
@@ -76,8 +142,16 @@ responses:
         payload: /affirm
       - title: Tidak ❌
         payload: /deny
+    channel: facebook
 
   utter_ask_question110:
+  - text: "Pada waktu bayi telungkup di alas yang datar, apakah ia dapat mengangkat kepalanya dengan tegak seperti pada gambar?"
+    image: "https://imgur.com/jCA3pBy.png"
+    buttons:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
   - text: "Pada waktu bayi telungkup di alas yang datar, apakah ia dapat mengangkat kepalanya dengan tegak seperti pada gambar?"
     image: "https://imgur.com/jCA3pBy.png"
     quick_replies:
@@ -85,7 +159,8 @@ responses:
         payload: /affirm
       - title: Tidak ❌
         payload: /deny
-        
+    channel: facebook
+
   utter_slots_valuefirst:
   - text: "Berikut Rangkuman Checklist Anda:\n
             1. Pada waktu bayi terlentang, apakah masing-masing lengan dan tungkai bergerak dengan mudah? Jawaban TIDAK bila salah satu atau kedua tungkai atau lengan bayi bergerak tak terarah/tak terkendali {question11}\n

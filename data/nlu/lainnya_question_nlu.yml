@@ -13,25 +13,26 @@ nlu:
     
 - intent: lainnya_bayi_ngulet
   examples: |
-    - Bayi tuh sering banget ngulet, bahkan kadang sampai mukanya merah gitu. Kadang juga nguletnya sambil ngeden?
-    - bayi sering ngulet
-    - bayi suka menggeliat
-    - bayi suka ngulet
-    - kenapa bayi suka ngulet
-    - kenapa bayi suka ngeden
+    - bayi usia 2 bulan muka merah karena ngeden atau ngulet
+    - bayi umur 2 bulan sering ngulet
+    - bayi usia 2 bulan suka menggeliat
+    - bayi umur 2 bulan suka ngulet
+    - kenapa bayi usia 2 bulan suka ngulet
+    - kenapa bayi umur 2 bulan suka ngeden
 
 - intent: lainnya_2tahun_bicara
   examples: |
-    - anak saya perkembangannya normal tapi hanya saja belum bisa bicara. Kalau meniup dan menyedot tidak ada masalah. Kata yg bisa diucapkan hanya kata-kata yang tidak jelas seperti heh, mamama,d bibi dll. 
-    - anak saya belum bisa bicara
-    - cara mengatasi anak tidak bisa ngomong
-    - anak bicaranya tidak jelas
-    - cara agar anak bisa bicara
-    - cara agar anak bisa ngomong
+    - anak umur 2 tahun bisa meniup dan menyedot
+    - bicara tidak jelas
+    - anak usia 2 tahun belum bisa bicara
+    - cara mengatasi anak umur 2 tahun tidak bisa ngomong
+    - anak usia 2 tahun bicaranya tidak jelas
+    - cara agar anak umur 2 tahun bisa bicara
+    - cara agar anak usia 2 tahun bisa ngomong
 
 - intent: lainnya_bayi_tampak_kaget
   examples: |
-    -  saya sering perhatikan bayi saya, terutama kalo lagi tidur kok dia suka kagetan gitu ya? malah kadang gak ada suara keras juga dia kaget.
+    - bayi kaget tanpa adanya suara keras
     - bayi tampak kaget
     - bayi terlihat kaget
     - bayi baru lahir sering kaget
@@ -40,21 +41,25 @@ nlu:
 
 - intent: lainnya_bayi_duduk_merangkak
   examples: |
-    - Anak saya belum bisa duduk sendiri dan belum merangkak juga. Bagaimana stimulasi biar anak bisa duduk sendiri dan merangkak.
-    - Stimulasi untuk bayi yang belum bisa duduk dan merangkak
-    - bayi tidak bisa duduk
-    - bayi tidak bisa merangkak
-    - cara agar bayi bisa duduk dan merangkak
+    - Stimulasi untuk bayi usia 7 bulan yang belum bisa duduk dan merangkak
+    - Stimulasi untuk bayi umur 7 bulan yang belum bisa duduk
+    - Stimulasi untuk bayi usia 7 bulan yang belum bisa merangkak
+    - bayi umur 7 bulan tidak bisa duduk
+    - bayi usia 7 bulan tidak bisa merangkak
+    - cara agar bayi usia 7 bulan bisa duduk dan merangkak
 
 - intent: lainnya_jari_pendek
   examples: |
     - Bagaimana cara memanjangkan jari tangan yang pendek?
     - jari tangan pendek?
     - mengapa jari pendek?
-    - anak saya jari-jarinya bantet. bisa gak ya di panjangin. cara memanjangkan jari tangan yang pendek bagaimana ya?
+    - anak saya jari-jarinya bantet
+    - apakah bisa jari anak dipanjangkan
+    - bisa gak ya jari di panjangin
+    - cara memanjangkan jari tangan yang pendek
     - cara memanjangkan jari bantet
 
-- intent: lainnya_efek_stunting
+- intent: lainnya_efek_stunting_bodoh
   examples: |
     - Apa efek stunting
     - Efek stunting apakah anak akan jadi bodoh?
@@ -68,5 +73,64 @@ nlu:
     - cara deteksi stunting
     - Bagaimana cara mudah mendeteksi stunting anak di rumah?
     - cara tau anak stunting bagaimana
+    - penyebab stunting apa saja
+    - tanda-tanda anak stunting
+    - tanda tanda stunting
+    - apakah stunting dapat diketahui
+
+- intent: lainnya_1tahun_bicara_berapa_kata
+  examples: |
+    - anak usia 1 tahun baru bisa bicara sedikit
+    - anak umur 1 tahun hanya bisa bicara papa dan mama
+    - apakah anak termasuk lambat bicara
+    - anak umur 1 tahun harusnya bisa bicara berapa kata
+
+- intent: lainnya_konsumsi_susu
+  examples: |
+    - anak mengalami gerak tutup mulut (GTM) lambat
+    - berat badan susah naik
+    - apakah susu tinggi protein membuat BB cepat naik
+    - apakah minuman Nutridrink boleh dikasih anak
+    - konsumsi susu untuk berat badan anak
+    - cara konsumsi susu untuk anak
+    - BB susah naik
+
+- intent: lainnya_demam_tumbuh_gigi
+  examples: |
+    - efek gigi tumbuh anak umur 6 bulan
+    - akibat gigi tumbuh
+    - anak umur 6 bulan demam naik turun saat tumbuh gigi
+    - apakah bayi usia 6 bulan demam perlu obat penurun panas
+    - demam saat tumbuh gigi
+    - penyebab anak demam tinggi
+
+- intent: lainnya_weight_faltering
+  examples: |
+    - apa itu weight faltering
+    - penyebab weight faltering
+    - gelaja weight faltering
+    - bagaimana cara mengidentifikasi weight faltering
+    - cara mengatasi weight faltering
     
-    
+- intent: lainnya_menolak_asi
+  examples: |
+    - mengapa bayi menolak asi
+    - kenapa bayi tidak mau asi
+    - bayi tidak mau minum asi
+    - cara mengatasi bayi menolak asi
+
+- intent: lainnya_screen_time
+  examples: |
+    - cara mengatur screen time untuk anak
+    - anak suka menonton televisi
+    - anak suka nonton tv
+    - kecanduan nonton tv
+    - nonton tv berapa lama maksimal
+    - cara mengurangi kecanduan nonton
+    - anak kecanduan main handphone
+    - anak kecanduan smartphone
+    - kecanduan gawai
+    - anak sering liat hp
+    - anak suka main hape
+    - apa itu screen time
+    - waktu menonton tv yang tepat untuk anak

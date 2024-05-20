@@ -14,7 +14,7 @@ stories:
     - action: utter_lainnya_manfaat_lagu
     - checkpoint: end_checkpoint_lainnya
   
-  - story: bayi ngulet
+  - story: bayi 2 bulan ngulet
     steps:
     - checkpoint: menu_lainnya
     - intent: lainnya_bayi_ngulet
@@ -49,11 +49,11 @@ stories:
     - action: utter_lainnya_jari_pendek
     - checkpoint: end_checkpoint_lainnya
 
-  - story: efek stunting
+  - story: efek stunting jadi bodoh
     steps:
     - checkpoint: menu_lainnya
-    - intent: lainnya_efek_stunting
-    - action: utter_lainnya_efek_stunting
+    - intent: lainnya_efek_stunting_bodoh
+    - action: utter_lainnya_efek_stunting_bodoh
     - checkpoint: end_checkpoint_lainnya
 
   - story: deteksi stunting
@@ -61,4 +61,46 @@ stories:
     - checkpoint: menu_lainnya
     - intent: lainnya_deteksi_stunting
     - action: utter_lainnya_deteksi_stunting
+    - checkpoint: end_checkpoint_lainnya
+
+  - story: Anak usia 1 tahun seharusnya sudah bicara berapa kata?
+    steps:
+    - checkpoint: menu_lainnya
+    - intent: lainnya_1tahun_bicara_berapa_kata
+    - action: utter_lainnya_1tahun_bicara_berapa_kata
+    - checkpoint: end_checkpoint_lainnya
+
+  - story: Bolehkah anak konsumsi susu tinggi protein untuk meningkatkan berat badan?
+    steps:
+    - checkpoint: menu_lainnya
+    - intent: lainnya_konsumsi_susu
+    - action: utter_lainnya_konsumsi_susu
+    - checkpoint: end_checkpoint_lainnya
+
+  - story: Normalkah bayi demam naik turun saat tumbuh gigi?
+    steps:
+    - checkpoint: menu_lainnya
+    - intent: lainnya_demam_tumbuh_gigi
+    - action: utter_lainnya_demam_tumbuh_gigi
+    - checkpoint: end_checkpoint_lainnya
+
+  - story: Apa yang dimaksud bayi dalam kondisi weight faltering dan bagaimana mengatasinya?
+    steps:
+    - checkpoint: menu_lainnya
+    - intent: lainnya_weight_faltering
+    - action: utter_lainnya_weight_faltering
+    - checkpoint: end_checkpoint_lainnya
+
+  - story: Bayi menolak diberikan asi
+    steps:
+    - checkpoint: menu_lainnya
+    - intent: lainnya_menolak_asi
+    - action: utter_lainnya_menolak_asi
+    - checkpoint: end_checkpoint_lainnya
+
+  - story: Bagaimana cara mengatur waktu screen time pada anak?
+    steps:
+    - checkpoint: menu_lainnya
+    - intent: lainnya_screen_time
+    - action: utter_lainnya_screen_time
     - checkpoint: end_checkpoint_lainnya
