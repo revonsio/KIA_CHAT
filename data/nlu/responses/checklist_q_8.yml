@@ -1,7 +1,7 @@
 responses:
   utter_ask_question81: 
   - text: "Apakah anak dapat meletakkan satu kubus di atas kubus yang lain tanpa menjatuhkan kubus itu?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -9,7 +9,7 @@ responses:
 
   utter_ask_question82: 
   - text: "Tanpa bimbingan, petunjuk, atau bantuan anda, dapatkah anak menunjuk dengan benar paling sedikit satu bagian badannya (rambut, mata, hidung, mulut, atau bagian badan yang lain)?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -17,7 +17,7 @@ responses:
 
   utter_ask_question83: 
   - text: "Apakah anak suka meniru bila ibu sedang melakukan pekerjaan rumah tangga (menyapu, mencuci, dll)?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -25,7 +25,7 @@ responses:
 
   utter_ask_question84: 
   - text: "Apakah anak dapat mengucapkan paling sedikit 3 kata yang mempunyai arti selain 'papa' dan 'mama'?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -33,7 +33,7 @@ responses:
 
   utter_ask_question85: 
   - text: "Apakah anak berjalan mundur 5 langkah atau lebih tanpa kehilangan keseimbangan? (Anda mungkin dapat melihatnya ketika anak menarik mainannya)"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -41,7 +41,7 @@ responses:
 
   utter_ask_question86: 
   - text: "Dapatkah anak melepas pakaiannya seperti Baju, Rok, atau celananya ?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -49,7 +49,7 @@ responses:
 
   utter_ask_question87: 
   - text: "Dapatkah anak berjalan naik tangga sendiri? Jawab YA jika ia naik tangga dengan posisi tegak atau berpegangan pada dinding atau pegangan tangga. Jawab TIDAK jika ia naik tangga dengan merangkak atau anda tidak mebolehkan anak naik tangga atau anak harus berpegangan pada seseorang."
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -57,7 +57,7 @@ responses:
 
   utter_ask_question88: 
   - text: "Dapatkah anak makan nasi sendiri tanpa banyak tumpah?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -65,7 +65,7 @@ responses:
 
   utter_ask_question89: 
   - text: "Dapatkah anak membantu memungt mainannya sendiri atau membantu mengangkat piring jika diminta?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -73,7 +73,7 @@ responses:
 
   utter_ask_question810: 
   - text: "Letakkan bola tenis di depan kakinya. Apakah dia dapat menendangnya, tanpa berpegangan pada apapun?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌

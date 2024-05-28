@@ -1,7 +1,7 @@
 responses:
   utter_ask_question61: 
   - text: "Letakkan kismis diatas meja dekat anak, apakah anak dapat mengambil dengan ibu jari dan telunjuk?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -9,7 +9,7 @@ responses:
 
   utter_ask_question62: 
   - text: "Gelindingkan bola tenis ke arah anak, apakah dapat mengelindingkan / melempar bola kembali kepada anda?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -17,7 +17,7 @@ responses:
 
   utter_ask_question63: 
   - text: "Apakah anak dapat bertepuk tangan atau melambaikan tangan tanpa bantuan?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -25,7 +25,7 @@ responses:
 
   utter_ask_question64: 
   - text: "Apakah anak dapat mengatakan “papa” ketika melihat atau memanggil ayahnya atau mengatakan “mama” ketika melihat atau memanggil ibunya?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -33,7 +33,7 @@ responses:
 
   utter_ask_question65: 
   - text: "Apakah anak dapat menunjukkan apa yang diingikan tanpa menangis atau merengek?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -41,7 +41,7 @@ responses:
 
   utter_ask_question66: 
   - text: "Apakah anak dapat minum dari cangkir/gelas sendiri tanpa tumpah?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -49,7 +49,7 @@ responses:
 
   utter_ask_question67: 
   - text: "Apakah anak dapat berdiri kira-kira 5 detik tanpa pegangan?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -57,7 +57,7 @@ responses:
 
   utter_ask_question68: 
   - text: "Apakah anak dapat berdiri kira kira lebih dari 30 detik tanpa pegangan?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -65,7 +65,7 @@ responses:
 
   utter_ask_question69: 
   - text: "Letakkan kubus di lantai, minta anak memungut, apakah anak dapat memungut dan berdiri kembali tanpa berpegangan?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -73,7 +73,7 @@ responses:
 
   utter_ask_question610: 
   - text: "Minta anak berjalan sepanjang ruangan, dapatkan ia berjalan tanpa terhunyung/jatuh?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌

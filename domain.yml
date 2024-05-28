@@ -286,9 +286,6 @@ responses:
   2. /evaluasi -  mengisi kuesioner evaluasi chatbot \n
   3. /end - mengakhiri percakapan chatbot \n
   "
-    buttons:
-    - title: Kembali ke Chatbot ⏩
-      payload: /detail_next
 
   utter_ask_menu:
   - text: "Silakan pilih menu di bawah ini:"
@@ -342,14 +339,15 @@ responses:
     buttons: 
       - title: Ada ✅
         payload: /affirm
-      - title: Menu Utama 🔄
+      - title: Mulai Ulang 🔄
         payload: /restart
       - title: Tidak Ada ❌
         payload: /deny
-    quick_replies: 
+  - text: "Demikian yang bisa KIA Chat jawab, apakah Anda ingin mengetik pertanyaan lagi?"
+    buttons: 
       - title: Ada ✅
         payload: /affirm
-      - title: Menu Utama 🔄
+      - title: Mulai Ulang 🔄
         payload: /restart
       - title: Tidak Ada ❌
         payload: /deny
@@ -363,7 +361,7 @@ responses:
       - title: Tidak Ada ❌
         payload: /deny
   - text: "Demikian yang bisa KIA Chat jawab, apakah ada pertanyaan lagi?"
-    quick_replies: 
+    buttons: 
       - title: Ada ✅
         payload: /affirm
       - title: Tidak Ada ❌
@@ -371,14 +369,14 @@ responses:
     channel: facebook
 
   utter_restart:
-  - text: Klik tombol di bawah untuk mulai ulang.
+  - text: Klik tombol di bawah untuk memulai percakapan.
     buttons:
-      - title: Mulai Ulang 🔄
-        payload: /greet
-  - text: Klik tombol di bawah untuk mulai ulang.
-    quick_replies:
-      - title: Mulai Ulang 🔄
-        payload: /greet
+      - title: Mengobrol Sekarang ⏭️
+        payload: /greet_next
+  - text: Klik tombol di bawah untuk memulai percakapan.
+    buttons:
+      - title: Mengobrol Sekarang ⏭️
+        payload: /greet_next
     channel: facebook
 
   utter_pamit:
@@ -394,7 +392,7 @@ responses:
       - title: Perempuan 👩🏻
         payload: /perempuan
   - text: "Apa jenis kelamin anak Anda?"
-    quick_replies:
+    buttons:
       - title: Laki-laki 👦🏻
         payload: /laki_laki
       - title: Perempuan 👩🏻
@@ -445,9 +443,9 @@ responses:
              payload: /stimulus
       - title: 'Assesment Tumbuh Kembang'
         image_url: https://i.ibb.co.com/1rJN59s/Untitled-design-11.png
-        subtitle: 'Kuesioner untuk memantau perkembangan anak.'
+        subtitle: 'Apakah tumbuh kembang anak saya normal?'
         buttons: 
-           - title: KPSP
+           - title: Isi Kuesioner
              payload: /kpsp
       - title: 'Pertanyaan Lainnya'
         image_url: https://i.ibb.co.com/zft26rx/Untitled-design-8.png
@@ -463,7 +461,7 @@ responses:
   #   channel: "twilio"
        
   utter_welcome_menu_tk_checklist:
-  - text: "Baik, pada bagian ini, saya akan memberikan beberapa pertanyaan assessment untuk menguji tumbuh kembang anak Anda dengan menjawab 'Ya' atau 'Tidak'. Kuesioner ini diambil berdasarkan Kuesioner Pra Skrining Perkembangan (KPSP) pada buku SDIDTK."
+  - text: "Pada bagian ini, saya akan memberikan beberapa pertanyaan assessment untuk menguji tumbuh kembang anak Anda dengan menjawab 'Ya' atau 'Tidak'. Kuesioner ini diambil berdasarkan Kuesioner Pra Skrining Perkembangan (KPSP) pada buku SDIDTK."
 
   utter_ask_umur_tk:
   - text: 
@@ -531,56 +529,56 @@ responses:
        
   utter_ask_kategori_kpsp:
   - text: 
-      "Berapa umur anak Anda (apabila anak berusia diantaranya, pilh umur yang lebih kecil dari umur anak): \n"
+      "Berapa umur anak Anda? (apabila anak berusia diantaranya, pilh kategori umur yang lebih kecil dari umur anak): \n"
     buttons:
-    - title: 'KPSP 3 bulan'
+    - title: '0 - 3 bulan'
       payload: '/kpsp_3bulan'
-    - title: 'KPSP 6 bulan'
+    - title: '3 - 6 bulan'
       payload: '/kpsp_6bulan'
-    - title: 'KPSP 9 bulan'
+    - title: '6 - 9 bulan'
       payload: '/kpsp_9bulan'
-    - title: 'KPSP 12 bulan'
+    - title: '9 - 12 bulan'
       payload: '/kpsp_12bulan'
-    - title: 'KPSP 15 bulan'
+    - title: '12 - 15 bulan'
       payload: /kpsp_15bulan
-    - title: 'KPSP 18 bulan'
+    - title: '15 - 18 bulan'
       payload: '/kpsp_18bulan'
-    - title: 'KPSP 21 bulan'
+    - title: '18 - 21 bulan'
       payload: '/kpsp_21bulan'
-    - title: 'KPSP 24 bulan'
+    - title: '21 - 24 bulan'
       payload: '/kpsp_24bulan'
-    - title: 'KPSP 30 bulan'
+    - title: '24 - 30 bulan'
       payload: '/KPSP 30 bulan'
-    - title: 'KPSP 36 bulan'
+    - title: '30 - 36 bulan'
       payload: '/kpsp_30bulan'
-    - title: 'KPSP 42 bulan'
+    - title: '36 - 42 bulan'
       payload: '/kpsp_42bulan'
     button_type: vertical
 
   - text: 
       "Berapa umur anak Anda (apabila anak berusia diantaranya, pilh umur yang lebih kecil dari umur anak): \n"
     quick_replies:
-    - title: 'KPSP 3 bulan'
+    - title: '0 - 3 bulan'
       payload: '/kpsp_3bulan'
-    - title: 'KPSP 6 bulan'
+    - title: '3 - 6 bulan'
       payload: '/kpsp_6bulan'
-    - title: 'KPSP 9 bulan'
+    - title: '6 - 9 bulan'
       payload: '/kpsp_9bulan'
-    - title: 'KPSP 12 bulan'
+    - title: '9 - 12 bulan'
       payload: '/kpsp_12bulan'
-    - title: 'KPSP 15 bulan'
+    - title: '12 - 15 bulan'
       payload: /kpsp_15bulan
-    - title: 'KPSP 18 bulan'
+    - title: '15 - 18 bulan'
       payload: '/kpsp_18bulan'
-    - title: 'KPSP 21 bulan'
+    - title: '18 - 21 bulan'
       payload: '/kpsp_21bulan'
-    - title: 'KPSP 24 bulan'
+    - title: '21 - 24 bulan'
       payload: '/kpsp_24bulan'
-    - title: 'KPSP 30 bulan'
+    - title: '24 - 30 bulan'
       payload: '/KPSP 30 bulan'
-    - title: 'KPSP 36 bulan'
+    - title: '30 - 36 bulan'
       payload: '/kpsp_30bulan'
-    - title: 'KPSP 42 bulan'
+    - title: '36 - 42 bulan'
       payload: '/kpsp_42bulan'
     button_type: vertical
     channel: facebook
@@ -606,6 +604,8 @@ responses:
       payload: '/menu_lainnya_1'
     - title: 'Kuesioner CUQ'
       payload: '/menu_lainnya_2'
+    - title: 'Detail Bot'
+      payload: '/bot_detail'
     button_type: vertical
 
   - text: "Selamat datang di menu lainnya"
@@ -620,8 +620,14 @@ responses:
         image_url: https://i.ibb.co.com/54tyK0v/Untitled-design-7.png
         subtitle: 'Kuesioner Chatbot Usability Questionnaire (CUQ) untuk evaluasi chatbot ini.'
         buttons: 
-          - title: Kuesioner CUQ
+          - title: Evaluasi Chatbot
             payload: /menu_lainnya_2
+      - title: 'Detail Bot'
+        image_url: https://i.ibb.co.com/qNTfzfx/Firefly-someone-curious-using-magnifier-71669.jpg
+        subtitle: 'Deskripsi bot dan daftar perintah utama untuk menggunakan chatbot ini.'
+        buttons: 
+          - title: Lihat Detail
+            payload: /bot_detail
     channel: facebook
 
   utter_welcome_pertanyaan_lainnya:

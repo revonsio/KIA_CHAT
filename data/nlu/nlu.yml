@@ -32,6 +32,7 @@ nlu:
     - detail
     - info chatbot
     - informasi lanjutan
+    - info bot
 
 - intent: menu_bb
   examples: |

@@ -1,7 +1,7 @@
 responses:
   utter_ask_question41: 
   - text: "Letakkan pensil di telapak tangan bayi. Coba ambil pensil tersebut dengan perlahan-lahan. Sulitkah anda mendapatkan pensil itu kembali?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -9,16 +9,17 @@ responses:
 
   utter_ask_question42: 
   - text: "Taruh kismis di atas meja. Dapatkah bayi memungut dengan tangannya benda-benda kecil seperti kismis, kacang-kacangan, potongan biskuit, dengan gerakan miring atau menggerapai seperti gambar?"
-    image: "https://i.ibb.co/nz18x5r/Screenshot-2024-04-10-182311.png"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
         payload: /deny
+    image: "https://i.ibb.co/nz18x5r/Screenshot-2024-04-10-182311.png"
+
 
   utter_ask_question43: 
   - text: "Tanpa bantuan, apakah anak dapat mempertemukan dua kubus kecil yang ia pegang?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -26,7 +27,7 @@ responses:
 
   utter_ask_question44: 
   - text: "Sebut 2-3 kata yang dapat ditiru oleh anak (tidak perlu kata-kata yang lengkap). Apakah ia mencoba meniru menyebutkan kata-kata tadi?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -34,7 +35,7 @@ responses:
 
   utter_ask_question45: 
   - text: "Jika anda bersembunyi di belakang sesuatu/di pojok, kemudian muncul dan menghilang secara berulang-ulang di hadapan anak, apakah ia mencari anda atau mengharapkan anda muncul kembali?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -42,7 +43,7 @@ responses:
 
   utter_ask_question46: 
   - text: "Apakah anak dapat mengangkat badannya ke posisi berdiri tanpa bantuan anda?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -50,7 +51,7 @@ responses:
 
   utter_ask_question47: 
   - text: "Apakah anak dapat membedakan anda dengan orang yang belum ia kenal? Ia akan menunjukkan sikap malu-malu atau ragu-ragu pada saat permulaan bertemu dengan orang yang belum dikenalnya. "
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -58,7 +59,7 @@ responses:
 
   utter_ask_question48: 
   - text: "Apakah anak dapat duduk sendiri tanpa bantuan?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -66,7 +67,7 @@ responses:
 
   utter_ask_question49: 
   - text: "Apakah anak dapat mengatakan 2 suku kata yang sama, misalnya: “ma-ma”, “da-da” atau “pa-pa”. Jawab YA bila ia mengeluarkan salah satu suara tadi."
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -74,7 +75,7 @@ responses:
 
   utter_ask_question410: 
   - text: "Apakah anak dapat berdiri selama 30 detik atau lebih dengan berpegangan pada kursi/meja?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌

@@ -110,9 +110,9 @@ stories:
   steps:
   - checkpoint: menu_tk_2
   - intent: kpsp
+  - action: utter_welcome_menu_tk_checklist
   - action: utter_ask_kategori_kpsp
   - intent: kpsp_3bulan
-  - action: utter_welcome_menu_tk_checklist
   - action: checklistfirst_form
   - action: utter_slots_valuefirst
   - action: action_feedback_checklistfirst
@@ -122,9 +122,9 @@ stories:
   steps:
   - checkpoint: menu_tk_2
   - intent: kpsp
+  - action: utter_welcome_menu_tk_checklist
   - action: utter_ask_kategori_kpsp
   - intent: kpsp_6bulan
-  - action: utter_welcome_menu_tk_checklist
   - action: checklistsecond_form
   - action: utter_slots_valuesecond
   - action: action_feedback_checklistsecond
@@ -134,9 +134,9 @@ stories:
   steps:
   - checkpoint: menu_tk_2
   - intent: kpsp
+  - action: utter_welcome_menu_tk_checklist
   - action: utter_ask_kategori_kpsp
   - intent: kpsp_9bulan
-  - action: utter_welcome_menu_tk_checklist
   - action: checklistthird_form
   - action: utter_slots_valuethird
   - action: action_feedback_checklistthird
@@ -146,9 +146,9 @@ stories:
   steps:
   - checkpoint: menu_tk_2
   - intent: kpsp
+  - action: utter_welcome_menu_tk_checklist
   - action: utter_ask_kategori_kpsp
   - intent: kpsp_12bulan
-  - action: utter_welcome_menu_tk_checklist
   - action: checklistfourth_form
   - action: utter_slots_valuefourth
   - action: action_feedback_checklistfourth
@@ -158,9 +158,9 @@ stories:
   steps:
   - checkpoint: menu_tk_2
   - intent: kpsp
+  - action: utter_welcome_menu_tk_checklist
   - action: utter_ask_kategori_kpsp
   - intent: kpsp_15bulan
-  - action: utter_welcome_menu_tk_checklist
   - action: checklistfifth_form
   - action: utter_slots_valuefifth
   - action: action_feedback_checklistfifth
@@ -170,9 +170,9 @@ stories:
   steps:
   - checkpoint: menu_tk_2
   - intent: kpsp
+  - action: utter_welcome_menu_tk_checklist
   - action: utter_ask_kategori_kpsp
   - intent: kpsp_18bulan
-  - action: utter_welcome_menu_tk_checklist
   - action: checklistsixth_form
   - action: utter_slots_valuesixth
   - action: action_feedback_checklistsixth
@@ -182,9 +182,9 @@ stories:
   steps:
   - checkpoint: menu_tk_2
   - intent: kpsp
+  - action: utter_welcome_menu_tk_checklist
   - action: utter_ask_kategori_kpsp
   - intent: kpsp_21bulan
-  - action: utter_welcome_menu_tk_checklist
   - action: checklistseventh_form
   - action: utter_slots_valueseventh
   - action: action_feedback_checklistseventh
@@ -194,9 +194,9 @@ stories:
   steps:
   - checkpoint: menu_tk_2
   - intent: kpsp
+  - action: utter_welcome_menu_tk_checklist
   - action: utter_ask_kategori_kpsp
   - intent: kpsp_24bulan
-  - action: utter_welcome_menu_tk_checklist
   - action: checklisteighth_form
   - action: utter_slots_valueeighth
   - action: action_feedback_checklisteighth
@@ -206,9 +206,9 @@ stories:
   steps:
   - checkpoint: menu_tk_2
   - intent: kpsp
+  - action: utter_welcome_menu_tk_checklist
   - action: utter_ask_kategori_kpsp
   - intent: kpsp_30bulan
-  - action: utter_welcome_menu_tk_checklist
   - action: checklistninth_form
   - action: utter_slots_valueninth
   - action: action_feedback_checklistninth
@@ -218,9 +218,9 @@ stories:
   steps:
   - checkpoint: menu_tk_2
   - intent: kpsp
+  - action: utter_welcome_menu_tk_checklist
   - action: utter_ask_kategori_kpsp
   - intent: kpsp_36bulan
-  - action: utter_welcome_menu_tk_checklist
   - action: checklisttenth_form
   - action: utter_slots_valuetenth
   - action: action_feedback_checklisttenth
@@ -230,9 +230,9 @@ stories:
   steps:
   - checkpoint: menu_tk_2
   - intent: kpsp
+  - action: utter_welcome_menu_tk_checklist
   - action: utter_ask_kategori_kpsp
   - intent: kpsp_42bulan
-  - action: utter_welcome_menu_tk_checklist
   - action: checklisteleventh_form
   - action: utter_slots_valueeleventh
   - action: action_feedback_checklisteleventh

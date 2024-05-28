@@ -1,7 +1,7 @@
 responses:
   utter_ask_question111: 
   - text: "Beri kubus di depannya. Dapatkah anak meletakkan 8 buah kubus satu persatu di atas kubus yang lain tanpa menjatuhkan kubus tersebut?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -9,7 +9,7 @@ responses:
         
   utter_ask_question112: 
   - text: "Beri pensil dan kertas. Buatlah lingkaran di atas kertas tersebut.Minta anak menirunya. Dapatkah anak menggambar lingkaran?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -17,7 +17,7 @@ responses:
         
   utter_ask_question113: 
   - text: "Dapatkah anak mengenakan sepatunya sendiri?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -25,7 +25,7 @@ responses:
         
   utter_ask_question114: 
   - text: "Dapatkah anak mengayuh sepeda roda tiga sejauh sedikitnya 3 meter?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -33,7 +33,7 @@ responses:
         
   utter_ask_question115: 
   - text: "Apakah anak dapat mencuci tangannya sendiri dengan baik setelah makan?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -41,7 +41,7 @@ responses:
         
   utter_ask_question116: 
   - text: "Apakah anak dapat mengikuti peraturan permainan bila bermain dengan teman-temannya? (misal: ular tangga, petak umpet, dll)"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -49,7 +49,7 @@ responses:
         
   utter_ask_question117: 
   - text: "Dapatkah anak mengenakan celana panjang, kemeja, baju atau kaos kaki tanpa di bantu? (Tidak termasuk memasang kancing, gesper atau ikat pinggang)"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -57,7 +57,7 @@ responses:
         
   utter_ask_question118: 
   - text: "Suruh anak berdiri satu kaki tanpa berpegangan. Jika perlu tunjukkan caranya dan beri anak anda kesempatan melakukannya 3 kali. Dapatkah ia mempertahankan keseimbangan dalam waktu 2 detik atau lebih?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -65,7 +65,7 @@ responses:
         
   utter_ask_question119: 
   - text: "Letakkan selembar kertas seukuran buku ini di lantai. Apakah anak dapat melompati panjang kertas ini dengan mengangkat kedua kakinya secara bersamaan tanpa didahului lari?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌

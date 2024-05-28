@@ -1,7 +1,7 @@
 responses:
   utter_ask_question91: 
   - text: "Tanpa bimbingan, petunjuk atau bantuan anda, dapatkah anak menunjuk dengan benar paling sedikit satu bagian badannya (rambut, mata, hidung, mulut, atau bagian badan yang lain)?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -9,7 +9,7 @@ responses:
         
   utter_ask_question92: 
   - text: "Beri kubus di depannya. Dapatkah anak meletakkan 4 buah kubus satu persatu di atas kubus yang lain tanpa menjatuhkan kubus itu?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -17,6 +17,11 @@ responses:
 
   utter_ask_question93: 
   - text: "Apakah anak dapat menyebut 2 diantara gambar-gambar ini tanpa bantuan? (menyebut dengan suara binatang tidak ikut dinilai)"
+    buttons:
+      - title: Ya ✅
+        payload: /affirm
+      - title: Tidak ❌
+        payload: /deny
     elements: 
       - title: Gambar 1
         image_url: https://i.ibb.co/d5M00Cr/Screenshot-2024-04-17-141234.png
@@ -26,19 +31,11 @@ responses:
         image_url: https://i.ibb.co/h2WzYHn/Screenshot-2024-04-17-141403.png
       - title: Gambar 4
         image_url: https://i.ibb.co/ChcCcbb/Screenshot-2024-04-17-141443.png
-    # image: "https://i.ibb.co/d5M00Cr/Screenshot-2024-04-17-141234.png"
-    # image: "https://i.ibb.co/R7HYZH8/Screenshot-2024-04-17-141320.png"
-    # image: "https://i.ibb.co/h2WzYHn/Screenshot-2024-04-17-141403.png"
-    # image: "https://i.ibb.co/ChcCcbb/Screenshot-2024-04-17-141443.png"
-    quick_replies:
-      - title: Ya ✅
-        payload: /affirm
-      - title: Tidak ❌
-        payload: /deny
+
 
   utter_ask_question94: 
   - text: "Bila diberi pensil, apakah anak mencoret-coret kertas tanpa bantuan/petunjuk?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -46,7 +43,7 @@ responses:
 
   utter_ask_question95: 
   - text: "Dapatkah anak melepas pakaiannya seperti: baju, rok, atau celananya? (topi dan kaos kaki tidak ikut dinilai)."
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -54,7 +51,7 @@ responses:
 
   utter_ask_question96: 
   - text: "Dapatkah anak berjalan naik tangga sendiri? Jawab YA. Jika ia naik tangga dengan posisi tegak atau berpegangan pada dinding atau pegangan tangga Jawab TIDAK. Jika ia naik tangga dengan merangkak atau anda tidak membolehkan anak naik tangga atau anak harus berpegangan pada seseorang."
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -62,7 +59,7 @@ responses:
 
   utter_ask_question97: 
   - text: "Dapatkah anak makan nasi sendiri tanpa banyak tumpah?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -70,7 +67,7 @@ responses:
 
   utter_ask_question98: 
   - text: "Dapatkah anak membantu memungut mainannya sendiri atau membantu mengangkat piring jika diminta?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -78,7 +75,7 @@ responses:
 
   utter_ask_question99: 
   - text: "Dapatkah anak menggunakan 2 kata pada saat berbicara seperti 'minta minum', 'mau tidur'? 'Terimakasih' dan 'Dadag' tidak ikut dinilai."
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -86,7 +83,7 @@ responses:
 
   utter_ask_question910: 
   - text: "Letakkan bola tenis didpn kakinya. Dapatkah anak menendang bola kecil (sebesar bola tenis) ke depan tanpa berpegangan pada apapun? Mendorong tidak ikut dinilai."
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌

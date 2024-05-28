@@ -1,7 +1,7 @@
 responses:
   utter_ask_question51: 
   - text: "Beri 2 kubus, tanpa bantuan, apakah anak dapat mempertemukan dua kubus kecil yang ia pegang?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -9,16 +9,17 @@ responses:
 
   utter_ask_question52: 
   - text: "Apakah anak anak dapat mengambil benda kecil seperti kacang, kismis, atau potongan biskuit dengan menggunakan ibu jari dan jari telunjuk seperti pada gambar?"
-    image: "https://i.ibb.co/tK3n7SQ/Screenshot-2024-04-12-171940.png"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
         payload: /deny
+    image: "https://i.ibb.co/tK3n7SQ/Screenshot-2024-04-12-171940.png"
+
 
   utter_ask_question53: 
   - text: "Apakah anak dapat jalan sendiri atau jalan dengan berpegangan?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -26,7 +27,7 @@ responses:
 
   utter_ask_question54: 
   - text: "Tanpa bantuan, apakah anak dapat bertepuk tangan atau melambai - lambai?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -34,7 +35,7 @@ responses:
 
   utter_ask_question55: 
   - text: "Jawab TIDAK bila ia membutuh kan bantuan apakah anak dapat mengatakan 'papa' ketika ia memanggil/melihat     ayahnya, atau mengatakan 'mama' jika memanggil/melihat ibunya?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -42,7 +43,7 @@ responses:
 
   utter_ask_question56: 
   - text: "Jawab YA bila anak mengatakan salah satu diantaranya apakah anak dapat menunjukkan apa yang diinginkannya tanpa menangis atau merengek? Jawab YA bila ia menunjuk, menarik atau mengeluarkan suara yang menyenangkan"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -50,7 +51,7 @@ responses:
 
   utter_ask_question57: 
   - text: "Apakah anak dapat berdiri sendiri tanpa berpegangan selama kira-kira 5 detik?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -58,7 +59,7 @@ responses:
 
   utter_ask_question58: 
   - text: "Apakah anak dapat berdiri sendiri tanpa berpegangan selama 30 detik atau lebih?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -66,7 +67,7 @@ responses:
 
   utter_ask_question59: 
   - text: "Taruh kubus di lantai, tanpa berpegangan atau menyentuh lantai, apakah anak dapat membungkuk untuk memungut kubus di lantai dan kemudian berdiri kembali?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -74,7 +75,7 @@ responses:
 
   utter_ask_question510: 
   - text: "Apakah anak dapat berjalan di sepanjang ruangan tanpa jatuh atau terhuyung-huyung?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌

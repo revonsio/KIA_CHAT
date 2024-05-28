@@ -1,0 +1,322 @@
+[
+  {
+    "text": "berat badan",
+    "intent": "menu_bb",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.34654101729393005
+    }
+  },
+  {
+    "text": "menu 1",
+    "intent": "menu_bb",
+    "intent_prediction": {
+      "name": "menu_tb",
+      "confidence": 0.09421681612730026
+    }
+  },
+  {
+    "text": "1",
+    "intent": "menu_bb",
+    "intent_prediction": {
+      "name": "umur_6_9bulan",
+      "confidence": 0.03711378946900368
+    }
+  },
+  {
+    "text": "2",
+    "intent": "menu_tb",
+    "intent_prediction": {
+      "name": "umur_6_9bulan",
+      "confidence": 0.03711378946900368
+    }
+  },
+  {
+    "text": "menu 3",
+    "intent": "menu_tk",
+    "intent_prediction": {
+      "name": "menu_tb",
+      "confidence": 0.09421681612730026
+    }
+  },
+  {
+    "text": "3",
+    "intent": "menu_tk",
+    "intent_prediction": {
+      "name": "umur_6_9bulan",
+      "confidence": 0.03711378946900368
+    }
+  },
+  {
+    "text": "menu 4",
+    "intent": "menu_lainnya",
+    "intent_prediction": {
+      "name": "menu_tb",
+      "confidence": 0.09421681612730026
+    }
+  },
+  {
+    "text": "4",
+    "intent": "menu_lainnya",
+    "intent_prediction": {
+      "name": "umur_6_9bulan",
+      "confidence": 0.03711378946900368
+    }
+  },
+  {
+    "text": "1",
+    "intent": "inform_umur",
+    "intent_prediction": {
+      "name": "umur_6_9bulan",
+      "confidence": 0.03711378946900368
+    }
+  },
+  {
+    "text": "1",
+    "intent": "stimulus",
+    "intent_prediction": {
+      "name": "umur_6_9bulan",
+      "confidence": 0.03711378946900368
+    }
+  },
+  {
+    "text": "2",
+    "intent": "kpsp",
+    "intent_prediction": {
+      "name": "umur_6_9bulan",
+      "confidence": 0.03711378946900368
+    }
+  },
+  {
+    "text": "3",
+    "intent": "umur_0hari_3bulan",
+    "intent_prediction": {
+      "name": "umur_6_9bulan",
+      "confidence": 0.03711378946900368
+    }
+  },
+  {
+    "text": "3bulan",
+    "intent": "umur_0hari_3bulan",
+    "intent_prediction": {
+      "name": "kpsp_3bulan",
+      "confidence": 0.4681740999221802
+    }
+  },
+  {
+    "text": "4",
+    "intent": "umur_3_6bulan",
+    "intent_prediction": {
+      "name": "umur_6_9bulan",
+      "confidence": 0.03711378946900368
+    }
+  },
+  {
+    "text": "6",
+    "intent": "umur_9_12bulan",
+    "intent_prediction": {
+      "name": "umur_6_9bulan",
+      "confidence": 0.03711378946900368
+    }
+  },
+  {
+    "text": "7",
+    "intent": "umur_12_18bulan",
+    "intent_prediction": {
+      "name": "umur_6_9bulan",
+      "confidence": 0.03711378946900368
+    }
+  },
+  {
+    "text": "8",
+    "intent": "umur_18_24bulan",
+    "intent_prediction": {
+      "name": "umur_6_9bulan",
+      "confidence": 0.03711378946900368
+    }
+  },
+  {
+    "text": "9",
+    "intent": "umur_2_3tahun",
+    "intent_prediction": {
+      "name": "umur_6_9bulan",
+      "confidence": 0.03711378946900368
+    }
+  },
+  {
+    "text": "24bulan",
+    "intent": "umur_2_3tahun",
+    "intent_prediction": {
+      "name": "umur_18_24bulan",
+      "confidence": 0.38894766569137573
+    }
+  },
+  {
+    "text": "10",
+    "intent": "umur_3_4tahun",
+    "intent_prediction": {
+      "name": "umur_6_9bulan",
+      "confidence": 0.03711378946900368
+    }
+  },
+  {
+    "text": "11",
+    "intent": "umur_4_5tahun",
+    "intent_prediction": {
+      "name": "umur_6_9bulan",
+      "confidence": 0.03711378946900368
+    }
+  },
+  {
+    "text": "12",
+    "intent": "umur_5_6tahun",
+    "intent_prediction": {
+      "name": "umur_6_9bulan",
+      "confidence": 0.03711378946900368
+    }
+  },
+  {
+    "text": "1",
+    "intent": "kpsp_3bulan",
+    "intent_prediction": {
+      "name": "umur_6_9bulan",
+      "confidence": 0.03711378946900368
+    }
+  },
+  {
+    "text": "6bulan",
+    "intent": "kpsp_6bulan",
+    "intent_prediction": {
+      "name": "umur_3_6bulan",
+      "confidence": 0.4488557279109955
+    }
+  },
+  {
+    "text": "2",
+    "intent": "kpsp_6bulan",
+    "intent_prediction": {
+      "name": "umur_6_9bulan",
+      "confidence": 0.03711378946900368
+    }
+  },
+  {
+    "text": "9bulan",
+    "intent": "kpsp_9bulan",
+    "intent_prediction": {
+      "name": "umur_6_9bulan",
+      "confidence": 0.5302296876907349
+    }
+  },
+  {
+    "text": "3",
+    "intent": "kpsp_9bulan",
+    "intent_prediction": {
+      "name": "umur_6_9bulan",
+      "confidence": 0.03711378946900368
+    }
+  },
+  {
+    "text": "12bulan",
+    "intent": "kpsp_12bulan",
+    "intent_prediction": {
+      "name": "umur_9_12bulan",
+      "confidence": 0.43833884596824646
+    }
+  },
+  {
+    "text": "4",
+    "intent": "kpsp_12bulan",
+    "intent_prediction": {
+      "name": "umur_6_9bulan",
+      "confidence": 0.03711378946900368
+    }
+  },
+  {
+    "text": "15bulan",
+    "intent": "kpsp_15bulan",
+    "intent_prediction": {
+      "name": "umur_12_18bulan",
+      "confidence": 0.6263247132301331
+    }
+  },
+  {
+    "text": "5",
+    "intent": "kpsp_15bulan",
+    "intent_prediction": {
+      "name": "umur_6_9bulan",
+      "confidence": 0.03711378946900368
+    }
+  },
+  {
+    "text": "6",
+    "intent": "kpsp_18bulan",
+    "intent_prediction": {
+      "name": "umur_6_9bulan",
+      "confidence": 0.03711378946900368
+    }
+  },
+  {
+    "text": "18bulan",
+    "intent": "kpsp_18bulan",
+    "intent_prediction": {
+      "name": "umur_12_18bulan",
+      "confidence": 0.6015399694442749
+    }
+  },
+  {
+    "text": "7",
+    "intent": "kpsp_21bulan",
+    "intent_prediction": {
+      "name": "umur_6_9bulan",
+      "confidence": 0.03711378946900368
+    }
+  },
+  {
+    "text": "21bulan",
+    "intent": "kpsp_21bulan",
+    "intent_prediction": {
+      "name": "umur_18_24bulan",
+      "confidence": 0.41538283228874207
+    }
+  },
+  {
+    "text": "8",
+    "intent": "kpsp_24bulan",
+    "intent_prediction": {
+      "name": "umur_6_9bulan",
+      "confidence": 0.03711378946900368
+    }
+  },
+  {
+    "text": "9",
+    "intent": "kpsp_30bulan",
+    "intent_prediction": {
+      "name": "umur_6_9bulan",
+      "confidence": 0.03711378946900368
+    }
+  },
+  {
+    "text": "10",
+    "intent": "kpsp_36bulan",
+    "intent_prediction": {
+      "name": "umur_6_9bulan",
+      "confidence": 0.03711378946900368
+    }
+  },
+  {
+    "text": "11",
+    "intent": "kpsp_42bulan",
+    "intent_prediction": {
+      "name": "umur_6_9bulan",
+      "confidence": 0.03711378946900368
+    }
+  },
+  {
+    "text": "13",
+    "intent": "kpsp_54bulan",
+    "intent_prediction": {
+      "name": "umur_6_9bulan",
+      "confidence": 0.03711378946900368
+    }
+  }
+]

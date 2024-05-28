@@ -3,16 +3,17 @@ responses:
 
   utter_ask_question31: 
   - text: "Pada posisi bayi telentang, pegang kedua tangannya lalu tarik perlahan-lahan ke posisi duduk. Dapatkah bayi mempertahankan lehernya secara kaku seperti gambar di sebelah kiri ? Jawab TIDAK bila kepala bayi jatuh kembali seperti gambar sebelah kanan."
-    image: "https://i.ibb.co/Mc1QzsN/Screenshot-2024-04-10-180956.png"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
         payload: /deny
+    image: "https://i.ibb.co/Mc1QzsN/Screenshot-2024-04-10-180956.png"
+
 
   utter_ask_question32: 
   - text: "Tarik perhatian bayi dengan memperlihatkan wool merah, kemudian jatuh kan ke lantai. Apakah bayi mencoba mencarinya? Misalnya mencari di bawah meja atau di belakang kursi?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -20,7 +21,7 @@ responses:
 
   utter_ask_question33: 
   - text: "Taruh 2 kubus di atas meja, buat agar bayi dapat memungut masing-masing kubus dengan masing-masing tangan dan memegang satu kubus pada masing-masing tangannya"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -28,16 +29,17 @@ responses:
 
   utter_ask_question34: 
   - text: "Taruh kismis di atas meja. Dapatkah bayi memungut dengan tangannya benda-benda kecil seperti kismis, kacang-kacangan, potongan biskuit, dengan gerakan miring atau menggerapai seperti gambar?"
-    image: "https://i.ibb.co/rF1nDLB/Screenshot-2024-04-10-181249.png"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
         payload: /deny
+    image: "https://i.ibb.co/rF1nDLB/Screenshot-2024-04-10-181249.png"
+
 
   utter_ask_question35: 
   - text: "Letakkan suatu mainan yang dinginkannya di luar jangkauan bayi, apakah ia mencoba mendapatkannya dengan mengulurkan lengan atau badannya?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -45,7 +47,7 @@ responses:
 
   utter_ask_question36: 
   - text: "Apakah pernah melihat bayi memindahkan mainan atau kue kering dari satu tangan ke tangan yang lain? Benda-benda panjang seperti sendok atau kerincingan bertangkai tidak ikut dinilai."
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -53,7 +55,7 @@ responses:
 
   utter_ask_question37: 
   - text: "Apakah bayi dapat makan kue kering sendiri?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -61,7 +63,7 @@ responses:
 
   utter_ask_question38: 
   - text: "Pada waktu bayi bermain sendiri dan ibu diam-diam datang berdiri di belakangnya, apakah ia menengok ke belakang seperti mendengar kedatangan anda? Suara keras tidak ikut dihitung. Jawab YA hanya jika anda melihat reaksinya terhadap suara yang perlahan atau bisikan."
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -69,7 +71,7 @@ responses:
 
   utter_ask_question39: 
   - text: "Jika anda mengangkat bayi melalui ketiaknya ke posisi berdiri, dapatkah ia menyangga sebagian berat badan dengan kedua kakinya? Jawab YA bila ia mencoba berdiri dan sebagian berat badan tertumpu pada kedua kakinya."
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -77,12 +79,13 @@ responses:
 
   utter_ask_question310: 
   - text: "Tanpa disangga oleh bantal, kursi atau dinding, dapatkah bayi duduk sendiri selama 60 detik?"
-    image: "https://i.ibb.co/7KnW3dn/Screenshot-2024-04-10-182141.png"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
         payload: /deny
+    image: "https://i.ibb.co/7KnW3dn/Screenshot-2024-04-10-182141.png"
+
         
   utter_slots_valuethird:
   - text: "Berikut Rangkuman Checklist Anda:\n

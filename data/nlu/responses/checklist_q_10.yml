@@ -1,7 +1,7 @@
 responses:
   utter_ask_question101: 
   - text: "Beri kubus di depannya. Dapatkah anak meletakkan 4 buah kubus satu persatu di atas kubus yang lain tanpa menjatuhkan kubus itu?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -22,7 +22,7 @@ responses:
     # image: "https://i.ibb.co/R7HYZH8/Screenshot-2024-04-17-141320.png"
     # image: "https://i.ibb.co/h2WzYHn/Screenshot-2024-04-17-141403.png"
     # image: "https://i.ibb.co/ChcCcbb/Screenshot-2024-04-17-141443.png"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -30,7 +30,7 @@ responses:
 
   utter_ask_question103: 
   - text: "Bila diberi pensil, apakah anak mencoret-coret kertas tanpa bantuan/petunjuk?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -38,7 +38,7 @@ responses:
         
   utter_ask_question104: 
   - text: "Buat garis lurus ke bawah sepanjang sekurang- kurangnya 2.5 cm. Suruh anak menggambar garis lain di samping garis tersebut. Jawab YA apabila gambar anak lurus, sedangkan jawab TIDAK apabila garis yang digambar tidak lurus."
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -46,7 +46,7 @@ responses:
         
   utter_ask_question105: 
   - text: "Dapatkah anak menggunakan 2 kata berangkai pada saat berbicara seperti 'minta minum', 'mau tidur'? ('Terimakasih' dan 'Dadah' tidak ikut dinilai)"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -54,7 +54,7 @@ responses:
         
   utter_ask_question106: 
   - text: "Dapatkah anak mengenakan sepatunya sendiri?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -62,7 +62,7 @@ responses:
         
   utter_ask_question107: 
   - text: "Dapatkah anak mengayuh sepeda roda tiga sejauh sedikitnya 3 meter?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -70,7 +70,7 @@ responses:
         
   utter_ask_question108: 
   - text: "lkuti perintah ini dengan seksama. Jangan memberi isyarat dengan telunjuk atau mata pada saat memberikan perintah berikut ini: 'Letakkan kertas ini di lantai'. 'Letakkan kertas ini di kursi',  'Berikan kertas ini kepada ibu'."
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -78,7 +78,7 @@ responses:
         
   utter_ask_question109: 
   - text: "Dapatkah anak melaksanakan ketiga perintah tadi? Letakkan selembar kertas seukuran buku ini di lantai. Apakah anak dapat melompati bagian lebar kertas dengan mengangkat kedua kakinya secara bersamaan tanpa didahului lari?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -86,7 +86,7 @@ responses:
         
   utter_ask_question1010: 
   - text: "Beri bola tenis. Minta anak melemparkan kearah dada anda. Dapatkah anak melempar bola lurus ke arah perut atau dada anda dari jarak 1,5 meter?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌

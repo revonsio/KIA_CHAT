@@ -9,52 +9,19 @@ stories:
   - action: utter_alert
   - intent: bot_detail
   - action: utter_bot_detail
-  - intent: detail_next
   - action: action_restart
-  # - action: utter_action_restart
-  # - action: action_restart
-
-# - story: start chatbot detail tb
-#   steps:
-#   - intent: greet
-#   - action: utter_greet
-#   - action: utter_alert
-#   - intent: bot_detail
-#   - action: utter_bot_detail
-#   - intent: back
-#   - action: action_back
-#   # - action: utter_action_restart
-#   # - action: action_restart
-
-# - story: start chatbot detail tk
-#   steps:
-#   - intent: greet
-#   - action: utter_greet
-#   - action: utter_alert
-#   - intent: bot_detail
-#   - action: utter_bot_detail
-#   - intent: back
-#   - action: action_back
-#   # - action: utter_action_restart
-#   # - action: action_restart
-
-# - story: start chatbot detail lainnya
-#   steps:
-#   - intent: greet
-#   - action: utter_greet
-#   - action: utter_alert
-#   - intent: bot_detail
-#   - action: utter_bot_detail
-#   - intent: back
-#   - action: action_back
-  # - action: utter_action_restart
-  # - action: action_restart
 
 - story: start chatbot
   steps:
   - intent: greet
   - action: utter_greet
   - action: utter_alert
+  - intent: greet_next
+  - action: utter_ask_menu
+  - checkpoint: menu_utama
+
+- story: start chatbot restart
+  steps:
   - intent: greet_next
   - action: utter_ask_menu
   - checkpoint: menu_utama
@@ -98,6 +65,13 @@ stories:
   - action: utter_welcome_menu_lainnya_2
   - action: action_restart
 
+- story: start chatbot lainnya 3
+  steps:
+  - checkpoint: menu_lainnya_menu  
+  - intent: bot_detail
+  - action: utter_bot_detail
+  - action: action_restart
+
 - story: end chatbot N
   steps:
   - checkpoint: end_checkpoint
@@ -111,6 +85,7 @@ stories:
   - action: utter_end_checkpoint
   - intent: deny
   - action: utter_pamit
+  - action: action_restart
 
 - story: end chatbot N pertanyaan lainnya
   steps:
@@ -132,7 +107,8 @@ stories:
   steps:
   - checkpoint: end_checkpoint_lainnya
   - action: utter_end_checkpoint_lainnya
-  - intent: restart
+  - intent: affirm
+  - action: action_restart
 
 
 

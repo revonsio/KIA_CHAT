@@ -2,34 +2,36 @@ responses:
 
   utter_ask_question21:
   - text: "Ambil sebuah benda, letakkan di atas wajah di depan mata, gerakkan wool dari samping kiri ke kanan kepala. Apakah ia dapat mengikuti gerakan anda dengan menggerakkan kepala sepenuhnya dari satu ke sisi yang lain?"
-    image: https://i.ibb.co.com/BK8DQXV/image.png
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
         payload: /deny
+    image: https://i.ibb.co.com/BK8DQXV/image.png
 
   utter_ask_question22:
   - text: "Pada posisi bayi terlentang, pegang kedua tangannya lalu Tarik perlahan-lahan ke posisi duduk. Dapatkah bayi mempertahankan lehernya secara kaku seperti gambar? Jawab TIDAK bila kepala bayi jatuh kembali"
+    buttons:
+        - title: Ya ✅
+          payload: /affirm
+        - title: Tidak ❌
+          payload: /deny
     image: https://i.ibb.co.com/B6nqf2v/image.png
-    quick_replies:
-      - title: Ya ✅
-        payload: /affirm
-      - title: Tidak ❌
-        payload: /deny
+    
 
   utter_ask_question23:
   - text: "Ketika bayi telungkup di alas datar, apakah ia dapat mengangkat dada dengan kedua lengannya sebagai penyangga seperti pada gambar?"
-    image: https://i.ibb.co.com/bs7pdQw/image.png 
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
         payload: /deny
+    image: https://i.ibb.co.com/bs7pdQw/image.png 
+
 
   utter_ask_question24:
   - text: "Dapatkah bayi mempertahankan posisi kepala dalam keadaan tegak dan stabil? Jawab TIDAK bila kepala bayi cenderung jatuh ke kanan/kiri atau ke dadanya"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -37,7 +39,7 @@ responses:
 
   utter_ask_question25:
   - text: "Sentuhkan pensil di punggung tangan atau ujung jari bayi (jangan meletakkan di atas telapak tangan bayi). Apakah bayi dapat menggenggam pensil itu selama beberapa detik?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -45,7 +47,7 @@ responses:
 
   utter_ask_question26:
   - text: "Dapatkah bayi mengarahkan matanya pada benda kecil sebesar kacang, kismis atau uang logam? Jawab TIDAK jika ia tidak dapat mengarahkan matanya."
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -53,7 +55,7 @@ responses:
 
   utter_ask_question27:
   - text: "Dapatkah bayi meraih mainan yang diletakkan agak jauh namun masih berada dalam jangkauan tangannya?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -61,7 +63,7 @@ responses:
 
   utter_ask_question28:
   - text: "Pernahkah bayi mengeluarkan suara gembira bernada tinggi atau memekik tetapi bukan menangis?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -69,7 +71,7 @@ responses:
 
   utter_ask_question29:
   - text: "Pernahkah bayi berbalik paling sedikit dua kali, dari terlentang ke telungkup atau sebaliknya?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
@@ -77,7 +79,7 @@ responses:
 
   utter_ask_question210:
   - text: "Pernahkah anda melihat bayi tersenyum ketika melihat mainan yang lucu, gambar atau binatang peliharaan pada saat ia bermain sendiri?"
-    quick_replies:
+    buttons:
       - title: Ya ✅
         payload: /affirm
       - title: Tidak ❌
