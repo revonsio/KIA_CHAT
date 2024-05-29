@@ -1,0 +1,382 @@
+version: "3.1"
+nlu:
+- intent: detail_next
+  examples: |
+    - detail next
+- intent: app_back
+  examples: |
+    - kembali
+- intent: menu_lainnya_1
+  examples: |
+    - kiaweb
+- intent: pertanyaan_lainnya
+  examples: |
+    - saya ingin bertanya
+- intent: umur_3_4tahun
+  examples: |
+    - 4tahun
+- intent: umur_4_5tahun
+  examples: |
+    - 5tahun
+- intent: umur_5_6tahun
+  examples: |
+    - 6tahun
+- intent: kpsp_24bulan
+  examples: |
+    - kpsp 24 bulan
+- intent: kpsp_30bulan
+  examples: |
+    - kpsp30bulan
+- intent: kpsp_36bulan
+  examples: |
+    - kpsp36bulan
+- intent: kpsp_48bulan
+  examples: |
+    - kpsp48bulan
+- intent: kpsp_54bulan
+  examples: |
+    - kpsp54bulan
+- intent: menu_lainnya
+  examples: |
+    - menu 4
+    - 4
+- intent: menu_lainnya_2
+  examples: |
+    - kuesioner kia chat
+    - menu lainnya2
+- intent: laki_laki
+  examples: |
+    - pria
+    - cowok
+- intent: perempuan
+  examples: |
+    - cewek
+    - wanita
+- intent: kpsp_42bulan
+  examples: |
+    - kpsp 42bulan
+    - kpsp42bulan
+- intent: lainnya_1tahun_bicara_berapa_kata
+  examples: |
+    - anak umur 1 tahun hanya bisa bicara papa dan mama
+    - anak umur 1 tahun harusnya bisa bicara berapa kata
+    - apakah anak termasuk lambat bicara
+- intent: lainnya_menolak_asi
+  examples: |
+    - kenapa bayi tidak mau asi
+    - bayi tidak mau minum asi
+    - cara mengatasi bayi menolak asi
+- intent: restart
+  examples: |
+    - /restart
+    - mulai ulang
+    - restart bot
+- intent: bot_detail
+  examples: |
+    - info chatbot
+    - info bot
+    - detail
+- intent: menu_bb
+  examples: |
+    - menu 1
+    - berat badan
+    - 1
+- intent: menu_tb
+  examples: |
+    - tinggi badan
+    - 2
+    - menu 2
+- intent: menu_tk
+  examples: |
+    - tk
+    - menu 3
+    - 3
+- intent: kpsp_3bulan
+  examples: |
+    - 3bulan
+    - kpsp 3 bulan
+    - kpsp3bulan
+- intent: kpsp_6bulan
+  examples: |
+    - 6bulan
+    - kpsp6bulan
+    - kpsp 6 bulan
+- intent: kpsp_9bulan
+  examples: |
+    - kpsp 9 bulan
+    - kpsp9bulan
+    - 9bulan
+- intent: kpsp_12bulan
+  examples: |
+    - kpsp12bulan
+    - kpsp 12 bulan
+    - 12 bulan
+- intent: kpsp_15bulan
+  examples: |
+    - kpsp15bulan
+    - 15bulan
+    - 15 bulan
+- intent: kpsp_18bulan
+  examples: |
+    - kpsp 18 bulan
+    - kpsp18bulan
+    - 18bulan
+- intent: kpsp_21bulan
+  examples: |
+    - kpsp21bulan
+    - kpsp 21 bulan
+    - 21bulan
+- intent: lainnya_weight_faltering
+  examples: |
+    - cara mengatasi weight faltering
+    - gelaja weight faltering
+    - bagaimana cara mengidentifikasi weight faltering
+    - penyebab weight faltering
+- intent: evaluasi
+  examples: |
+    - evaluasi
+    - /evaluasi
+    - cuq
+    - evaluasi kia chat
+- intent: inform_berat_badan
+  examples: |
+    - [5](berat_badan) kilogram
+    - berat badan [1](berat_badan) kg
+    - [1](berat_badan) kilogram
+    - [0](berat_badan) kg
+- intent: inform_tinggi_badan
+  examples: |
+    - [55](tinggi_badan) centi
+    - tinggi badan [0](tinggi_badan) cm
+    - [60](tinggi_badan) centi meter
+    - [20](tinggi_badan) cm
+- intent: lainnya_bayi_ngulet
+  examples: |
+    - bayi usia 2 bulan muka merah karena ngeden atau ngulet
+    - bayi umur 2 bulan sering ngulet
+    - kenapa bayi umur 2 bulan suka ngeden
+    - kenapa bayi usia 2 bulan suka ngulet
+    - bayi umur 2 bulan suka ngulet
+- intent: lainnya_bayi_tampak_kaget
+  examples: |
+    - bayi kaget tanpa adanya suara keras
+    - bayi suka kaget saat tidur
+    - bayi tampak kaget
+    - bayi baru lahir sering kaget
+    - bayi kaget tanpa sebab
+- intent: lainnya_bayi_duduk_merangkak
+  examples: |
+    - cara agar bayi usia 7 bulan bisa duduk dan merangkak
+    - bayi umur 7 bulan tidak bisa duduk
+    - bayi usia 7 bulan tidak bisa merangkak
+    - Stimulasi untuk bayi umur 7 bulan yang belum bisa duduk
+    - Stimulasi untuk bayi usia 7 bulan yang belum bisa duduk dan merangkak
+- intent: lainnya_efek_stunting_bodoh
+  examples: |
+    - apakah efeknya stunting anak akan jadi bodoh?
+    - anak saya didiagnosa DSA terkena stunting.
+    - apakah anak stunting punya iq lebih rendah
+    - apakah anak-anak yang mengalami stunting cenderung mengalami keterlambatan dalam perkembangan bahasa dan motorik halus
+    - Apa efek stunting
+- intent: lainnya_demam_tumbuh_gigi
+  examples: |
+    - demam saat tumbuh gigi
+    - penyebab anak demam tinggi
+    - anak umur 6 bulan demam naik turun saat tumbuh gigi
+    - apakah bayi usia 6 bulan demam perlu obat penurun panas
+    - efek gigi tumbuh anak umur 6 bulan
+- intent: greet_next
+  examples: |
+    - lanjutkan
+    - next
+    - mengobrol sekarang
+    - chat with bot now
+    - lanjut
+- intent: kpsp
+  examples: |
+    - ceklis
+    - checklist
+    - kuesioner
+    - kuisioner
+    - kpsp
+- intent: umur_0hari_3bulan
+  examples: |
+    - 3 bulan
+    - 3bulan
+    - 2bulan
+    - 1 bulan
+    - 2 bulan
+- intent: umur_3_6bulan
+  examples: |
+    - 5 bulan
+    - 5bulan
+    - 4 bulan
+    - 6 bulan
+    - 4bulan
+- intent: umur_6_9bulan
+  examples: |
+    - 9bulan
+    - 8 bulan
+    - 7bulan
+    - 9 bulan
+    - 7 bulan
+- intent: umur_9_12bulan
+  examples: |
+    - 12bulan
+    - 10bulan
+    - 11 bulan
+    - 11bulan
+    - 10 bulan
+- intent: umur_2_3tahun
+  examples: |
+    - 24 bulan
+    - 2 tahun
+    - 3 tahun
+    - 2tahun
+    - 24bulan
+- intent: lainnya_manfaat_lagu
+  examples: |
+    - jenis musik yang cocok untuk bayi
+    - manfaat musik
+    - manfaat lagu
+    - apa manfaat musik untuk bayi
+    - kegunaan lagu untuk perkembangan otak bayi
+    - manfaat menyanyikan lagu untuk bayi
+- intent: lainnya_2tahun_bicara
+  examples: |
+    - anak umur 2 tahun bisa meniup dan menyedot
+    - anak usia 2 tahun bicaranya tidak jelas
+    - bicara tidak jelas
+    - cara agar anak usia 2 tahun bisa ngomong
+    - cara mengatasi anak umur 2 tahun tidak bisa ngomong
+    - anak usia 2 tahun belum bisa bicara
+- intent: lainnya_deteksi_stunting
+  examples: |
+    - Bagaimana cara mudah mendeteksi stunting anak di rumah?
+    - tanda tanda stunting
+    - cara tau anak stunting bagaimana
+    - tanda-tanda anak stunting
+    - apakah stunting dapat diketahui
+    - penyebab stunting apa saja
+- intent: lainnya_konsumsi_susu
+  examples: |
+    - berat badan susah naik
+    - anak mengalami gerak tutup mulut (GTM) lambat
+    - apakah minuman Nutridrink boleh dikasih anak
+    - konsumsi susu untuk berat badan anak
+    - cara konsumsi susu untuk anak
+    - BB susah naik
+- intent: pamit
+  examples: |
+    - senang bertemu lagi
+    - sampai ketemu lagi
+    - sampai jumpa lagi
+    - selamat tinggal
+    - terima kasih
+    - good bye
+- intent: inform_umur
+  examples: |
+    - [1](umur)
+    - [3](umur) bulan
+    - [0.5](umur) bulan
+    - [2](umur) bulan
+    - umur [1](umur) bulan
+    - [0](umur) bulan
+- intent: lainnya_jari_pendek
+  examples: |
+    - mengapa jari pendek?
+    - jari tangan pendek?
+    - anak saya jari-jarinya bantet
+    - cara memanjangkan jari bantet
+    - cara memanjangkan jari tangan yang pendek
+    - bisa gak ya jari di panjangin
+    - Bagaimana cara memanjangkan jari tangan yang pendek?
+- intent: affirm
+  examples: |
+    - yes
+    - betul
+    - ada
+    - benar
+    - bisa
+    - data sudah benar
+    - ya
+- intent: stimulus
+  examples: |
+    - saya ingin bertanya terkait stimulus untuk anak
+    - apa yang harus saya lakukan untuk melatih anak saya
+    - contoh stimulus yang tepat untuk anak
+    - simulus yang berhubungan dengan tumbuh kembang anak
+    - stimulus
+    - kegiatan apa yang cocok untuk membantu perkembangan anak
+    - stimulus balita
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - am I talking to a human?
+    - are you a human?
+    - jelaskan layanan anda
+    - perkenalkan diri anda
+    - apa saja yang bisa anda jawab
+    - info layanan
+    - am I talking to a bot?
+- intent: deny
+  examples: |
+    - tidak ada
+    - no
+    - salah
+    - gak
+    - gak ada
+    - tidak
+    - tidak bisa
+    - belum
+- intent: umur_12_18bulan
+  examples: |
+    - 16bulan
+    - 15bulan
+    - 15 bulan
+    - 14bulan
+    - 18bulan
+    - 14 bulan
+    - 17 bulan
+    - 16 bulan
+    - 13bulan
+    - 17bulan
+    - 13 bulan
+- intent: umur_18_24bulan
+  examples: |
+    - 19bulan
+    - 24 bulan
+    - 21 bulan
+    - 23bulan
+    - 24bulan
+    - 19 bulan
+    - 21bulan
+    - 20 bulan
+    - 23 bulan
+    - 20bulan
+    - 22bulan
+- intent: lainnya_screen_time
+  examples: |
+    - anak suka menonton televisi
+    - anak kecanduan main handphone
+    - anak suka main hape
+    - cara mengatur screen time untuk anak
+    - anak suka nonton tv
+    - anak sering liat hp
+    - cara mengurangi kecanduan nonton
+    - nonton tv berapa lama maksimal
+    - apa itu screen time
+    - anak kecanduan smartphone
+    - waktu menonton tv yang tepat untuk anak
+- intent: greet
+  examples: |
+    - bagaimana kabarmu?
+    - halo
+    - selamat malam
+    - start
+    - halo kia
+    - hi
+    - hello
+    - mulai
+    - selamat pagi
+    - hai

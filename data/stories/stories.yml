@@ -107,7 +107,7 @@ stories:
   steps:
   - checkpoint: end_checkpoint_lainnya
   - action: utter_end_checkpoint_lainnya
-  - intent: affirm
+  - intent: restart
   - action: action_restart
 
 

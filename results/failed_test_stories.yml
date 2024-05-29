@@ -1,67 +1,242 @@
 version: "3.1"
 stories:
-- story: happy path 1 (.\tests\test_stories.yml)
+- story: start chatbot > start chatbot tk > topik tumbuh kembang > stimulus umur 9 - 12 bulan > end chatbot Y (.\tests\test_stories.yml)
   steps:
   - intent: greet
   - action: utter_greet
-  - action: action_listen  # predicted: utter_alert
-  - intent: mood_great  # predicted: nlu_fallback: amazing
-  - action: utter_happy  # predicted: action_default_fallback
-  - action: action_listen  # predicted: action_default_fallback
-- story: happy path 2 (.\tests\test_stories.yml)
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - action: action_listen  # predicted: utter_alert
-  - intent: mood_great  # predicted: nlu_fallback: amazing
-  - action: utter_happy  # predicted: action_default_fallback
-  - action: action_listen  # predicted: action_default_fallback
-  - intent: goodbye  # predicted: pamit: bye-bye!
-  - action: utter_goodbye  # predicted: action_default_fallback
-  - action: action_listen  # predicted: utter_end_checkpoint
-- story: sad path 1 (.\tests\test_stories.yml)
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - action: action_listen  # predicted: utter_alert
-  - intent: mood_unhappy  # predicted: nlu_fallback: not good
-  - action: utter_cheer_up  # predicted: action_default_fallback
-  - action: utter_did_that_help  # predicted: action_default_fallback
-  - action: action_listen  # predicted: action_default_fallback
-  - intent: affirm
-  - action: utter_happy  # predicted: action_restart
-  - action: action_listen  # predicted: utter_end_checkpoint
-- story: sad path 2 (.\tests\test_stories.yml)
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - action: action_listen  # predicted: utter_alert
-  - intent: mood_unhappy  # predicted: nlu_fallback: not good
-  - action: utter_cheer_up  # predicted: action_default_fallback
-  - action: utter_did_that_help  # predicted: action_default_fallback
-  - action: action_listen  # predicted: action_default_fallback
-  - intent: deny  # predicted: nlu_fallback: not really
-  - action: utter_goodbye  # predicted: utter_pamit
-  - action: action_listen  # predicted: action_default_fallback
-- story: sad path 3 (.\tests\test_stories.yml)
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - action: action_listen  # predicted: utter_alert
-  - intent: mood_unhappy  # predicted: nlu_fallback: very terrible
-  - action: utter_cheer_up  # predicted: action_default_fallback
-  - action: utter_did_that_help  # predicted: action_default_fallback
-  - action: action_listen  # predicted: action_default_fallback
+  - action: utter_alert
+  - intent: greet_next
+  - action: utter_ask_menu
+  - intent: menu_tk
+  - action: utter_welcome_menu_tk
+  - intent: stimulus
+  - action: utter_ask_umur_tk
+  - intent: umur_9_12bulan  # predicted: nlu_fallback: 11 bulan
+  - action: utter_stimulus_9_12bulan
+  - action: utter_end_checkpoint
   - intent: deny
-  - action: utter_goodbye  # predicted: utter_pamit
-  - action: action_listen  # predicted: action_default_fallback
-- story: say goodbye (.\tests\test_stories.yml)
+  - action: utter_pamit
+  - action: action_restart
+- story: start chatbot restart > start chatbot tk > topik tumbuh kembang > stimulus umur 9 - 12 bulan > end chatbot Y (.\tests\test_stories.yml)
   steps:
-  - intent: goodbye  # predicted: pamit: bye-bye!
-  - action: utter_goodbye  # predicted: action_default_fallback
-  - action: action_listen  # predicted: utter_end_checkpoint
-- story: bot challenge (.\tests\test_stories.yml)
+  - intent: greet_next
+  - action: utter_ask_menu
+  - intent: menu_tk
+  - action: utter_welcome_menu_tk
+  - intent: stimulus
+  - action: utter_ask_umur_tk
+  - intent: umur_9_12bulan  # predicted: nlu_fallback: 11 bulan
+  - action: utter_stimulus_9_12bulan
+  - action: utter_end_checkpoint
+  - intent: deny
+  - action: utter_pamit
+  - action: action_restart
+- story: start chatbot > start chatbot tk > topik tumbuh kembang > stimulus umur 6 - 9 bulan > end chatbot Y (.\tests\test_stories.yml)
   steps:
-  - intent: bot_challenge
-  - action: utter_iamabot  # predicted: action_default_fallback
-  - action: action_listen  # predicted: utter_end_checkpoint
+  - intent: greet
+  - action: utter_greet
+  - action: utter_alert
+  - intent: greet_next
+  - action: utter_ask_menu
+  - intent: menu_tk
+  - action: utter_welcome_menu_tk
+  - intent: stimulus
+  - action: utter_ask_umur_tk
+  - intent: umur_6_9bulan  # predicted: nlu_fallback: 8 bulan
+  - action: utter_stimulus_6_9bulan
+  - action: utter_end_checkpoint
+  - intent: deny
+  - action: utter_pamit
+  - action: action_restart
+- story: start chatbot restart > start chatbot tk > topik tumbuh kembang > stimulus umur 6 - 9 bulan > end chatbot Y (.\tests\test_stories.yml)
+  steps:
+  - intent: greet_next
+  - action: utter_ask_menu
+  - intent: menu_tk
+  - action: utter_welcome_menu_tk
+  - intent: stimulus
+  - action: utter_ask_umur_tk
+  - intent: umur_6_9bulan  # predicted: nlu_fallback: 8 bulan
+  - action: utter_stimulus_6_9bulan
+  - action: utter_end_checkpoint
+  - intent: deny
+  - action: utter_pamit
+  - action: action_restart
+- story: start chatbot > start chatbot tk > topik tumbuh kembang > stimulus umur 3 - 6 bulan > end chatbot Y (.\tests\test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_alert
+  - intent: greet_next
+  - action: utter_ask_menu
+  - intent: menu_tk
+  - action: utter_welcome_menu_tk
+  - intent: stimulus
+  - action: utter_ask_umur_tk
+  - intent: umur_3_6bulan  # predicted: nlu_fallback: 6 bulan
+  - action: utter_stimulus_3_6bulan
+  - action: utter_end_checkpoint
+  - intent: deny
+  - action: utter_pamit
+  - action: action_restart
+- story: start chatbot restart > start chatbot tk > topik tumbuh kembang > stimulus umur 3 - 6 bulan > end chatbot Y (.\tests\test_stories.yml)
+  steps:
+  - intent: greet_next
+  - action: utter_ask_menu
+  - intent: menu_tk
+  - action: utter_welcome_menu_tk
+  - intent: stimulus
+  - action: utter_ask_umur_tk
+  - intent: umur_3_6bulan  # predicted: nlu_fallback: 6 bulan
+  - action: utter_stimulus_3_6bulan
+  - action: utter_end_checkpoint
+  - intent: deny
+  - action: utter_pamit
+  - action: action_restart
+- story: start chatbot > start chatbot tk > topik tumbuh kembang > stimulus umur 0 hari - 3 bulan > end chatbot Y (.\tests\test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_alert
+  - intent: greet_next
+  - action: utter_ask_menu
+  - intent: menu_tk
+  - action: utter_welcome_menu_tk
+  - intent: stimulus
+  - action: utter_ask_umur_tk
+  - intent: umur_0hari_3bulan  # predicted: nlu_fallback: 3 bulan
+  - action: utter_stimulus_29hari_3bulan
+  - action: utter_end_checkpoint
+  - intent: deny
+  - action: utter_pamit
+  - action: action_restart
+- story: start chatbot restart > start chatbot tk > topik tumbuh kembang > stimulus umur 0 hari - 3 bulan > end chatbot Y (.\tests\test_stories.yml)
+  steps:
+  - intent: greet_next
+  - action: utter_ask_menu
+  - intent: menu_tk
+  - action: utter_welcome_menu_tk
+  - intent: stimulus
+  - action: utter_ask_umur_tk
+  - intent: umur_0hari_3bulan  # predicted: nlu_fallback: 3 bulan
+  - action: utter_stimulus_29hari_3bulan
+  - action: utter_end_checkpoint
+  - intent: deny
+  - action: utter_pamit
+  - action: action_restart
+- story: start chatbot > start chatbot tk > topik tumbuh kembang > stimulus umur 9 - 12 bulan > end chatbot N (.\tests\test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_alert
+  - intent: greet_next
+  - action: utter_ask_menu
+  - intent: menu_tk
+  - action: utter_welcome_menu_tk
+  - intent: stimulus
+  - action: utter_ask_umur_tk
+  - intent: umur_9_12bulan  # predicted: nlu_fallback: 11 bulan
+  - action: utter_stimulus_9_12bulan
+  - action: utter_end_checkpoint
+  - intent: affirm
+  - action: action_restart
+- story: start chatbot restart > start chatbot tk > topik tumbuh kembang > stimulus umur 9 - 12 bulan > end chatbot N (.\tests\test_stories.yml)
+  steps:
+  - intent: greet_next
+  - action: utter_ask_menu
+  - intent: menu_tk
+  - action: utter_welcome_menu_tk
+  - intent: stimulus
+  - action: utter_ask_umur_tk
+  - intent: umur_9_12bulan  # predicted: nlu_fallback: 11 bulan
+  - action: utter_stimulus_9_12bulan
+  - action: utter_end_checkpoint
+  - intent: affirm
+  - action: action_restart
+- story: start chatbot > start chatbot tk > topik tumbuh kembang > stimulus umur 6 - 9 bulan > end chatbot N (.\tests\test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_alert
+  - intent: greet_next
+  - action: utter_ask_menu
+  - intent: menu_tk
+  - action: utter_welcome_menu_tk
+  - intent: stimulus
+  - action: utter_ask_umur_tk
+  - intent: umur_6_9bulan  # predicted: nlu_fallback: 8 bulan
+  - action: utter_stimulus_6_9bulan
+  - action: utter_end_checkpoint
+  - intent: affirm
+  - action: action_restart
+- story: start chatbot restart > start chatbot tk > topik tumbuh kembang > stimulus umur 6 - 9 bulan > end chatbot N (.\tests\test_stories.yml)
+  steps:
+  - intent: greet_next
+  - action: utter_ask_menu
+  - intent: menu_tk
+  - action: utter_welcome_menu_tk
+  - intent: stimulus
+  - action: utter_ask_umur_tk
+  - intent: umur_6_9bulan  # predicted: nlu_fallback: 8 bulan
+  - action: utter_stimulus_6_9bulan
+  - action: utter_end_checkpoint
+  - intent: affirm
+  - action: action_restart
+- story: start chatbot > start chatbot tk > topik tumbuh kembang > stimulus umur 3 - 6 bulan > end chatbot N (.\tests\test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_alert
+  - intent: greet_next
+  - action: utter_ask_menu
+  - intent: menu_tk
+  - action: utter_welcome_menu_tk
+  - intent: stimulus
+  - action: utter_ask_umur_tk
+  - intent: umur_3_6bulan  # predicted: nlu_fallback: 6 bulan
+  - action: utter_stimulus_3_6bulan
+  - action: utter_end_checkpoint
+  - intent: affirm
+  - action: action_restart
+- story: start chatbot restart > start chatbot tk > topik tumbuh kembang > stimulus umur 3 - 6 bulan > end chatbot N (.\tests\test_stories.yml)
+  steps:
+  - intent: greet_next
+  - action: utter_ask_menu
+  - intent: menu_tk
+  - action: utter_welcome_menu_tk
+  - intent: stimulus
+  - action: utter_ask_umur_tk
+  - intent: umur_3_6bulan  # predicted: nlu_fallback: 6 bulan
+  - action: utter_stimulus_3_6bulan
+  - action: utter_end_checkpoint
+  - intent: affirm
+  - action: action_restart
+- story: start chatbot > start chatbot tk > topik tumbuh kembang > stimulus umur 0 hari - 3 bulan > end chatbot N (.\tests\test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_alert
+  - intent: greet_next
+  - action: utter_ask_menu
+  - intent: menu_tk
+  - action: utter_welcome_menu_tk
+  - intent: stimulus
+  - action: utter_ask_umur_tk
+  - intent: umur_0hari_3bulan  # predicted: nlu_fallback: 3 bulan
+  - action: utter_stimulus_29hari_3bulan
+  - action: utter_end_checkpoint
+  - intent: affirm
+  - action: action_restart
+- story: start chatbot restart > start chatbot tk > topik tumbuh kembang > stimulus umur 0 hari - 3 bulan > end chatbot N (.\tests\test_stories.yml)
+  steps:
+  - intent: greet_next
+  - action: utter_ask_menu
+  - intent: menu_tk
+  - action: utter_welcome_menu_tk
+  - intent: stimulus
+  - action: utter_ask_umur_tk
+  - intent: umur_0hari_3bulan  # predicted: nlu_fallback: 3 bulan
+  - action: utter_stimulus_29hari_3bulan
+  - action: utter_end_checkpoint
+  - intent: affirm
+  - action: action_restart

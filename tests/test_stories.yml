@@ -2,92 +2,456 @@
 #### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
 
 stories:
-- story: happy path 1
+- story: start chatbot detail
   steps:
   - user: |
-      hello there!
+      halo
     intent: greet
   - action: utter_greet
+  - action: utter_alert
   - user: |
-      amazing
-    intent: mood_great
-  - action: utter_happy
+      detail bot
+    intent: bot_detail
+  - action: utter_bot_detail
+  - action: action_restart
 
-- story: happy path 2
-  steps:
-  - user: |
-      hello there!
-    intent: greet
-  - action: utter_greet
-  - user: |
-      amazing
-    intent: mood_great
-  - action: utter_happy
-  - user: |
-      bye-bye!
-    intent: goodbye
-  - action: utter_goodbye
 
-- story: sad path 1
+- story: start chatbot 
   steps:
   - user: |
-      hello
+      halo
     intent: greet
   - action: utter_greet
+  - action: utter_alert
   - user: |
-      not good
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
+      lanjutkan
+    intent: greet_next
+  - action: utter_ask_menu
+  - checkpoint: menu_utama
+
+- story: start chatbot restart
+  steps:
   - user: |
-      yes
+      mengobrol sekarang
+    intent: greet_next
+  - action: utter_ask_menu
+  - checkpoint: menu_utama
+
+- story: start chatbot bb
+  steps:
+  - checkpoint: menu_utama
+  - user: |
+      berat badan
+    intent: menu_bb
+  - checkpoint: menu_bb
+
+- story: start chatbot tb
+  steps:
+  - checkpoint: menu_utama
+  - user: |
+      tinggi badan
+    intent: menu_tb
+  - checkpoint: menu_tb
+
+- story: start chatbot tk
+  steps:
+  - checkpoint: menu_utama
+  - user: |
+      tumbuh kembang
+    intent: menu_tk
+  - checkpoint: menu_tk
+
+- story: start chatbot lainnya
+  steps:
+  - checkpoint: menu_utama
+  - user: |
+      lainnya
+    intent: menu_lainnya
+  - action: utter_welcome_menu_lainnya
+  - checkpoint: menu_lainnya_menu  
+
+- story: start chatbot lainnya 1
+  steps:
+  - checkpoint: menu_lainnya_menu  
+  - user: |
+      kiaweb
+    intent: menu_lainnya_1
+  - action: utter_welcome_menu_lainnya_1
+  - action: action_restart
+
+- story: start chatbot lainnya 2
+  steps:
+  - checkpoint: menu_lainnya_menu  
+  - user: |
+      kuesioner chatbot
+    intent: menu_lainnya_2
+  - action: utter_welcome_menu_lainnya_2
+  - action: action_restart
+
+- story: start chatbot lainnya 3
+  steps:
+  - checkpoint: menu_lainnya_menu  
+  - user: |
+      informasi lanjutan
+    intent: bot_detail
+  - action: utter_bot_detail
+  - action: action_restart
+
+- story: end chatbot N
+  steps:
+  - checkpoint: end_checkpoint
+  - action: utter_end_checkpoint
+  - user: |
+      ada
     intent: affirm
-  - action: utter_happy
+  - action: action_restart
 
-- story: sad path 2
+- story: end chatbot Y
   steps:
+  - checkpoint: end_checkpoint
+  - action: utter_end_checkpoint
   - user: |
-      hello
-    intent: greet
-  - action: utter_greet
-  - user: |
-      not good
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - user: |
-      not really
+      tidak
     intent: deny
-  - action: utter_goodbye
+  - action: utter_pamit
+  - action: action_restart
 
-- story: sad path 3
+- story: end chatbot N pertanyaan lainnya
   steps:
+  - checkpoint: end_checkpoint_lainnya
+  - action: utter_end_checkpoint_lainnya
   - user: |
-      hi
-    intent: greet
-  - action: utter_greet
+      ada
+    intent: affirm
+  - action: utter_welcome_pertanyaan_lainnya
+  - checkpoint: menu_lainnya  
+
+- story: end chatbot Y pertanyaan lainnya
+  steps:
+  - checkpoint: end_checkpoint_lainnya
+  - action: utter_end_checkpoint_lainnya
   - user: |
-      very terrible
-    intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - user: |
-      no
+      tidak
     intent: deny
-  - action: utter_goodbye
+  - action: utter_pamit
+  - action: action_restart
 
-- story: say goodbye
+- story: end chatbot X pertanyaan lainnya
   steps:
+  - checkpoint: end_checkpoint_lainnya
+  - action: utter_end_checkpoint_lainnya
   - user: |
-      bye-bye!
-    intent: goodbye
-  - action: utter_goodbye
+      mulai ulang
+    intent: restart
+  - action: action_restart
 
-- story: bot challenge
+- story: topik berat badan l
   steps:
+  - checkpoint: menu_bb
+  - action: utter_tanya_jeniskelamin
   - user: |
-      are you a bot?
-    intent: bot_challenge
-  - action: utter_iamabot
+      pria
+    intent: laki_laki
+  - action: beratbadan_form
+  - action: action_data_beratbadan_pria
+  - checkpoint: end_checkpoint
 
+- story: topik berat badan p
+  steps:
+  - checkpoint: menu_bb
+  - action: utter_tanya_jeniskelamin
+  - user: |
+      perempuan
+    intent: perempuan
+  - action: beratbadan_form
+  - action: action_data_beratbadan_wanita
+  - checkpoint: end_checkpoint
 
+- story: topik tinggi badan l
+  steps:
+  - checkpoint: menu_tb
+  - action: utter_tanya_jeniskelamin
+  - user: |
+      pria
+    intent: laki_laki
+  - action: tinggibadan_form
+  - action: action_data_tinggibadan_pria
+  - checkpoint: end_checkpoint
+
+- story: topik tinggi badan p
+  steps:
+  - checkpoint: menu_tb
+  - action: utter_tanya_jeniskelamin
+  - user: |
+      perempuan
+    intent: perempuan
+  - action: tinggibadan_form
+  - action: action_data_tinggibadan_wanita
+  - checkpoint: end_checkpoint
+
+- story: topik tumbuh kembang
+  steps:
+  - checkpoint: menu_tk
+  - action: utter_welcome_menu_tk
+  - checkpoint: menu_tk_2
+
+- story: pertanyaan lainnya
+  steps:
+  - checkpoint: menu_tk_2
+  - user: |
+      saya mau ketik pertanyaan sendiri
+    intent: pertanyaan_lainnya
+  - action: utter_welcome_pertanyaan_lainnya
+  - action: utter_welcome_pertanyaan_lainnya_2
+  - checkpoint: menu_lainnya
+
+- story: stimulus umur 0 hari - 3 bulan 
+  steps:
+  - checkpoint: menu_tk_2
+  - user: |
+      stimulus tumbuh kembang anak
+    intent: stimulus
+  - action: utter_ask_umur_tk
+  - user: |
+      3 bulan
+    intent: umur_0hari_3bulan
+  - action: utter_stimulus_29hari_3bulan
+  - checkpoint: end_checkpoint
+
+- story: stimulus umur 3 - 6 bulan
+  steps:
+  - checkpoint: menu_tk_2
+  - user: |
+      stimulus tumbuh kembang anak
+    intent: stimulus
+  - action: utter_ask_umur_tk
+  - user: |
+      6 bulan
+    intent: umur_3_6bulan
+  - action: utter_stimulus_3_6bulan
+  - checkpoint: end_checkpoint
+
+- story: stimulus umur 6 - 9 bulan
+  steps:
+  - checkpoint: menu_tk_2
+  - user: |
+      stimulus tumbuh kembang anak
+    intent: stimulus
+  - action: utter_ask_umur_tk
+  - user: |
+      8 bulan
+    intent: umur_6_9bulan
+  - action: utter_stimulus_6_9bulan
+  - checkpoint: end_checkpoint
+
+- story: stimulus umur 9 - 12 bulan
+  steps:
+  - checkpoint: menu_tk_2
+  - user: |
+      stimulus tumbuh kembang anak
+    intent: stimulus
+  - action: utter_ask_umur_tk
+  - user: |
+      11 bulan
+    intent: umur_9_12bulan
+  - action: utter_stimulus_9_12bulan
+  - checkpoint: end_checkpoint
+  
+- story: stimulus umur 12 - 18 bulan
+  steps:
+  - checkpoint: menu_tk_2
+  - user: |
+      stimulus tumbuh kembang anak
+    intent: stimulus
+  - action: utter_ask_umur_tk
+  - intent: umur_12_18bulan
+  - action: utter_stimulus_12_18bulan
+  - checkpoint: end_checkpoint
+
+- story: stimulus umur 18 - 24 bulan
+  steps:
+  - checkpoint: menu_tk_2
+  - user: |
+      stimulus tumbuh kembang anak
+    intent: stimulus
+  - action: utter_ask_umur_tk
+  - intent: umur_18_24bulan
+  - action: utter_stimulus_18_24bulan 
+  - checkpoint: end_checkpoint
+
+- story: stimulus umur 2 - 3 tahun
+  steps:
+  - checkpoint: menu_tk_2
+  - user: |
+      stimulus tumbuh kembang anak
+    intent: stimulus
+  - action: utter_ask_umur_tk
+  - intent: umur_2_3tahun
+  - action: utter_stimulus_2_3tahun
+  - checkpoint: end_checkpoint
+
+- story: stimulus umur 3 - 4 tahun
+  steps:
+  - checkpoint: menu_tk_2
+  - user: |
+      stimulus tumbuh kembang anak
+    intent: stimulus
+  - action: utter_ask_umur_tk
+  - intent: umur_3_4tahun
+  - action: utter_stimulus_3_4tahun
+  - checkpoint: end_checkpoint
+
+- story: stimulus umur 4 - 5 tahun
+  steps:
+  - checkpoint: menu_tk_2
+  - user: |
+      stimulus tumbuh kembang anak
+    intent: stimulus
+  - action: utter_ask_umur_tk
+  - intent: umur_4_5tahun
+  - action: utter_stimulus_4_5tahun
+  - checkpoint: end_checkpoint
+
+- story: stimulus umur 5 - 6 tahun
+  steps:
+  - checkpoint: menu_tk_2
+  - user: |
+      stimulus tumbuh kembang anak
+    intent: stimulus
+  - action: utter_ask_umur_tk
+  - intent: umur_5_6tahun
+  - action: utter_stimulus_5_6tahun
+  - checkpoint: end_checkpoint
+
+# checklist
+- story: checklist kpsp 3 bulan
+  steps:
+  - checkpoint: menu_tk_2
+  - intent: kpsp
+  - action: utter_welcome_menu_tk_checklist
+  - action: utter_ask_kategori_kpsp
+  - intent: kpsp_3bulan
+  - action: checklistfirst_form
+  - action: utter_slots_valuefirst
+  - action: action_feedback_checklistfirst
+  - checkpoint: end_checkpoint
+
+- story: checklist kpsp 6 bulan
+  steps:
+  - checkpoint: menu_tk_2
+  - intent: kpsp
+  - action: utter_welcome_menu_tk_checklist
+  - action: utter_ask_kategori_kpsp
+  - intent: kpsp_6bulan
+  - action: checklistsecond_form
+  - action: utter_slots_valuesecond
+  - action: action_feedback_checklistsecond
+  - checkpoint: end_checkpoint
+
+- story: checklist kpsp 9 bulan
+  steps:
+  - checkpoint: menu_tk_2
+  - intent: kpsp
+  - action: utter_welcome_menu_tk_checklist
+  - action: utter_ask_kategori_kpsp
+  - intent: kpsp_9bulan
+  - action: checklistthird_form
+  - action: utter_slots_valuethird
+  - action: action_feedback_checklistthird
+  - checkpoint: end_checkpoint
+
+- story: checklist kpsp 12 bulan
+  steps:
+  - checkpoint: menu_tk_2
+  - intent: kpsp
+  - action: utter_welcome_menu_tk_checklist
+  - action: utter_ask_kategori_kpsp
+  - intent: kpsp_12bulan
+  - action: checklistfourth_form
+  - action: utter_slots_valuefourth
+  - action: action_feedback_checklistfourth
+  - checkpoint: end_checkpoint
+
+- story: checklist kpsp 15 bulan
+  steps:
+  - checkpoint: menu_tk_2
+  - intent: kpsp
+  - action: utter_welcome_menu_tk_checklist
+  - action: utter_ask_kategori_kpsp
+  - intent: kpsp_15bulan
+  - action: checklistfifth_form
+  - action: utter_slots_valuefifth
+  - action: action_feedback_checklistfifth
+  - checkpoint: end_checkpoint
+
+- story: checklist kpsp 18 bulan
+  steps:
+  - checkpoint: menu_tk_2
+  - intent: kpsp
+  - action: utter_welcome_menu_tk_checklist
+  - action: utter_ask_kategori_kpsp
+  - intent: kpsp_18bulan
+  - action: checklistsixth_form
+  - action: utter_slots_valuesixth
+  - action: action_feedback_checklistsixth
+  - checkpoint: end_checkpoint
+
+- story: checklist kpsp 21 bulan
+  steps:
+  - checkpoint: menu_tk_2
+  - intent: kpsp
+  - action: utter_welcome_menu_tk_checklist
+  - action: utter_ask_kategori_kpsp
+  - intent: kpsp_21bulan
+  - action: checklistseventh_form
+  - action: utter_slots_valueseventh
+  - action: action_feedback_checklistseventh
+  - checkpoint: end_checkpoint
+
+- story: checklist kpsp 24 bulan
+  steps:
+  - checkpoint: menu_tk_2
+  - intent: kpsp
+  - action: utter_welcome_menu_tk_checklist
+  - action: utter_ask_kategori_kpsp
+  - intent: kpsp_24bulan
+  - action: checklisteighth_form
+  - action: utter_slots_valueeighth
+  - action: action_feedback_checklisteighth
+  - checkpoint: end_checkpoint
+
+- story: checklist kpsp 30 bulan
+  steps:
+  - checkpoint: menu_tk_2
+  - intent: kpsp
+  - action: utter_welcome_menu_tk_checklist
+  - action: utter_ask_kategori_kpsp
+  - intent: kpsp_30bulan
+  - action: checklistninth_form
+  - action: utter_slots_valueninth
+  - action: action_feedback_checklistninth
+  - checkpoint: end_checkpoint
+
+- story: checklist kpsp 36 bulan
+  steps:
+  - checkpoint: menu_tk_2
+  - intent: kpsp
+  - action: utter_welcome_menu_tk_checklist
+  - action: utter_ask_kategori_kpsp
+  - intent: kpsp_36bulan
+  - action: checklisttenth_form
+  - action: utter_slots_valuetenth
+  - action: action_feedback_checklisttenth
+  - checkpoint: end_checkpoint
+
+- story: checklist kpsp 42 bulan
+  steps:
+  - checkpoint: menu_tk_2
+  - intent: kpsp
+  - action: utter_welcome_menu_tk_checklist
+  - action: utter_ask_kategori_kpsp
+  - intent: kpsp_42bulan
+  - action: checklisteleventh_form
+  - action: utter_slots_valueeleventh
+  - action: action_feedback_checklisteleventh
+  - checkpoint: end_checkpoint

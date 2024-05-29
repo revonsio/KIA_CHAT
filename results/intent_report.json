@@ -1,117 +1,16 @@
 {
-  "kpsp_54bulan": {
-    "precision": 1.0,
-    "recall": 0.6666666666666666,
-    "f1-score": 0.8,
-    "support": 3,
-    "confused_with": {
-      "umur_6_9bulan": 1
-    }
-  },
-  "menu_lainnya_1": {
+  "lainnya_jari_pendek": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 2,
+    "support": 8,
     "confused_with": {}
   },
-  "kpsp_18bulan": {
-    "precision": 1.0,
-    "recall": 0.3333333333333333,
-    "f1-score": 0.5,
-    "support": 3,
-    "confused_with": {
-      "umur_6_9bulan": 1,
-      "umur_12_18bulan": 1
-    }
-  },
-  "umur_5_6tahun": {
-    "precision": 1.0,
-    "recall": 0.5,
-    "f1-score": 0.6666666666666666,
-    "support": 2,
-    "confused_with": {
-      "umur_6_9bulan": 1
-    }
-  },
-  "lainnya_bayi_ngulet": {
+  "affirm": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 6,
-    "confused_with": {}
-  },
-  "lainnya_weight_faltering": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5,
-    "confused_with": {}
-  },
-  "umur_0hari_3bulan": {
-    "precision": 1.0,
-    "recall": 0.5,
-    "f1-score": 0.6666666666666666,
-    "support": 4,
-    "confused_with": {
-      "umur_6_9bulan": 1,
-      "kpsp_3bulan": 1
-    }
-  },
-  "lainnya_konsumsi_susu": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 7,
-    "confused_with": {}
-  },
-  "umur_18_24bulan": {
-    "precision": 0.75,
-    "recall": 0.8571428571428571,
-    "f1-score": 0.7999999999999999,
-    "support": 7,
-    "confused_with": {
-      "umur_6_9bulan": 1
-    }
-  },
-  "kpsp_42bulan": {
-    "precision": 1.0,
-    "recall": 0.6666666666666666,
-    "f1-score": 0.8,
-    "support": 3,
-    "confused_with": {
-      "umur_6_9bulan": 1
-    }
-  },
-  "umur_6_9bulan": {
-    "precision": 0.12121212121212122,
-    "recall": 1.0,
-    "f1-score": 0.21621621621621626,
-    "support": 4,
-    "confused_with": {}
-  },
-  "menu_tk": {
-    "precision": 1.0,
-    "recall": 0.5,
-    "f1-score": 0.6666666666666666,
-    "support": 4,
-    "confused_with": {
-      "menu_tb": 1,
-      "umur_6_9bulan": 1
-    }
-  },
-  "evaluasi": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5,
-    "confused_with": {}
-  },
-  "perempuan": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 3,
+    "support": 8,
     "confused_with": {}
   },
   "pamit": {
@@ -121,66 +20,17 @@
     "support": 7,
     "confused_with": {}
   },
-  "bot_challenge": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 9,
-    "confused_with": {}
-  },
-  "app_back": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 2,
-    "confused_with": {}
-  },
-  "kpsp_6bulan": {
+  "umur_0hari_3bulan": {
     "precision": 1.0,
     "recall": 0.3333333333333333,
     "f1-score": 0.5,
-    "support": 3,
+    "support": 6,
     "confused_with": {
-      "umur_6_9bulan": 1,
-      "umur_3_6bulan": 1
+      "umur_12_18bulan": 3,
+      "kpsp_3bulan": 1
     }
   },
-  "lainnya_1tahun_bicara_berapa_kata": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 4,
-    "confused_with": {}
-  },
-  "kpsp_36bulan": {
-    "precision": 1.0,
-    "recall": 0.6666666666666666,
-    "f1-score": 0.8,
-    "support": 3,
-    "confused_with": {
-      "umur_6_9bulan": 1
-    }
-  },
-  "menu_bb": {
-    "precision": 1.0,
-    "recall": 0.25,
-    "f1-score": 0.4,
-    "support": 4,
-    "confused_with": {
-      "affirm": 1,
-      "menu_tb": 1
-    }
-  },
-  "umur_12_18bulan": {
-    "precision": 0.75,
-    "recall": 0.8571428571428571,
-    "f1-score": 0.7999999999999999,
-    "support": 7,
-    "confused_with": {
-      "umur_6_9bulan": 1
-    }
-  },
-  "lainnya_menolak_asi": {
+  "bot_detail": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
@@ -194,202 +44,20 @@
     "support": 13,
     "confused_with": {}
   },
-  "lainnya_screen_time": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 13,
-    "confused_with": {}
-  },
-  "laki_laki": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 3,
-    "confused_with": {}
-  },
-  "lainnya_bayi_duduk_merangkak": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6,
-    "confused_with": {}
-  },
-  "menu_lainnya": {
-    "precision": 1.0,
-    "recall": 0.3333333333333333,
-    "f1-score": 0.5,
-    "support": 3,
-    "confused_with": {
-      "menu_tb": 1,
-      "umur_6_9bulan": 1
-    }
-  },
-  "kpsp_21bulan": {
-    "precision": 1.0,
-    "recall": 0.3333333333333333,
-    "f1-score": 0.5,
-    "support": 3,
-    "confused_with": {
-      "umur_6_9bulan": 1,
-      "umur_18_24bulan": 1
-    }
-  },
-  "inform_tinggi_badan": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5,
-    "confused_with": {}
-  },
-  "kpsp_9bulan": {
-    "precision": 1.0,
-    "recall": 0.3333333333333333,
-    "f1-score": 0.5,
-    "support": 3,
-    "confused_with": {
-      "umur_6_9bulan": 2
-    }
-  },
-  "stimulus": {
-    "precision": 1.0,
-    "recall": 0.8888888888888888,
-    "f1-score": 0.9411764705882353,
-    "support": 9,
-    "confused_with": {
-      "umur_6_9bulan": 1
-    }
-  },
-  "kpsp_12bulan": {
-    "precision": 1.0,
-    "recall": 0.3333333333333333,
-    "f1-score": 0.5,
-    "support": 3,
-    "confused_with": {
-      "umur_9_12bulan": 1,
-      "umur_6_9bulan": 1
-    }
-  },
-  "kpsp": {
-    "precision": 1.0,
-    "recall": 0.8571428571428571,
-    "f1-score": 0.923076923076923,
-    "support": 7,
-    "confused_with": {
-      "umur_6_9bulan": 1
-    }
-  },
-  "menu_tb": {
-    "precision": 0.5,
-    "recall": 0.75,
-    "f1-score": 0.6,
-    "support": 4,
-    "confused_with": {
-      "umur_6_9bulan": 1
-    }
-  },
-  "pertanyaan_lainnya": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 2,
-    "confused_with": {}
-  },
-  "bot_detail": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 4,
-    "confused_with": {}
-  },
-  "menu_lainnya_2": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 3,
-    "confused_with": {}
-  },
-  "umur_3_6bulan": {
+  "umur_6_9bulan": {
     "precision": 0.75,
-    "recall": 0.75,
-    "f1-score": 0.75,
-    "support": 4,
-    "confused_with": {
-      "umur_6_9bulan": 1
-    }
-  },
-  "kpsp_24bulan": {
-    "precision": 1.0,
     "recall": 0.5,
-    "f1-score": 0.6666666666666666,
-    "support": 2,
+    "f1-score": 0.6,
+    "support": 6,
     "confused_with": {
-      "umur_6_9bulan": 1
+      "umur_12_18bulan": 3
     }
   },
-  "lainnya_efek_stunting_bodoh": {
+  "lainnya_bayi_tampak_kaget": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 6,
-    "confused_with": {}
-  },
-  "detail_next": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 2,
-    "confused_with": {}
-  },
-  "inform_umur": {
-    "precision": 1.0,
-    "recall": 0.8571428571428571,
-    "f1-score": 0.923076923076923,
-    "support": 7,
-    "confused_with": {
-      "umur_6_9bulan": 1
-    }
-  },
-  "lainnya_2tahun_bicara": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 7,
-    "confused_with": {}
-  },
-  "inform_berat_badan": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5,
-    "confused_with": {}
-  },
-  "lainnya_manfaat_lagu": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 7,
-    "confused_with": {}
-  },
-  "restart": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 4,
-    "confused_with": {}
-  },
-  "deny": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 9,
-    "confused_with": {}
-  },
-  "lainnya_deteksi_stunting": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 7,
     "confused_with": {}
   },
   "greet_next": {
@@ -399,54 +67,70 @@
     "support": 6,
     "confused_with": {}
   },
-  "lainnya_jari_pendek": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 8,
-    "confused_with": {}
-  },
-  "affirm": {
-    "precision": 0.8888888888888888,
-    "recall": 1.0,
-    "f1-score": 0.9411764705882353,
-    "support": 8,
-    "confused_with": {}
-  },
   "umur_9_12bulan": {
     "precision": 0.75,
-    "recall": 0.75,
-    "f1-score": 0.75,
-    "support": 4,
+    "recall": 0.5,
+    "f1-score": 0.6,
+    "support": 6,
     "confused_with": {
-      "umur_6_9bulan": 1
+      "umur_12_18bulan": 3
     }
   },
-  "umur_3_4tahun": {
+  "umur_5_6tahun": {
     "precision": 1.0,
     "recall": 0.5,
     "f1-score": 0.6666666666666666,
     "support": 2,
     "confused_with": {
-      "umur_6_9bulan": 1
+      "umur_2_3tahun": 1
     }
   },
-  "kpsp_48bulan": {
+  "kpsp": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 3,
+    "support": 6,
     "confused_with": {}
   },
-  "kpsp_15bulan": {
-    "precision": 1.0,
-    "recall": 0.3333333333333333,
+  "menu_tb": {
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
     "f1-score": 0.5,
-    "support": 3,
+    "support": 4,
+    "confused_with": {}
+  },
+  "inform_tinggi_badan": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "kpsp_36bulan": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 2,
+    "confused_with": {
+      "kpsp_9bulan": 1
+    }
+  },
+  "umur_2_3tahun": {
+    "precision": 0.5714285714285714,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.6153846153846153,
+    "support": 6,
     "confused_with": {
       "umur_12_18bulan": 1,
-      "umur_6_9bulan": 1
+      "umur_18_24bulan": 1
     }
+  },
+  "deny": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
   },
   "umur_4_5tahun": {
     "precision": 1.0,
@@ -454,27 +138,139 @@
     "f1-score": 0.6666666666666666,
     "support": 2,
     "confused_with": {
-      "umur_6_9bulan": 1
+      "umur_2_3tahun": 1
     }
   },
-  "umur_2_3tahun": {
+  "restart": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "umur_3_4tahun": {
     "precision": 1.0,
     "recall": 0.5,
     "f1-score": 0.6666666666666666,
-    "support": 4,
+    "support": 2,
     "confused_with": {
-      "umur_6_9bulan": 1,
-      "umur_18_24bulan": 1
+      "umur_2_3tahun": 1
     }
   },
-  "kpsp_3bulan": {
-    "precision": 0.6666666666666666,
+  "lainnya_1tahun_bicara_berapa_kata": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "perempuan": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "kpsp_12bulan": {
+    "precision": 1.0,
+    "recall": 0.25,
+    "f1-score": 0.4,
+    "support": 4,
+    "confused_with": {
+      "umur_9_12bulan": 1,
+      "umur_12_18bulan": 1,
+      "kpsp_9bulan": 1
+    }
+  },
+  "kpsp_15bulan": {
+    "precision": 1.0,
+    "recall": 0.25,
+    "f1-score": 0.4,
+    "support": 4,
+    "confused_with": {
+      "umur_12_18bulan": 2,
+      "kpsp_9bulan": 1
+    }
+  },
+  "detail_next": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "lainnya_screen_time": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 13,
+    "confused_with": {}
+  },
+  "umur_18_24bulan": {
+    "precision": 0.75,
+    "recall": 0.5,
+    "f1-score": 0.6,
+    "support": 12,
+    "confused_with": {
+      "umur_12_18bulan": 6
+    }
+  },
+  "lainnya_efek_stunting_bodoh": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "kpsp_6bulan": {
+    "precision": 1.0,
+    "recall": 0.25,
+    "f1-score": 0.4,
+    "support": 4,
+    "confused_with": {
+      "umur_12_18bulan": 1,
+      "umur_3_6bulan": 1,
+      "kpsp_9bulan": 1
+    }
+  },
+  "kpsp_42bulan": {
+    "precision": 1.0,
     "recall": 0.6666666666666666,
-    "f1-score": 0.6666666666666666,
+    "f1-score": 0.8,
     "support": 3,
     "confused_with": {
-      "umur_6_9bulan": 1
+      "menu_tb": 1
     }
+  },
+  "lainnya_konsumsi_susu": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "lainnya_bayi_duduk_merangkak": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "umur_3_6bulan": {
+    "precision": 0.75,
+    "recall": 0.5,
+    "f1-score": 0.6,
+    "support": 6,
+    "confused_with": {
+      "umur_12_18bulan": 3
+    }
+  },
+  "lainnya_deteksi_stunting": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
   },
   "lainnya_demam_tumbuh_gigi": {
     "precision": 1.0,
@@ -483,39 +279,241 @@
     "support": 6,
     "confused_with": {}
   },
-  "lainnya_bayi_tampak_kaget": {
+  "kpsp_21bulan": {
+    "precision": 1.0,
+    "recall": 0.25,
+    "f1-score": 0.4,
+    "support": 4,
+    "confused_with": {
+      "umur_12_18bulan": 1,
+      "kpsp_9bulan": 1
+    }
+  },
+  "kpsp_9bulan": {
+    "precision": 0.15384615384615385,
+    "recall": 0.5,
+    "f1-score": 0.23529411764705882,
+    "support": 4,
+    "confused_with": {
+      "umur_6_9bulan": 1,
+      "umur_12_18bulan": 1
+    }
+  },
+  "menu_lainnya_2": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "inform_umur": {
+    "precision": 1.0,
+    "recall": 0.2857142857142857,
+    "f1-score": 0.4444444444444445,
+    "support": 7,
+    "confused_with": {
+      "umur_12_18bulan": 4,
+      "menu_tb": 1
+    }
+  },
+  "menu_tk": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 4,
+    "confused_with": {
+      "menu_tb": 2
+    }
+  },
+  "kpsp_24bulan": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 2,
+    "confused_with": {
+      "kpsp_9bulan": 1
+    }
+  },
+  "stimulus": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "lainnya_2tahun_bicara": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "kpsp_54bulan": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 2,
+    "confused_with": {
+      "kpsp_9bulan": 1
+    }
+  },
+  "lainnya_weight_faltering": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "bot_challenge": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "lainnya_manfaat_lagu": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "menu_lainnya": {
+    "precision": 1.0,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.5,
+    "support": 3,
+    "confused_with": {
+      "menu_tb": 2
+    }
+  },
+  "laki_laki": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "umur_12_18bulan": {
+    "precision": 0.2727272727272727,
+    "recall": 1.0,
+    "f1-score": 0.42857142857142855,
+    "support": 12,
+    "confused_with": {}
+  },
+  "lainnya_menolak_asi": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "evaluasi": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "menu_bb": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 4,
+    "confused_with": {
+      "menu_tb": 2
+    }
+  },
+  "kpsp_3bulan": {
+    "precision": 0.6666666666666666,
+    "recall": 0.5,
+    "f1-score": 0.5714285714285715,
+    "support": 4,
+    "confused_with": {
+      "kpsp_9bulan": 1,
+      "umur_12_18bulan": 1
+    }
+  },
+  "kpsp_18bulan": {
+    "precision": 1.0,
+    "recall": 0.25,
+    "f1-score": 0.4,
+    "support": 4,
+    "confused_with": {
+      "umur_12_18bulan": 2,
+      "kpsp_9bulan": 1
+    }
+  },
+  "kpsp_48bulan": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 2,
+    "confused_with": {
+      "kpsp_9bulan": 1
+    }
+  },
+  "menu_lainnya_1": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "kpsp_30bulan": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 2,
+    "confused_with": {
+      "kpsp_9bulan": 1
+    }
+  },
+  "inform_berat_badan": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "pertanyaan_lainnya": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "lainnya_bayi_ngulet": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 6,
     "confused_with": {}
   },
-  "kpsp_30bulan": {
+  "app_back": {
     "precision": 1.0,
-    "recall": 0.6666666666666666,
-    "f1-score": 0.8,
-    "support": 3,
-    "confused_with": {
-      "umur_6_9bulan": 1
-    }
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
   },
-  "accuracy": 0.8666666666666667,
+  "accuracy": 0.8130841121495327,
   "macro avg": {
-    "precision": 0.9544639947865754,
-    "recall": 0.8061955965181771,
-    "f1-score": 0.8399686505948364,
-    "support": 300
+    "precision": 0.9354516451290644,
+    "recall": 0.7667050691244238,
+    "f1-score": 0.8009966103893997,
+    "support": 321
   },
   "weighted avg": {
-    "precision": 0.9569865319865319,
-    "recall": 0.8666666666666667,
-    "f1-score": 0.8847375837375836,
-    "support": 300
+    "precision": 0.9184320352544653,
+    "recall": 0.8130841121495327,
+    "f1-score": 0.8226578401949484,
+    "support": 321
   },
   "micro avg": {
-    "precision": 0.8666666666666667,
-    "recall": 0.8666666666666667,
-    "f1-score": 0.8666666666666667,
-    "support": 300
+    "precision": 0.8130841121495327,
+    "recall": 0.8130841121495327,
+    "f1-score": 0.8130841121495327,
+    "support": 321
   }
 }

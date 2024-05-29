@@ -1,0 +1,191 @@
+version: "3.1"
+nlu:
+- intent: detail_next
+  examples: |
+    - next detail
+- intent: app_back
+  examples: |
+    - back
+- intent: menu_lainnya_1
+  examples: |
+    - versi web
+- intent: pertanyaan_lainnya
+  examples: |
+    - ketik pertanyaan
+- intent: umur_3_4tahun
+  examples: |
+    - 4 tahun
+- intent: umur_4_5tahun
+  examples: |
+    - 5 tahun
+- intent: umur_5_6tahun
+  examples: |
+    - 6 tahun
+- intent: kpsp_24bulan
+  examples: |
+    - kpsp24bulan
+- intent: kpsp_30bulan
+  examples: |
+    - kpsp 30 bulan
+- intent: kpsp_36bulan
+  examples: |
+    - kpsp 36 bulan
+- intent: kpsp_48bulan
+  examples: |
+    - kpsp 48 bulan
+- intent: kpsp_54bulan
+  examples: |
+    - kpsp 54 bulan
+- intent: menu_lainnya
+  examples: |
+    - lainnya
+- intent: menu_lainnya_2
+  examples: |
+    - kuesioner chatbot
+- intent: laki_laki
+  examples: |
+    - laki-laki
+- intent: perempuan
+  examples: |
+    - perempuan
+- intent: kpsp_42bulan
+  examples: |
+    - 11
+- intent: lainnya_1tahun_bicara_berapa_kata
+  examples: |
+    - anak usia 1 tahun baru bisa bicara sedikit
+- intent: lainnya_menolak_asi
+  examples: |
+    - mengapa bayi menolak asi
+- intent: restart
+  examples: |
+    - restart
+- intent: bot_detail
+  examples: |
+    - informasi lanjutan
+- intent: menu_bb
+  examples: |
+    - bb
+- intent: menu_tb
+  examples: |
+    - tb
+- intent: menu_tk
+  examples: |
+    - tumbuh kembang
+- intent: kpsp_3bulan
+  examples: |
+    - 3 bulan
+- intent: kpsp_6bulan
+  examples: |
+    - 6 bulan
+- intent: kpsp_9bulan
+  examples: |
+    - 9 bulan
+- intent: kpsp_12bulan
+  examples: |
+    - 12bulan
+- intent: kpsp_15bulan
+  examples: |
+    - kpsp 15 bulan
+- intent: kpsp_18bulan
+  examples: |
+    - 18 bulan
+- intent: kpsp_21bulan
+  examples: |
+    - 21 bulan
+- intent: lainnya_weight_faltering
+  examples: |
+    - apa itu weight faltering
+- intent: evaluasi
+  examples: |
+    - evaluasi chatbot
+- intent: inform_berat_badan
+  examples: |
+    - [2](berat_badan) kilo
+- intent: inform_tinggi_badan
+  examples: |
+    - [45](tinggi_badan) centimeter
+- intent: lainnya_bayi_ngulet
+  examples: |
+    - bayi usia 2 bulan suka menggeliat
+- intent: lainnya_bayi_tampak_kaget
+  examples: |
+    - bayi terlihat kaget
+- intent: lainnya_bayi_duduk_merangkak
+  examples: |
+    - Stimulasi untuk bayi usia 7 bulan yang belum bisa merangkak
+- intent: lainnya_efek_stunting_bodoh
+  examples: |
+    - Efek stunting apakah anak akan jadi bodoh?
+- intent: lainnya_demam_tumbuh_gigi
+  examples: |
+    - akibat gigi tumbuh
+- intent: greet_next
+  examples: |
+    - skip
+- intent: kpsp
+  examples: |
+    - cek
+- intent: umur_0hari_3bulan
+  examples: |
+    - 1bulan
+- intent: umur_3_6bulan
+  examples: |
+    - 6bulan
+- intent: umur_6_9bulan
+  examples: |
+    - 8bulan
+- intent: umur_9_12bulan
+  examples: |
+    - 12 bulan
+- intent: umur_2_3tahun
+  examples: |
+    - 3tahun
+- intent: lainnya_manfaat_lagu
+  examples: |
+    - lagu untuk bayi
+- intent: lainnya_2tahun_bicara
+  examples: |
+    - cara agar anak umur 2 tahun bisa bicara
+- intent: lainnya_deteksi_stunting
+  examples: |
+    - cara deteksi stunting
+- intent: lainnya_konsumsi_susu
+  examples: |
+    - apakah susu tinggi protein membuat BB cepat naik
+- intent: pamit
+  examples: |
+    - bye
+- intent: inform_umur
+  examples: |
+    - [1](umur) bulan
+- intent: lainnya_jari_pendek
+  examples: |
+    - apakah bisa jari anak dipanjangkan
+- intent: affirm
+  examples: |
+    - konfirmasi
+- intent: stimulus
+  examples: |
+    - bagaimana cara melatih tumbuh kembang
+- intent: bot_challenge
+  examples: |
+    - siapakah anda
+- intent: deny
+  examples: |
+    - nggak
+- intent: umur_12_18bulan
+  examples: |
+    - 18 bulan
+- intent: umur_18_24bulan
+  examples: |
+    - 22 bulan
+- intent: lainnya_screen_time
+  examples: |
+    - kecanduan gawai
+    - kecanduan nonton tv
+- intent: greet
+  examples: |
+    - apa kabar?
+    - selamat siang
+    - apakah kamu bisa membantu saya?
