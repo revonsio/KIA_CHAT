@@ -161,12 +161,21 @@ nlu:
 - intent: inform_umur
   examples: |
     - umur [1](umur) bulan
+    - usia [1](umur) bulan
     - [1](umur) bulan
     - [0.5](umur) bulan
-    - [1](umur)
     - [2](umur) bulan 
     - [3](umur) bulan
     - [0](umur) bulan
+    - [20](umur) bulan 
+    - [35](umur) bulan
+    - [60](umur) bulan
+    - [17](umur) bulan
+    - [29](umur) bulan
+    - [39](umur) bulan
+    - [40](umur) bulan
+    - [42](umur) bulan
+    - [56](umur) bulan
 
 - intent: inform_berat_badan
   examples: |

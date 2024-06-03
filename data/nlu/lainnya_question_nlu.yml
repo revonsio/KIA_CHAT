@@ -13,22 +13,22 @@ nlu:
     
 - intent: lainnya_bayi_ngulet
   examples: |
-    - bayi usia 2 bulan muka merah karena ngeden atau ngulet
-    - bayi umur 2 bulan sering ngulet
-    - bayi usia 2 bulan suka menggeliat
-    - bayi umur 2 bulan suka ngulet
-    - kenapa bayi usia 2 bulan suka ngulet
-    - kenapa bayi umur 2 bulan suka ngeden
+    - bayi muka merah karena ngeden atau ngulet
+    - bayi sering ngulet
+    - bayi suka menggeliat
+    - bayi bulan suka ngulet
+    - kenapa bayi bulan suka ngulet
+    - kenapa bayi bulan suka ngeden
 
 - intent: lainnya_2tahun_bicara
   examples: |
-    - anak umur 2 tahun bisa meniup dan menyedot
+    - anak  bisa meniup dan menyedot
     - bicara tidak jelas
-    - anak usia 2 tahun belum bisa bicara
-    - cara mengatasi anak umur 2 tahun tidak bisa ngomong
-    - anak usia 2 tahun bicaranya tidak jelas
-    - cara agar anak umur 2 tahun bisa bicara
-    - cara agar anak usia 2 tahun bisa ngomong
+    - anak belum bisa bicara
+    - cara mengatasi anak tidak bisa ngomong
+    - anak bicaranya tidak jelas
+    - cara agar anak bisa bicara
+    - cara agar anak bisa ngomong
 
 - intent: lainnya_bayi_tampak_kaget
   examples: |
@@ -41,12 +41,12 @@ nlu:
 
 - intent: lainnya_bayi_duduk_merangkak
   examples: |
-    - Stimulasi untuk bayi usia 7 bulan yang belum bisa duduk dan merangkak
-    - Stimulasi untuk bayi umur 7 bulan yang belum bisa duduk
-    - Stimulasi untuk bayi usia 7 bulan yang belum bisa merangkak
-    - bayi umur 7 bulan tidak bisa duduk
-    - bayi usia 7 bulan tidak bisa merangkak
-    - cara agar bayi usia 7 bulan bisa duduk dan merangkak
+    - Stimulasi untuk bayi yang belum bisa duduk dan merangkak
+    - Stimulasi untuk bayi yang belum bisa duduk
+    - Stimulasi untuk bayi yang belum bisa merangkak
+    - bayi tidak bisa duduk
+    - bayi tidak bisa merangkak
+    - cara agar bayi bisa duduk dan merangkak
 
 - intent: lainnya_jari_pendek
   examples: |
@@ -80,10 +80,10 @@ nlu:
 
 - intent: lainnya_1tahun_bicara_berapa_kata
   examples: |
-    - anak usia 1 tahun baru bisa bicara sedikit
-    - anak umur 1 tahun hanya bisa bicara papa dan mama
+    - anak baru bisa bicara sedikit
+    - anak hanya bisa bicara papa dan mama
     - apakah anak termasuk lambat bicara
-    - anak umur 1 tahun harusnya bisa bicara berapa kata
+    - anak harusnya bisa bicara berapa kata
 
 - intent: lainnya_konsumsi_susu
   examples: |
@@ -97,10 +97,10 @@ nlu:
 
 - intent: lainnya_demam_tumbuh_gigi
   examples: |
-    - efek gigi tumbuh anak umur 6 bulan
+    - efek gigi tumbuh anak 
     - akibat gigi tumbuh
-    - anak umur 6 bulan demam naik turun saat tumbuh gigi
-    - apakah bayi usia 6 bulan demam perlu obat penurun panas
+    - anak demam naik turun saat tumbuh gigi
+    - apakah bayi demam perlu obat penurun panas
     - demam saat tumbuh gigi
     - penyebab anak demam tinggi
 
